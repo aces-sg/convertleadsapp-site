@@ -99,7 +99,6 @@ This project enforces **Conventional Commits** via commitlint and Husky hooks.
 - `test` - Test changes
 - `perf` - Performance improvements
 - `revert` - Revert previous commits
-- `vercel` - Vercel-specific changes
 
 ### Format:
 

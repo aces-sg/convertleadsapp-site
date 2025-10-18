@@ -70,10 +70,6 @@ You can also check all of the **details and demos** on my blog post:
    npx degit theodorusclarence/ts-nextjs-tailwind-starter YOUR_APP_NAME
    ```
 
-4. Deploy to Vercel
-
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter)
-
 ### 2. Install dependencies
 
 It is encouraged to use **pnpm** so the husky hooks can work properly.
