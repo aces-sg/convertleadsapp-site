@@ -3,448 +3,440 @@
 import * as React from 'react';
 import '@/lib/env';
 
+/* eslint-disable @next/next/no-img-element */
 export default function HomePage() {
   return (
-    <main className='w-full bg-neutral-50'>
-      <div className='relative mx-auto h-[4525px] w-full max-w-[1440px] overflow-hidden'>
-        {/* Header / Navigation */}
-        <div className='absolute left-[158px] top-[59px] justify-start'>
-          <span className="font-['Poppins'] text-2xl font-bold text-blue-600">
-            Digital{' '}
-          </span>
-          <span className="font-['Poppins'] text-2xl font-bold text-zinc-800">
-            Spark
-          </span>
+    <main className='w-full bg-white'>
+      <div className='relative mx-auto h-[7168px] w-full max-w-[1440px] overflow-hidden bg-white'>
+        <div className='absolute left-0 top-0 h-[704px] w-[1440px] bg-neutral-900' />
+        <div className='absolute left-0 top-[704px] h-80 w-[1440px] bg-white' />
+        <div className="absolute left-[135px] top-[24px] justify-start font-['Roboto_Condensed'] text-2xl font-bold uppercase leading-loose text-white">
+          Agency
         </div>
-
-        <div className="absolute left-[546px] top-[67px] justify-start font-['Poppins'] text-sm font-medium text-zinc-800">
-          Home
+        <div className="absolute left-[920px] top-[25px] justify-start text-right font-['DM_Sans'] text-base font-normal leading-loose text-white">
+          About Portfolio Contact
         </div>
-        <div className="absolute left-[617px] top-[67px] justify-start font-['Poppins'] text-sm font-medium text-zinc-800">
-          Services
+        <div className='absolute left-[635px] top-[320px] h-[624px] w-[570px] rounded-[3px] bg-red-500' />
+        <img
+          className='absolute left-[578px] top-[384px] h-[513px] w-[684px]'
+          src='https://placehold.co/684x513'
+          alt='Hero'
+        />
+        <div className="absolute left-[135px] top-[202px] justify-start font-['Inknut_Antiqua'] text-7xl font-black uppercase leading-[80px] text-white">
+          We Create
+          <br />
+          Amazing Sites
+          <br />
+          With Ease
         </div>
-        <div className="absolute left-[705px] top-[67px] justify-start font-['Poppins'] text-sm font-medium text-zinc-800">
+        <img
+          className='absolute left-[135px] top-[494px] h-14 w-14'
+          src='https://placehold.co/56x56'
+          alt='Icon'
+        />
+        <img
+          className='absolute left-[135px] top-[494px] h-14 w-14'
+          src='https://placehold.co/56x56'
+          alt='Icon'
+        />
+        <div className='absolute left-[135px] top-[494px] h-14 w-14 bg-white' />
+        <div className="absolute left-[235px] top-[491px] h-16 w-96 justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-white">
+          A peep at some distant orb has power to raise and purify
+        </div>
+        <div className='absolute left-[135px] top-[848px] h-12 w-12'>
+          <div className='absolute left-0 top-0 h-12 w-12 rounded-3xl bg-red-500' />
+        </div>
+        <div className='absolute left-[152px] top-[893.01px] h-2.5 w-7 origin-top-left -rotate-90 bg-white' />
+        <div className="absolute left-[263px] top-[856px] justify-start font-['Roboto_Condensed'] text-2xl font-bold uppercase leading-loose text-neutral-900">
+          1 / 2
+        </div>
+        <div className='absolute left-[191px] top-[848px] h-12 w-12'>
+          <div className='absolute left-0 top-0 h-12 w-12 rounded-3xl bg-red-500' />
+        </div>
+        <div className='absolute left-[222px] top-[864px] h-2.5 w-7 origin-top-left rotate-90 bg-white' />
+        <div className='absolute left-0 top-[1040px] h-[880px] w-[1440px] bg-white' />
+        <div className='absolute left-[135px] top-[1040px] h-0.5 w-[1170px] bg-neutral-900' />
+        <div className='absolute left-[135px] top-[1239px] h-[470px] w-[470px] bg-yellow-400' />
+        <img
+          className='absolute left-0 top-[1190px] h-[567px] w-[756px]'
+          src='https://placehold.co/756x567'
+          alt='Feature'
+        />
+        <div className='absolute left-[315px] top-[1419px] h-28 w-28 bg-white shadow-[20px_20px_60px_0px_rgba(0,0,0,0.50)]' />
+        <div className='absolute left-[387px] top-[1457px] h-6 w-14 origin-top-left rotate-90 bg-red-500' />
+        <div className="absolute left-[735px] top-[1273px] justify-start font-['Inknut_Antiqua'] text-6xl font-black uppercase leading-[64px] text-neutral-900">
+          Lets take <br />
+          Advantage
+        </div>
+        <div className="absolute left-[735px] top-[1435px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-neutral-900">
+          sable cloud beneath was dished
+        </div>
+        <div className="absolute left-[735px] top-[1499px] h-16 w-[470px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900/50">
+          Best for active freelancers and designers who need more projects and
+          premium features code and unlock more.
+        </div>
+        <div className='absolute left-[735px] top-[1600px] h-12 w-44'>
+          <div className='absolute left-0 top-0 h-12 w-44 rounded-[3px] bg-red-500' />
+          <div className="absolute left-[38px] top-[14px] justify-start text-center font-['Roboto_Condensed'] text-base font-bold uppercase tracking-wide text-white">
+            Learn more
+          </div>
+        </div>
+        <div className="absolute left-[954px] top-[1607px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900">
+          Explore services
+        </div>
+        <div className='absolute left-0 top-[1920px] h-[880px] w-[1440px] bg-neutral-900' />
+        <div className="absolute left-[135px] top-[2057px] justify-start font-['Inknut_Antiqua'] text-6xl font-black uppercase leading-[64px] text-white">
+          Our Core
+          <br />
+          Features
+        </div>
+        <div className="absolute left-[735px] top-[2059px] h-32 w-[570px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white/50">
+          Minuteness of the parts formed a great hindrance to my speed,
+          resolved, contrary to my first intention, to make the being.
+          Minuteness of the parts formed a great hindrance to my speed,
+          resolved, contrary to my first intention, to make the being.
+        </div>
+        <div className='absolute left-[135px] top-[2320px] h-72 w-[570px] rounded-[3px] bg-purple-600' />
+        <img
+          className='absolute left-[183px] top-[2368px] h-12 w-12'
+          src='https://placehold.co/48x48'
+          alt='Feature icon'
+        />
+        <img
+          className='absolute left-[183px] top-[2368px] h-12 w-12'
+          src='https://placehold.co/48x48'
+          alt='Feature icon'
+        />
+        <div className='absolute left-[183px] top-[2368px] h-12 w-12 bg-white' />
+        <div className="absolute left-[183px] top-[2440px] justify-start font-['Roboto_Condensed'] text-2xl font-bold uppercase leading-loose text-white">
+          White Label
+        </div>
+        <div className="absolute left-[183px] top-[2491px] h-16 w-[490px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white/50">
+          Minuteness of the parts formed a great hindrance to my speed,
+          resolved, contrary to my first intention, to make the being.
+        </div>
+        <div className='absolute left-[735px] top-[2320px] h-72 w-[570px] rounded-[3px] bg-lime-700' />
+        <img
+          className='absolute left-[783px] top-[2368px] h-12 w-12'
+          src='https://placehold.co/48x48'
+          alt='Feature icon'
+        />
+        <img
+          className='absolute left-[783px] top-[2368px] h-12 w-12'
+          src='https://placehold.co/48x48'
+          alt='Feature icon'
+        />
+        <div className='absolute left-[783px] top-[2368px] h-12 w-12 bg-white' />
+        <div className="absolute left-[783px] top-[2440px] justify-start font-['Roboto_Condensed'] text-2xl font-bold uppercase leading-loose text-white">
+          Code export
+        </div>
+        <div className="absolute left-[783px] top-[2491px] h-16 w-[490px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white/50">
+          Minuteness of the parts formed a great hindrance to my speed,
+          resolved, contrary to my first intention, to make the being.
+        </div>
+        <div className='absolute left-[681px] top-[2688px] h-1.5 w-1.5 bg-purple-600' />
+        <div className='absolute left-[705px] top-[2688px] h-1.5 w-1.5 bg-white opacity-30' />
+        <div className='absolute left-[729px] top-[2688px] h-1.5 w-1.5 bg-white opacity-30' />
+        <div className='absolute left-[753px] top-[2688px] h-1.5 w-1.5 bg-white opacity-30' />
+        <div className='absolute left-0 top-[2800px] h-[1520px] w-[1440px] bg-white' />
+        <div className="absolute left-[135px] top-[2905px] justify-start font-['Inknut_Antiqua'] text-6xl font-black uppercase leading-[64px] text-neutral-900">
+          Check Our <br />
+          Projects
+        </div>
+        <div className="absolute left-[735px] top-[2907px] h-32 w-[570px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900/50">
+          Minuteness of the parts formed a great hindrance to my speed,
+          resolved, contrary to my first intention, to make the being.
+          Minuteness of the parts formed a great hindrance to my speed,
+          resolved, contrary to my first intention, to make the being.
+        </div>
+        <div className='absolute left-[135px] top-[3120px] h-0.5 w-[1170px] bg-neutral-900' />
+        <div className='absolute left-[435px] top-[3200px] h-96 w-[870px] rounded-[3px] bg-yellow-400' />
+        <img
+          className='absolute left-[818px] top-[3146px] h-[470px] w-96'
+          src='https://placehold.co/376x470'
+          alt='Project'
+        />
+        <div className="absolute left-[483px] top-[3463px] justify-start font-['Inknut_Antiqua'] text-4xl font-black uppercase leading-[48px] text-neutral-900">
+          Creative
+          <br />
+          Template
+        </div>
+        <div className="absolute left-[483px] top-[3419px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-neutral-900">
+          Design
+        </div>
+        <div className='absolute left-[435px] top-[3663px] h-96 w-[870px] rounded-[3px] bg-red-500' />
+        <img
+          className='absolute left-[743px] top-[3645px] h-96 w-[614px]'
+          src='https://placehold.co/614x435'
+          alt='Project'
+        />
+        <div className="absolute left-[483px] top-[3927px] justify-start font-['Inknut_Antiqua'] text-4xl font-black uppercase leading-[48px] text-white">
+          Amazing
+          <br />
+          Startup
+        </div>
+        <div className="absolute left-[483px] top-[3883px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-white">
+          Branding
+        </div>
+        <div className="absolute left-[135px] top-[3195px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-neutral-900">
+          Portfolio
+        </div>
+        <div className='absolute left-[135px] top-[3264px] h-12 w-44 rounded-[3px] bg-neutral-900' />
+        <div className="absolute left-[151px] top-[3273px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white">
+          All
+        </div>
+        <div className="absolute left-[135px] top-[3337px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900">
+          Design
+        </div>
+        <div className="absolute left-[135px] top-[3401px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900">
+          Development
+        </div>
+        <div className="absolute left-[135px] top-[3465px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900">
+          Branding
+        </div>
+        <div className="absolute left-[135px] top-[3529px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900">
+          Products
+        </div>
+        <div className='absolute left-[785px] top-[4160px] h-12 w-44'>
+          <div className='absolute left-0 top-0 h-12 w-44 rounded-[3px] bg-red-500' />
+          <div className="absolute left-[42px] top-[14px] justify-start text-center font-['Roboto_Condensed'] text-base font-bold uppercase tracking-wide text-white">
+            Load more
+          </div>
+        </div>
+        <div className='absolute left-0 top-[4320px] h-[464px] w-[1440px] bg-neutral-900' />
+        <div className='absolute left-0 top-[4784px] h-80 w-[1440px] bg-white' />
+        <div className="absolute left-[135px] top-[4473px] justify-start font-['Inknut_Antiqua'] text-6xl font-black uppercase leading-[64px] text-white">
+          What Our
+          <br />
+          Clients Say
+        </div>
+        <div className="absolute left-[135px] top-[4635px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-white">
+          Testimonials
+        </div>
+        <div className='absolute left-[735px] top-[4464px] h-[512px] w-[470px] rounded-[3px] bg-lime-700' />
+        <img
+          className='absolute left-[783px] top-[4512px] h-20 w-20'
+          src='https://placehold.co/80x80'
+          alt='Client'
+        />
+        <div className="absolute left-[889px] top-[4520px] justify-start font-['Roboto_Condensed'] text-2xl font-bold uppercase leading-loose text-white">
+          Helena Brauer
+        </div>
+        <div className="absolute left-[889px] top-[4555px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white">
+          Apple Inc.
+        </div>
+        <div className="absolute left-[783px] top-[4699px] h-56 w-96 justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white/50">
+          What looked like a small patch of purple grass, above five feet
+          square, was moving across the sand in their direction. When it came
+          near enough he perceived that it was not grass; there were no blades,
+          but only purple roots. The roots were revolving, for each small plant
+          in the whole patch, like the spokes of a rimless wheel.
+        </div>
+        <div className='absolute left-[1235px] top-[4464px] h-[512px] w-[470px] rounded-[3px] bg-purple-600' />
+        <img
+          className='absolute left-[1283px] top-[4512px] h-20 w-20'
+          src='https://placehold.co/80x80'
+          alt='Client'
+        />
+        <div className="absolute left-[1389px] top-[4520px] justify-start font-['Roboto_Condensed'] text-2xl font-bold uppercase leading-loose text-white">
+          Kay Totleben
+        </div>
+        <div className="absolute left-[1389px] top-[4555px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white">
+          Microsoft
+        </div>
+        <div className="absolute left-[1283px] top-[4699px] h-56 w-96 justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white/50">
+          What looked like a small patch of purple grass, above five feet
+          square, was moving across the sand in their direction. When it came
+          near enough he perceived that it was not grass; there were no blades,
+          but only purple roots. The roots were revolving, for each small plant
+          in the whole patch, like the spokes of a rimless wheel.
+        </div>
+        <div className='absolute left-[135px] top-[4912px] h-12 w-12'>
+          <div className='absolute left-0 top-0 h-12 w-12 rounded-3xl bg-red-500' />
+        </div>
+        <div className='absolute left-[152px] top-[4957.01px] h-2.5 w-7 origin-top-left -rotate-90 bg-white' />
+        <div className='absolute left-[191px] top-[4912px] h-12 w-12'>
+          <div className='absolute left-0 top-0 h-12 w-12 rounded-3xl bg-red-500' />
+        </div>
+        <div className='absolute left-[222px] top-[4928px] h-2.5 w-7 origin-top-left rotate-90 bg-white' />
+        <div className='absolute left-0 top-[5104px] h-[1200px] w-[1440px] bg-white' />
+        <div className='absolute left-[135px] top-[5104px] h-0.5 w-[1170px] bg-neutral-900' />
+        <img
+          className='absolute left-[158px] top-[5229px] h-8 w-36'
+          src='https://placehold.co/149x32'
+          alt='Partner'
+        />
+        <img
+          className='absolute left-[158px] top-[5229px] h-8 w-36'
+          src='https://placehold.co/149x32'
+          alt='Partner'
+        />
+        <div className='absolute left-[158px] top-[5229px] h-8 w-36 bg-black' />
+        <img
+          className='absolute left-[421px] top-[5233px] h-8 w-32'
+          src='https://placehold.co/127x32'
+          alt='Partner'
+        />
+        <img
+          className='absolute left-[421px] top-[5233px] h-8 w-32'
+          src='https://placehold.co/127x32'
+          alt='Partner'
+        />
+        <div className='absolute left-[421px] top-[5233px] h-8 w-32 bg-black' />
+        <img
+          className='absolute left-[663px] top-[5233px] h-8 w-40'
+          src='https://placehold.co/160x32'
+          alt='Partner'
+        />
+        <img
+          className='absolute left-[663px] top-[5233px] h-8 w-40'
+          src='https://placehold.co/160x32'
+          alt='Partner'
+        />
+        <div className='absolute left-[663px] top-[5233px] h-8 w-40 bg-black' />
+        <img
+          className='absolute left-[938px] top-[5233px] h-8 w-28'
+          src='https://placehold.co/112x32'
+          alt='Partner'
+        />
+        <img
+          className='absolute left-[938px] top-[5233px] h-8 w-28'
+          src='https://placehold.co/112x32'
+          alt='Partner'
+        />
+        <div className='absolute left-[938px] top-[5233px] h-8 w-28 bg-black' />
+        <img
+          className='absolute left-[1164px] top-[5192px] h-28 w-28'
+          src='https://placehold.co/119x119'
+          alt='Partner'
+        />
+        <img
+          className='absolute left-[1164px] top-[5192px] h-28 w-28'
+          src='https://placehold.co/119x119'
+          alt='Partner'
+        />
+        <div className='absolute left-[1164px] top-[5192px] h-28 w-28 bg-black' />
+        <div className='absolute left-[135px] top-[5392px] h-0.5 w-[1170px] bg-neutral-900' />
+        <div className="absolute left-[135px] top-[5497px] justify-start font-['Inknut_Antiqua'] text-6xl font-black uppercase leading-[64px] text-neutral-900">
+          Our latest <br />
+          blog posts
+        </div>
+        <div className="absolute left-[735px] top-[5499px] h-32 w-[570px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900/50">
+          Minuteness of the parts formed a great hindrance to my speed,
+          resolved, contrary to my first intention, to make the being.
+          Minuteness of the parts formed a great hindrance to my speed,
+          resolved, contrary to my first intention, to make the being.
+        </div>
+        <img
+          className='absolute left-[135px] top-[5712px] h-72 w-96 rounded-[3px]'
+          src='https://placehold.co/370x288'
+          alt='Blog post'
+        />
+        <div className="absolute left-[135px] top-[6027px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-neutral-900">
+          Design
+        </div>
+        <div className="absolute left-[135px] top-[6072px] justify-start font-['Roboto_Condensed'] text-2xl font-bold uppercase leading-loose text-neutral-900">
+          Truly it was a great journey <br />
+          and in it I met with many
+        </div>
+        <div className="absolute left-[135px] top-[6155px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900/50">
+          14 November, 2019
+        </div>
+        <img
+          className='absolute left-[535px] top-[5712px] h-72 w-96 rounded-[3px]'
+          src='https://placehold.co/370x288'
+          alt='Blog post'
+        />
+        <div className="absolute left-[535px] top-[6027px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-neutral-900">
+          Tech
+        </div>
+        <div className="absolute left-[535px] top-[6072px] justify-start font-['Roboto_Condensed'] text-2xl font-bold uppercase leading-loose text-neutral-900">
+          What looked like a small <br />
+          patch of purple grass
+        </div>
+        <div className="absolute left-[535px] top-[6155px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900/50">
+          14 November, 2019
+        </div>
+        <img
+          className='absolute left-[935px] top-[5712px] h-72 w-96 rounded-[3px]'
+          src='https://placehold.co/370x288'
+          alt='Blog post'
+        />
+        <div className="absolute left-[935px] top-[6027px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-neutral-900">
+          Life
+        </div>
+        <div className="absolute left-[935px] top-[6072px] justify-start font-['Roboto_Condensed'] text-2xl font-bold uppercase leading-loose text-neutral-900">
+          The roots were revolving
+          <br />
+          small plant
+        </div>
+        <div className="absolute left-[935px] top-[6155px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900/50">
+          14 November, 2019
+        </div>
+        <div className='absolute left-0 top-[6304px] h-[864px] w-[1440px] bg-neutral-900' />
+        <div className="absolute left-[135px] top-[6439px] justify-start font-['Inknut_Antiqua'] text-4xl font-black uppercase leading-[48px] text-white">
+          Newsletter <br />
+          Sign Up
+        </div>
+        <div className='absolute left-[135px] top-[6640px] h-0.5 w-[1170px] bg-white' />
+        <div className='absolute left-[735px] top-[6432px] h-72 w-[470px] rounded-[3px] bg-red-500' />
+        <div className="absolute left-[783px] top-[6475px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-white">
+          Get in touch
+        </div>
+        <div className='absolute left-[783px] top-[6500px] h-20 w-96'>
+          <div className="absolute left-0 top-0 justify-start font-['DM_Sans'] text-xs font-bold uppercase text-white">
+            {' '}
+          </div>
+          <div className='absolute left-0 top-[28px] h-12 w-96 rounded-[3px] bg-white' />
+          <div className="absolute left-[16px] top-[36px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-neutral-900/50">
+            Your email
+          </div>
+        </div>
+        <div className='absolute left-[783px] top-[6608px] h-12 w-96'>
+          <div className='absolute left-0 top-0 h-12 w-96 rounded-[3px] bg-white opacity-5' />
+          <div className="absolute left-[146px] top-[14px] justify-start text-center font-['Roboto_Condensed'] text-base font-bold uppercase tracking-wide text-white">
+            Subscribe
+          </div>
+        </div>
+        <div className="absolute left-[135px] top-[6824px] justify-start font-['Roboto_Condensed'] text-2xl font-bold uppercase leading-loose text-white">
+          Agency
+        </div>
+        <div className="absolute left-[135px] top-[6891px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white/50">
+          Agency © 2019. <br />
+          All Rights Reserved.
+        </div>
+        <div className="absolute left-[435px] top-[6827px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-white">
+          Address
+        </div>
+        <div className="absolute left-[435px] top-[6891px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white/50">
+          3899 Fusce Rd. Frederick <br />
+          Nebraska 20620
+        </div>
+        <div className="absolute left-[435px] top-[6971px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white">
+          info@agency.com
+        </div>
+        <div className="absolute left-[435px] top-[7019px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white">
+          +1 (234) 567-89-00
+        </div>
+        <div className="absolute left-[735px] top-[6827px] justify-start font-['Roboto_Condensed'] text-base font-normal uppercase leading-loose tracking-[3px] text-white">
+          Menu
+        </div>
+        <div className="absolute left-[735px] top-[6891px] justify-start font-['DM_Sans'] text-base font-normal leading-loose text-white">
           About
-        </div>
-        <div className="absolute left-[777px] top-[67px] justify-start font-['Poppins'] text-sm font-medium text-zinc-800">
+          <br />
+          Portfolio
+          <br />
+          Blog
+          <br />
+          Testimonials
+          <br />
           Contact
         </div>
-        <div className="absolute left-[864px] top-[67px] justify-start font-['Poppins'] text-sm font-medium text-zinc-800">
-          Blog
-        </div>
-
-        <div className='absolute left-[1135px] top-[58px] h-9 w-32 rounded-[5px] bg-blue-600' />
-        <div className="absolute left-[1157px] top-[66px] justify-start text-center font-['Poppins'] text-sm font-semibold text-white">
-          Get a Demo
-        </div>
-
-        {/* Hero Section */}
-        <div className="absolute left-[178px] top-[203px] w-[1084px] justify-start text-center font-['Poppins'] text-6xl font-semibold leading-[81px] text-zinc-800">
-          Grow Your Brand with Digital Marketing
-        </div>
-
-        <div className="absolute left-[338px] top-[371px] w-[765px] justify-start text-center font-['Poppins'] text-sm font-light text-zinc-800">
-          Transform your online presence with data-driven strategies designed to
-          increase visibility, drive traffic, and deliver measurable results
-          that fuel your business growth
-        </div>
-
-        {/* CTA Buttons */}
-        <div className='absolute left-[502px] top-[438px] h-14 w-52 rounded-[5px] bg-blue-600' />
-        <div className="absolute left-[556px] top-[453px] justify-start text-center font-['Poppins'] text-lg font-semibold text-white">
-          Get Started
-        </div>
-
-        <div className='absolute left-[728px] top-[438px] h-14 w-52 rounded-[5px] border-2 border-zinc-800' />
-        <div className="absolute left-[753px] top-[453px] justify-start text-center font-['Poppins'] text-lg font-semibold text-zinc-800">
-          Free Consultation
-        </div>
-
-        {/* Avatar Section */}
-        <div className='absolute left-[599px] top-[553px] h-16 w-16 rounded-full border-2 border-white bg-stone-300' />
-        <div className='absolute left-[660px] top-[553px] h-16 w-16 rounded-full border-2 border-white bg-stone-300' />
-        <div className='absolute left-[721px] top-[553px] h-16 w-16 rounded-full border-2 border-white bg-stone-300' />
-        <div className='absolute left-[782px] top-[553px] h-16 w-16 rounded-full border-2 border-white bg-stone-300' />
-
-        <div className="absolute left-[609px] top-[628px] w-56 justify-start text-center font-['Poppins'] text-[10px] font-light text-zinc-800">
-          Explore our 430+ success project that help our clients business growth
-          every year
-        </div>
-
-        {/* Stats Cards */}
-        <div className='absolute left-[158px] top-[486px] h-40 w-64 rounded-[10px] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]' />
-        <div className="absolute left-[176px] top-[505px] w-56 justify-start font-['Poppins'] text-xs font-medium text-zinc-800">
-          All email campaign sent
-        </div>
-        <div className="absolute left-[176px] top-[526px] w-56 justify-start font-['Poppins'] text-3xl font-semibold text-blue-600">
-          +17.534
-        </div>
-
-        {/* Chart bars */}
-        <div className='absolute left-[176px] top-[591px] h-8 w-5 bg-zinc-300' />
-        <div className='absolute left-[211px] top-[607px] h-4 w-5 bg-zinc-300' />
-        <div className='absolute left-[246px] top-[596px] h-7 w-5 bg-zinc-300' />
-        <div className='absolute left-[281px] top-[579px] h-11 w-5 bg-zinc-300' />
-        <div className='absolute left-[316px] top-[562px] h-16 w-5 bg-blue-600' />
-        <div className='absolute left-[351px] top-[587px] h-9 w-5 bg-zinc-300' />
-        <div className='absolute left-[386px] top-[579px] h-11 w-5 bg-zinc-300' />
-
-        {/* Revenue Card */}
-        <div className='absolute left-[1034px] top-[495px] h-24 w-56 rounded-[10px] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]' />
-        <div className="absolute left-[1048px] top-[508px] w-52 justify-start font-['Poppins'] text-xs font-medium text-zinc-800">
-          Total revenue
-        </div>
-        <div className="absolute left-[1048px] top-[536px] h-11 w-52 justify-center font-['Poppins'] text-4xl font-semibold text-zinc-800">
-          $735.374
-        </div>
-        <div className="absolute left-[1214px] top-[508px] w-9 justify-start text-right font-['Poppins'] text-xs font-medium text-zinc-800">
-          +36%
-        </div>
-        <div className='absolute left-[1184px] top-[511px] h-3 w-6 outline outline-2 outline-offset-[-1px] outline-blue-600' />
-        <div className='absolute left-[1202.78px] top-[511px] h-1.5 w-1.5 outline outline-2 outline-offset-[-1px] outline-blue-600' />
-
-        {/* Services Section */}
-        <div className='absolute left-[589px] top-[855px] w-64 justify-start text-center'>
-          <span className="font-['Poppins'] text-4xl font-semibold text-blue-600">
-            Our
-          </span>
-          <span className="font-['Poppins'] text-4xl font-semibold text-zinc-800">
-            {' '}
-            Services
-          </span>
-        </div>
-        <div className="absolute left-[590px] top-[912px] w-64 justify-start text-center font-['Poppins'] text-sm font-light text-zinc-800">
-          Tailored solutions for digital success
-        </div>
-
-        {/* Service Cards Row 1 */}
-        <div className='absolute left-[158px] top-[968px] h-80 w-96 rounded-[10px] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]' />
-        <div className='absolute left-[533px] top-[968px] h-80 w-96 rounded-[10px] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]' />
-        <div className='absolute left-[907px] top-[968px] h-80 w-96 rounded-[10px] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]' />
-
-        {/* Service 1 - SEO */}
-        <div className='absolute left-[185px] top-[994px] h-10 w-10 rounded-full bg-violet-200' />
-        <div className='absolute left-[194px] top-[1003px] h-5 w-5 bg-blue-600' />
-        <div className='absolute left-[270px] top-[1034px] h-32 w-32 bg-blue-600' />
-        <div className="absolute left-[185px] top-[1183px] w-72 justify-start font-['Poppins'] text-lg font-semibold text-zinc-800">
-          SEO Optimization
-        </div>
-        <div className="absolute left-[185px] top-[1210px] w-72 justify-start font-['Poppins'] text-sm font-light text-zinc-800">
-          Increase your website's visibility with our advanced SEO techniques
-          that drive organic traffic and improve your rankings.
-        </div>
-
-        {/* Service 2 - Social Media */}
-        <div className='absolute left-[559px] top-[994px] h-10 w-10 rounded-full bg-violet-200' />
-        <div className='absolute left-[576.82px] top-[1009.67px] h-1.5 w-1.5 bg-blue-600' />
-        <div className='absolute left-[568px] top-[1002px] h-3.5 w-6 bg-blue-600' />
-        <div className='absolute left-[571.07px] top-[1015.35px] h-2.5 w-4 bg-blue-600' />
-        <div className='absolute left-[634px] top-[1034px] h-32 w-24 bg-blue-600' />
-        <div className='absolute left-[710.01px] top-[1055.06px] h-9 w-5 bg-blue-600' />
-        <div className='absolute left-[714.33px] top-[1042.78px] h-10 w-16 bg-blue-600' />
-        <div className='absolute left-[719.21px] top-[1052.38px] h-20 w-16 bg-blue-600' />
-        <div className='absolute left-[758.02px] top-[1108.81px] h-3 w-2.5 bg-blue-600' />
-        <div className='absolute left-[721.55px] top-[1100.02px] h-6 w-14 bg-blue-600' />
-        <div className="absolute left-[559px] top-[1183px] w-72 justify-start font-['Poppins'] text-lg font-semibold text-zinc-800">
-          Social Media Marketing
-        </div>
-        <div className="absolute left-[559px] top-[1210px] w-72 justify-start font-['Poppins'] text-sm font-light text-zinc-800">
-          Boost engagement and build a loyal following on social media
-          platforms. We create content that resonates.
-        </div>
-
-        {/* Service 3 - PPC */}
-        <div className='absolute left-[933px] top-[994px] h-10 w-10 rounded-full bg-violet-200' />
-        <div className='absolute left-[942px] top-[1003px] h-5 w-5 bg-blue-600' />
-        <div className='absolute left-[1018px] top-[1034px] h-32 w-32 bg-blue-600' />
-        <div className="absolute left-[933px] top-[1183px] w-72 justify-start font-['Poppins'] text-lg font-semibold text-zinc-800">
-          Pay-Per-Click (PPC) Advertising
-        </div>
-        <div className="absolute left-[933px] top-[1210px] w-72 justify-start font-['Poppins'] text-sm font-light text-zinc-800">
-          Get immediate results with targeted ads that place your brand in front
-          of the right customers, optimizing for conversions.
-        </div>
-
-        {/* Service Cards Row 2 */}
-        <div className='absolute left-[158px] top-[1317px] h-56 w-[538px] rounded-[10px] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]' />
-        <div className='absolute left-[718px] top-[1317px] h-56 w-[544px] rounded-[10px] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]' />
-
-        {/* Service 4 - Content Marketing */}
-        <div className='absolute left-[185px] top-[1341px] h-10 w-10 rounded-full bg-violet-200' />
-        <div className='absolute left-[197px] top-[1350px] h-5 w-4 bg-blue-600' />
-        <div className='absolute left-[548px] top-[1372px] h-28 w-28 bg-blue-600' />
-        <div className="absolute left-[185px] top-[1431px] w-72 justify-start font-['Poppins'] text-lg font-semibold text-zinc-800">
-          Content Marketing
-        </div>
-        <div className="absolute left-[185px] top-[1458px] w-80 justify-start font-['Poppins'] text-sm font-light text-zinc-800">
-          Create compelling content that educates, informs, and converts
-          visitors into customers with our expert copywriting services.
-        </div>
-
-        {/* Service 5 - Email Marketing */}
-        <div className='absolute left-[748px] top-[1341px] h-10 w-10 rounded-full bg-violet-200' />
-        <div className='absolute left-[757px] top-[1353px] h-4 w-5 bg-blue-600' />
-        <div className='absolute left-[1202.23px] top-[1419.92px] h-16 w-8 bg-blue-600' />
-        <div className='absolute left-[1130.53px] top-[1459.22px] h-8 w-24 bg-blue-600' />
-        <div className='absolute left-[1124px] top-[1419.92px] h-16 w-8 bg-blue-600' />
-        <div className='absolute left-[1133.25px] top-[1381px] h-20 w-24 bg-blue-600' />
-        <div className="absolute left-[748px] top-[1431px] w-72 justify-start font-['Poppins'] text-lg font-semibold text-zinc-800">
-          Email Marketing Campaigns
-        </div>
-        <div className="absolute left-[748px] top-[1458px] w-80 justify-start font-['Poppins'] text-sm font-light text-zinc-800">
-          Engage your customers directly with personalized, well-crafted email
-          campaigns that drive action and increase retention.
-        </div>
-
-        {/* Who We Are Section */}
-        <div className='absolute left-[158px] top-[1741px] w-64 justify-start'>
-          <span className="font-['Poppins'] text-4xl font-semibold text-blue-600">
-            Who{' '}
-          </span>
-          <span className="font-['Poppins'] text-4xl font-semibold text-zinc-800">
-            We Are
-          </span>
-        </div>
-
-        <div className="absolute left-[907px] top-[1741px] w-96 justify-start font-['Poppins'] text-sm font-light text-zinc-800">
-          We are a passionate team of digital marketers dedicated to delivering
-          personalized strategies that align with your business goals
-        </div>
-
-        <div className='absolute left-[158px] top-[1807px] h-14 w-52 rounded-[5px] bg-blue-600' />
-        <div className="absolute left-[215px] top-[1822px] justify-start text-center font-['Poppins'] text-lg font-semibold text-white">
-          Read More
-        </div>
-
-        <div className="absolute left-[158px] top-[1895px] w-[510px] justify-start font-['Poppins'] text-sm font-light text-zinc-800">
-          At Digital Spark, we understand that every business is unique. That's
-          why we take a customized approach to digital marketing. Our team
-          combines cutting-edge tools, data-driven strategies, and industry
-          expertise to help you achieve measurable success.
-        </div>
-
-        {/* Images */}
-        <div className='absolute left-[158px] top-[2013px] h-96 w-[582px] rounded-2xl bg-stone-300' />
-        <div className='absolute left-[695px] top-[1849px] h-96 w-[577px] rounded-2xl border-8 border-white bg-stone-300' />
-
-        {/* Client Feedback Section */}
-        <div className='absolute left-[158px] top-[2610px] w-80 justify-start'>
-          <span className="font-['Poppins'] text-4xl font-semibold text-blue-600">
-            Client{' '}
-          </span>
-          <span className="font-['Poppins'] text-4xl font-semibold text-zinc-800">
-            Feedback
-          </span>
-        </div>
-        <div className="absolute left-[158px] top-[2667px] w-80 justify-start font-['Poppins'] text-sm font-light text-zinc-800">
-          See How We've Made a Difference for Our Clients
-        </div>
-
-        {/* Navigation arrows */}
-        <div className='absolute left-[1146px] top-[2638px] h-10 w-14 rounded border-2 border-zinc-800' />
-        <div className='absolute left-[1209px] top-[2638px] h-10 w-14 rounded bg-blue-600' />
-        <div className='absolute left-[1185px] top-[2667px] h-4 w-6 outline outline-[3px] outline-offset-[-1.50px] outline-zinc-800' />
-        <div className='absolute left-[1224px] top-[2649px] h-4 w-6 outline outline-[3px] outline-offset-[-1.50px] outline-white' />
-
-        {/* Testimonial Cards */}
-        <div className='absolute left-[158px] top-[2722px] h-80 w-96 rounded-[10px] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]' />
-        <div className='absolute left-[533px] top-[2722px] h-80 w-96 rounded-[10px] bg-blue-600 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]' />
-        <div className='absolute left-[907px] top-[2722px] h-80 w-96 rounded-[10px] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]' />
-
-        {/* Testimonial 1 */}
-        <div className='absolute left-[181px] top-[2744px] h-14 w-14 rounded-full bg-stone-300' />
-        <div className="absolute left-[255px] top-[2746px] w-60 justify-start font-['Poppins'] text-2xl font-semibold text-blue-600">
-          John Doe
-        </div>
-        <div className="absolute left-[255px] top-[2782px] w-60 justify-start font-['Poppins'] text-xs font-medium text-neutral-500">
-          CEO of XYZ Corp
-        </div>
-        <div className="absolute left-[181px] top-[2824px] w-80 justify-start font-['Poppins'] text-sm font-light text-zinc-800">
-          "Partnering with Digital Spark has been a game-changer for our
-          business. Their tailored approach to SEO and PPC advertising has
-          increased our website traffic and lead generation by over 300% in just
-          six months. Their team's insights and dedication make them invaluable
-          partners in our growth journey."
-        </div>
-        {/* Stars 1 */}
-        <div className='absolute left-[181px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[211px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[241px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[271px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[301px] top-[3006px] h-6 w-6 bg-yellow-400' />
-
-        {/* Testimonial 2 */}
-        <div className='absolute left-[554px] top-[2744px] h-14 w-14 rounded-full bg-stone-300' />
-        <div className="absolute left-[628px] top-[2751px] w-60 justify-start font-['Poppins'] text-lg font-semibold text-white">
-          Jane Smith
-        </div>
-        <div className="absolute left-[628px] top-[2778px] w-60 justify-start font-['Poppins'] text-xs font-medium text-white">
-          Marketing Director at ABC Ltd
-        </div>
-        <div className="absolute left-[555px] top-[2824px] w-80 justify-start font-['Poppins'] text-sm font-light text-white">
-          "Digital Spark understands our brand and goals like no other. Their
-          social media and content marketing strategies have not only expanded
-          our online presence but also fostered stronger engagement with our
-          audience. Thanks to their expertise, we're seeing consistent,
-          measurable growth month after month."
-        </div>
-        {/* Stars 2 */}
-        <div className='absolute left-[554px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[584px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[614px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[644px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[674px] top-[3006px] h-6 w-6 bg-yellow-400' />
-
-        {/* Testimonial 3 */}
-        <div className='absolute left-[926px] top-[2744px] h-14 w-14 rounded-full bg-stone-300' />
-        <div className="absolute left-[1000px] top-[2751px] w-60 justify-start font-['Poppins'] text-lg font-semibold text-blue-600">
-          Michael Chen
-        </div>
-        <div className="absolute left-[1000px] top-[2778px] w-60 justify-start font-['Poppins'] text-xs font-medium text-neutral-500">
-          Founder of Start-Up Solutions
-        </div>
-        <div className="absolute left-[926px] top-[2824px] w-80 justify-start font-['Poppins'] text-sm font-light text-zinc-800">
-          "I couldn't be happier with the results we've achieved with Digital
-          Spark. Their data-driven approach to email marketing and targeted ads
-          has significantly boosted our conversion rates. Our audience
-          engagement has improved, and the ROI speaks for itself. I highly
-          recommend them to any business looking to grow online!"
-        </div>
-        {/* Stars 3 */}
-        <div className='absolute left-[926px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[956px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[986px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[1016px] top-[3006px] h-6 w-6 bg-yellow-400' />
-        <div className='absolute left-[1046px] top-[3006px] h-6 w-6 bg-yellow-400' />
-
-        {/* Pagination dots */}
-        <div className='absolute left-[651px] top-[3113px] h-2.5 w-2.5 rounded-full bg-zinc-300' />
-        <div className='absolute left-[668px] top-[3114px] h-2 w-16 rounded-[36px] bg-blue-600' />
-        <div className='absolute left-[745px] top-[3113px] h-2.5 w-2.5 rounded-full bg-zinc-300' />
-        <div className='absolute left-[762px] top-[3113px] h-2.5 w-2.5 rounded-full bg-zinc-300' />
-        <div className='absolute left-[779px] top-[3113px] h-2.5 w-2.5 rounded-full bg-zinc-300' />
-
-        {/* CTA Section */}
-        <div className='absolute left-[158px] top-[3321px] w-[513px] justify-start'>
-          <span className="font-['Poppins'] text-4xl font-semibold text-blue-600">
-            Take
-          </span>
-          <span className="font-['Poppins'] text-4xl font-semibold text-zinc-800">
-            {' '}
-            the First Step Toward Growing Your{' '}
-          </span>
-          <span className="font-['Poppins'] text-4xl font-semibold text-blue-600">
-            Brand
-          </span>
-          <span className="font-['Poppins'] text-4xl font-semibold text-zinc-800">
-            {' '}
-            with Expert Digital{' '}
-          </span>
-          <span className="font-['Poppins'] text-4xl font-semibold text-blue-600">
-            Marketing
-          </span>
-        </div>
-
-        <div className="absolute left-[805px] top-[3327px] w-[457px] justify-start font-['Poppins'] text-lg font-light text-zinc-800">
-          Ready to see real results? Partner with us for tailored strategies
-          that drive engagement, boost visibility, and achieve your business
-          goals.
-        </div>
-
-        <div className='absolute left-[805px] top-[3422px] h-14 w-72 rounded-[5px] bg-blue-600' />
-        <div className="absolute left-[830px] top-[3436px] justify-start text-center font-['Poppins'] text-lg font-semibold text-white">
-          Book a Free Consultation
-        </div>
-
-        {/* Footer */}
-        <div className='absolute left-[158px] top-[3689px] justify-start'>
-          <span className="font-['Poppins'] text-4xl font-bold text-blue-600">
-            Digital{' '}
-          </span>
-          <span className="font-['Poppins'] text-4xl font-bold text-zinc-800">
-            Spark
-          </span>
-        </div>
-
-        {/* Footer Links */}
-        <div className="absolute left-[158px] top-[3846px] justify-start font-['Poppins'] text-3xl font-semibold text-blue-600">
-          Quick Link
-        </div>
-        <div className="absolute left-[158px] top-[3956px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Home
-        </div>
-        <div className="absolute left-[158px] top-[4022px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          About
-        </div>
-        <div className="absolute left-[158px] top-[4088px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Services
-        </div>
-        <div className="absolute left-[158px] top-[4154px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Blog
-        </div>
-        <div className="absolute left-[158px] top-[4220px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Contact
-        </div>
-
-        <div className="absolute left-[323px] top-[3846px] justify-start font-['Poppins'] text-3xl font-semibold text-blue-600">
-          Career
-        </div>
-        <div className="absolute left-[323px] top-[3956px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Join Our Team
-        </div>
-        <div className="absolute left-[323px] top-[4022px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Culture & Values
-        </div>
-        <div className="absolute left-[323px] top-[4088px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Internships
-        </div>
-
-        <div className="absolute left-[552px] top-[3846px] justify-start font-['Poppins'] text-3xl font-semibold text-blue-600">
-          Resources
-        </div>
-        <div className="absolute left-[552px] top-[3956px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Case Studies
-        </div>
-        <div className="absolute left-[552px] top-[4022px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          eBooks & Guides
-        </div>
-        <div className="absolute left-[552px] top-[4088px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Webinars
-        </div>
-
-        <div className="absolute left-[781px] top-[3846px] justify-start font-['Poppins'] text-3xl font-semibold text-blue-600">
-          Legal
-        </div>
-        <div className="absolute left-[781px] top-[3956px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Privacy Policy
-        </div>
-        <div className="absolute left-[781px] top-[4022px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Terms of Service
-        </div>
-        <div className="absolute left-[781px] top-[4088px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          Cookie Policy
-        </div>
-
-        <div className="absolute left-[1004px] top-[3846px] justify-start font-['Poppins'] text-3xl font-semibold text-blue-600">
-          Contact Details
-        </div>
-        <div className='absolute left-[1004px] top-[3960px] h-7 w-6 bg-blue-600' />
-        <div className="absolute left-[1046px] top-[3956px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          +(123) 456-7890
-        </div>
-        <div className='absolute left-[1004px] top-[4031px] h-4 w-6 bg-blue-600' />
-        <div className="absolute left-[1046px] top-[4022px] justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          info@digitalspark.com
-        </div>
-        <div className='absolute left-[1004px] top-[4093px] h-9 w-6 bg-blue-600' />
-        <div className="absolute left-[1046px] top-[4088px] w-72 justify-start font-['Poppins'] text-2xl font-medium text-zinc-800">
-          123 Digital Street, Tech City, 56789
-        </div>
-
-        {/* Copyright */}
-        <div className="absolute left-[478px] top-[4379px] justify-start text-center font-['Poppins'] text-2xl font-semibold text-zinc-800">
-          © 2024 Digital Spark. All rights reserved.
-        </div>
+        <div className='absolute left-[1147px] top-[6816px] h-12 w-12 bg-zinc-800' />
+        <div className='absolute left-[1091px] top-[6816px] h-12 w-12 bg-zinc-800' />
+        <div className='absolute left-[1107px] top-[6834px] h-3 w-4 bg-white' />
+        <div className='absolute left-[1035px] top-[6816px] h-12 w-12 bg-zinc-800' />
+        <div className='absolute left-[1054px] top-[6832px] h-4 w-2.5 bg-white' />
       </div>
     </main>
   );
