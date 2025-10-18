@@ -19,11 +19,13 @@ yarn build
 ## Common Commands
 
 ### Development
+
 - `yarn dev` - Start development server on http://localhost:3000
 - `yarn build` - Build for production
 - `yarn start` - Start production server
 
 ### Code Quality
+
 - `yarn lint` - Run ESLint
 - `yarn lint:fix` - Auto-fix ESLint issues and format code
 - `yarn lint:strict` - Run ESLint with zero warnings allowed
@@ -32,12 +34,14 @@ yarn build
 - `yarn format:check` - Check code formatting
 
 ### Testing
+
 - `yarn test` - Run all tests with Jest
 - `yarn test:watch` - Run tests in watch mode
 
 ## Import Aliases
 
 The project uses TypeScript path aliases configured in `tsconfig.json`:
+
 - `@/*` - Maps to `./src/*` for application code
 - `~/*` - Maps to `./public/*` for public assets
 
@@ -84,6 +88,7 @@ src/
 This project enforces **Conventional Commits** via commitlint and Husky hooks.
 
 ### Allowed commit types:
+
 - `feat` - New features
 - `fix` - Bug fixes
 - `docs` - Documentation changes
@@ -97,6 +102,7 @@ This project enforces **Conventional Commits** via commitlint and Husky hooks.
 - `vercel` - Vercel-specific changes
 
 ### Format:
+
 ```
 type(optional-scope): description
 
@@ -108,6 +114,7 @@ Example: `feat(auth): add login functionality`
 ## Pre-commit Hooks
 
 Husky and lint-staged run on commit:
+
 - ESLint with `--max-warnings=0` on `.js, .jsx, .ts, .tsx`
 - Prettier formatting on all supported files
 - Commits will fail if linting/formatting fails
