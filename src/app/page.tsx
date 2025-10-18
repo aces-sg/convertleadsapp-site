@@ -5,8 +5,8 @@ import '@/lib/env';
 
 export default function HomePage() {
   return (
-    <main>
-      <div className='relative h-[4525px] w-[1440px] overflow-hidden bg-neutral-50'>
+    <main className='w-full bg-neutral-50'>
+      <div className='relative mx-auto h-[4525px] w-full max-w-[1440px] overflow-hidden'>
         {/* Header / Navigation */}
         <div className='absolute left-[158px] top-[59px] justify-start'>
           <span className="font-['Poppins'] text-2xl font-bold text-blue-600">
