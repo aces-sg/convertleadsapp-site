@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { DM_Sans, Inknut_Antiqua, Roboto_Condensed } from 'next/font/google';
 import * as React from 'react';
 
 import '@/styles/globals.css';
@@ -6,6 +7,28 @@ import '@/styles/globals.css';
 import '@/styles/colors.css';
 
 import { siteConfig } from '@/constant/config';
+
+// Configure fonts
+const robotoCondensed = Roboto_Condensed({
+  subsets: ['latin'],
+  weight: ['300', '400', '700'],
+  variable: '--font-roboto-condensed',
+  display: 'swap',
+});
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  variable: '--font-dm-sans',
+  display: 'swap',
+});
+
+const inknutAntiqua = Inknut_Antiqua({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800', '900'],
+  variable: '--font-inknut-antiqua',
+  display: 'swap',
+});
 
 // !STARTERCONF Change these default meta
 // !STARTERCONF Look at @/constant/config to change them
@@ -55,7 +78,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html>
+    <html
+      className={`${robotoCondensed.variable} ${dmSans.variable} ${inknutAntiqua.variable}`}
+    >
       <body>{children}</body>
     </html>
   );

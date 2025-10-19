@@ -4,6 +4,9 @@
 @theme {
   /* Font configuration */
   --font-primary: 'Inter', system-ui, sans-serif;
+  --font-family-roboto-condensed: var(--font-roboto-condensed), sans-serif;
+  --font-family-dm-sans: var(--font-dm-sans), sans-serif;
+  --font-family-inknut-antiqua: var(--font-inknut-antiqua), serif;
 
   /* Primary color palette - converted to modern oklch format */
   --color-primary-50: oklch(0.97 0.024 213.79);
