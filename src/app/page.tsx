@@ -1,25 +1,35 @@
 'use client';
 
 import * as React from 'react';
+import {
+  FaChartLine,
+  FaCode,
+  FaFlask,
+  FaSearch,
+  FaTachometerAlt,
+} from 'react-icons/fa';
 import '@/lib/env';
+
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
 /* eslint-disable @next/next/no-img-element */
 
-// Image URLs from Figma
-const imgPhoto =
-  'https://www.figma.com/api/mcp/asset/a83d70e9-d244-415e-90ab-a3652eda017c';
-const imgArtboard482 =
-  'https://www.figma.com/api/mcp/asset/682dcafb-b492-40a2-ae2e-35365fb24453';
-const imgArtboard241 =
-  'https://www.figma.com/api/mcp/asset/36ab1580-3f90-4865-82cc-5d11afacb58e';
-const imgArtboard81 =
-  'https://www.figma.com/api/mcp/asset/66e6e53a-8645-4291-8a03-a0c1ba650fbf';
-const imgArtboard141 =
-  'https://www.figma.com/api/mcp/asset/3276c5e3-6a59-4a15-a6ce-9547e7217496';
-const imgArtboard311 =
-  'https://www.figma.com/api/mcp/asset/d68886d2-274b-4e0d-a8e5-8f069212ec39';
-const imgArtboard301 =
-  'https://www.figma.com/api/mcp/asset/075d027f-3ddd-4e62-8b3e-7da7250f1911';
+// Image URLs from Unsplash - Web development & Asian professionals
+const imgHero =
+  'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920&q=80'; // Team collaboration
+const imgCaseStudy =
+  'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80'; // Asian team working
+const imgITConsultant =
+  'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80'; // Workspace laptop
+const imgTeamPhoto =
+  'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80'; // Team meeting
+const imgMoreFeatures =
+  'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80'; // Web development
+const imgGetStarted =
+  'https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&q=80'; // Asian business team
+const imgTestimonial =
+  'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80'; // Asian woman professional
 const imgEllipse194 =
   'https://www.figma.com/api/mcp/asset/c6abc960-1f1a-48e2-8603-18847e286303';
 const imgBxBxlTwitter =
@@ -64,115 +74,9 @@ function TestimonialCard() {
 }
 
 export default function HomePage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
-
   return (
     <main className='bg-white relative w-full min-h-screen overflow-x-hidden'>
-      {/* Navigation Bar */}
-      <nav className='fixed top-0 left-0 right-0 z-50 bg-transparent'>
-        <div className='container mx-auto px-4 sm:px-6 lg:px-[100px] py-4 lg:py-[17px]'>
-          <div className='flex items-center justify-between'>
-            {/* Logo */}
-            <div className='flex gap-3 lg:gap-[20px] items-center'>
-              <div className='w-[12px] lg:w-[15px] h-[29px] lg:h-[36.36px]'>
-                <img
-                  alt='Logo'
-                  className='block w-full h-full object-contain'
-                  src={imgFrame4}
-                />
-              </div>
-              <p className='font-bold leading-[normal] not-italic text-lg lg:text-[24px] text-white tracking-[-1.2px]'>
-                ConvertLeadsApp
-              </p>
-            </div>
-
-            {/* Desktop Navigation */}
-            <div className='hidden lg:flex gap-[64px] items-center'>
-              <p className='font-bold leading-[normal] not-italic text-[14px] text-white tracking-[-0.42px] cursor-pointer hover:text-[#ffc000] transition-colors'>
-                Products
-              </p>
-              <p className='font-bold leading-[normal] not-italic text-[14px] text-white tracking-[-0.42px] cursor-pointer hover:text-[#ffc000] transition-colors'>
-                Services
-              </p>
-              <p className='font-bold leading-[normal] not-italic text-[14px] text-white tracking-[-0.42px] cursor-pointer hover:text-[#ffc000] transition-colors'>
-                Pricing
-              </p>
-              <p className='font-bold leading-[normal] not-italic text-[14px] text-white tracking-[-0.42px] cursor-pointer hover:text-[#ffc000] transition-colors'>
-                Contact Us
-              </p>
-            </div>
-
-            {/* Sign In Button - Desktop */}
-            <div className='hidden lg:flex bg-[#ffc000] gap-[8px] h-[40px] items-center px-[16px] py-[8px] rounded-[32px] cursor-pointer hover:bg-[#ffcc33] transition-colors'>
-              <p className='font-bold leading-[normal] not-italic text-[15px] text-white tracking-[-0.45px]'>
-                Sign in
-              </p>
-              <div className='size-[24px]'>
-                <img
-                  alt=''
-                  className='block max-w-none size-full'
-                  src={imgChevronFilledRight1}
-                />
-              </div>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className='lg:hidden text-white p-2'
-              aria-label='Toggle menu'
-            >
-              <svg
-                className='w-6 h-6'
-                fill='none'
-                stroke='currentColor'
-                viewBox='0 0 24 24'
-              >
-                {mobileMenuOpen ? (
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth={2}
-                    d='M6 18L18 6M6 6l12 12'
-                  />
-                ) : (
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth={2}
-                    d='M4 6h16M4 12h16M4 18h16'
-                  />
-                )}
-              </svg>
-            </button>
-          </div>
-
-          {/* Mobile Menu */}
-          {mobileMenuOpen && (
-            <div className='lg:hidden mt-4 pb-4 border-t border-white/20 pt-4'>
-              <div className='flex flex-col gap-4'>
-                <p className='font-bold text-[14px] text-white tracking-[-0.42px] cursor-pointer hover:text-[#ffc000] transition-colors'>
-                  Products
-                </p>
-                <p className='font-bold text-[14px] text-white tracking-[-0.42px] cursor-pointer hover:text-[#ffc000] transition-colors'>
-                  Services
-                </p>
-                <p className='font-bold text-[14px] text-white tracking-[-0.42px] cursor-pointer hover:text-[#ffc000] transition-colors'>
-                  Pricing
-                </p>
-                <p className='font-bold text-[14px] text-white tracking-[-0.42px] cursor-pointer hover:text-[#ffc000] transition-colors'>
-                  Contact Us
-                </p>
-                <div className='bg-[#ffc000] flex gap-[8px] items-center justify-center px-[16px] py-[8px] rounded-[32px] cursor-pointer hover:bg-[#ffcc33] transition-colors mt-2'>
-                  <p className='font-bold text-[15px] text-white tracking-[-0.45px]'>
-                    Sign in
-                  </p>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-      </nav>
+      <Header />
 
       {/* Hero Section */}
       <div className='relative min-h-[700px] sm:min-h-[800px] lg:h-[985px] overflow-hidden'>
@@ -180,7 +84,7 @@ export default function HomePage() {
           <img
             alt='Hero background'
             className='absolute inset-0 w-full h-full object-cover pointer-events-none'
-            src={imgPhoto}
+            src={imgHero}
           />
         </div>
         <div className='absolute inset-0 bg-[rgba(15,15,15,0.2)]' />
@@ -195,7 +99,7 @@ export default function HomePage() {
             />
           </div>
         </div>
-        <div className='relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center items-center pt-24 pb-12 lg:pt-0 lg:pb-[200px]'>
+        <div className='relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center items-center p-12 mb-32'>
           {/* Main Headline */}
           <div className='flex-1 flex items-center justify-center w-full max-w-5xl mb-8 lg:mb-16'>
             <h1 className='font-black leading-tight lg:leading-[104px] mix-blend-hard-light text-3xl sm:text-5xl lg:text-[96px] text-center text-white tracking-tight lg:tracking-[-2.88px]'>
@@ -233,12 +137,49 @@ export default function HomePage() {
       </div>
 
       {/* Logo Band */}
-      <div className='py-6 lg:py-4 px-4'>
-        <img
-          alt='Partner logos'
-          className='block w-full h-auto max-h-[56px] object-contain'
-          src={imgFrame20}
-        />
+      <div className='py-8 lg:py-12 px-4 bg-gray-50'>
+        <div className='container mx-auto'>
+          <p className='text-center text-gray-500 text-sm lg:text-base font-medium mb-6 lg:mb-8'>
+            Trusted by leading brands
+          </p>
+          <div className='flex flex-wrap items-center justify-center gap-8 lg:gap-12'>
+            <img
+              src='/images/aceplp-logo.png'
+              alt='ACEPLP'
+              className='h-10 w-24 lg:h-12 lg:w-32 object-contain transition-all opacity-80 hover:opacity-100'
+            />
+
+            <img
+              src='/images/aia-logo.png'
+              alt='AIA'
+              className='h-10 w-24 lg:h-12 lg:w-32 object-contain transition-all opacity-80 hover:opacity-100'
+            />
+
+            <img
+              src='/images/bimeco-logo.png'
+              alt='Bimeco'
+              className='h-10 w-24 lg:h-12 lg:w-32 object-contain transition-all opacity-80 hover:opacity-100'
+            />
+
+            <img
+              src='/images/buildingSMART-website-logo.png'
+              alt='buildingSMART'
+              className='h-10 w-24 lg:h-12 lg:w-32 object-contain transition-all opacity-80 hover:opacity-100'
+            />
+
+            <img
+              src='/images/fairprice-logo.png'
+              alt='NTUC FairPrice'
+              className='h-10 w-24 lg:h-12 lg:w-32 object-contain transition-all opacity-80 hover:opacity-100'
+            />
+
+            <img
+              src='/images/st-engineering-logo.png'
+              alt='ST Engineering'
+              className='h-10 w-24 lg:h-12 lg:w-32 object-contain transition-all opacity-80 hover:opacity-100'
+            />
+          </div>
+        </div>
       </div>
 
       {/* Case Study Section */}
@@ -267,7 +208,7 @@ export default function HomePage() {
             <img
               alt='Case study'
               className='w-full h-full object-cover pointer-events-none'
-              src={imgPhoto}
+              src={imgCaseStudy}
             />
           </div>
         </div>
@@ -329,34 +270,35 @@ export default function HomePage() {
         <div className='grid grid-cols-2 sm:grid-cols-3 lg:flex lg:gap-8 lg:justify-center gap-4 sm:gap-6'>
           {[
             {
-              name: 'Emma Johnson',
-              role: 'Administrator',
-              opacity: 'opacity-40',
-            },
-            { name: 'Ethan Davis', role: 'Consultant', opacity: 'opacity-70' },
-            { name: 'Ethan Davis', role: 'Consultant', opacity: 'opacity-70' },
-            {
-              name: 'Noah Anderson',
-              role: 'Content Creator',
-              opacity: 'opacity-70',
+              name: 'Michael Tan',
+              role: 'UX Designer',
+              image: '/images/linkedin-2.jpg',
             },
             {
-              name: 'Liam Rodriguez',
-              role: 'Art Director',
-              opacity: 'opacity-40',
+              name: 'Lisa Wong',
+              role: 'Project Manager',
+              image: '/images/linkedin-3.jpeg',
+            },
+            {
+              name: 'David Kim',
+              role: 'Full Stack Developer',
+              image: '/images/linkedin-4.jpeg',
+            },
+            {
+              name: 'Amanda Lee',
+              role: 'Marketing Lead',
+              image: '/images/linkedin-1.jpg',
             },
           ].map((member, idx) => (
             <div
               key={idx}
               className='flex flex-col items-center gap-2 lg:gap-4'
             >
-              <div
-                className={`h-[120px] sm:h-[150px] lg:h-[185px] ${member.opacity} rounded-[10px] w-full lg:w-[189px] overflow-hidden`}
-              >
+              <div className='h-[120px] sm:h-[150px] lg:h-[185px] rounded-[10px] w-full lg:w-[189px] overflow-hidden'>
                 <img
                   alt={member.name}
-                  className='w-full h-full object-cover pointer-events-none'
-                  src={imgPhoto}
+                  className='w-full h-full object-cover pointer-events-none grayscale'
+                  src={member.image}
                 />
               </div>
               <p className='font-bold leading-[1.6] not-italic text-[#1c1c37] text-xs sm:text-sm lg:text-[14px] tracking-[-0.42px] text-center'>
@@ -406,7 +348,7 @@ export default function HomePage() {
             <img
               alt='IT consulting'
               className='w-full h-full object-cover pointer-events-none'
-              src={imgPhoto}
+              src='/images/analytics-interface.png'
             />
           </div>
         </div>
@@ -425,12 +367,8 @@ export default function HomePage() {
             </p>
             <div className='flex flex-col gap-6 lg:gap-[40px]'>
               <div className='flex gap-3 lg:gap-[12px] items-start'>
-                <div className='size-[48px] lg:size-[64px] flex-shrink-0'>
-                  <img
-                    alt='Cybersecurity'
-                    className='w-full h-full object-cover pointer-events-none'
-                    src={imgArtboard482}
-                  />
+                <div className='size-[48px] lg:size-[64px] flex-shrink-0 bg-gray-50 rounded-[12px] flex items-center justify-center'>
+                  <FaCode className='text-[28px] lg:text-[32px] text-[#ffc000]' />
                 </div>
                 <div>
                   <p className='font-bold leading-[1.6] text-[#1c1c37] text-base lg:text-[18px] tracking-[-0.54px] mb-1 lg:mb-2'>
@@ -443,12 +381,8 @@ export default function HomePage() {
                 </div>
               </div>
               <div className='flex gap-3 lg:gap-[12px] items-start'>
-                <div className='size-[48px] lg:size-[64px] flex-shrink-0'>
-                  <img
-                    alt='Cloud Computing'
-                    className='w-full h-full object-cover pointer-events-none'
-                    src={imgArtboard241}
-                  />
+                <div className='size-[48px] lg:size-[64px] flex-shrink-0 bg-gray-50 rounded-[12px] flex items-center justify-center'>
+                  <FaChartLine className='text-[28px] lg:text-[32px] text-[#9a9aff]' />
                 </div>
                 <div>
                   <p className='font-bold leading-[1.6] text-[#1c1c37] text-base lg:text-[18px] tracking-[-0.54px] mb-1 lg:mb-2'>
@@ -467,7 +401,7 @@ export default function HomePage() {
               <img
                 alt='Team collaboration'
                 className='w-full h-full object-cover pointer-events-none'
-                src={imgPhoto}
+                src='/images/vscode-interface.png'
               />
             </div>
             <TestimonialCard />
@@ -504,9 +438,9 @@ export default function HomePage() {
           <div className='flex gap-3 lg:gap-4 items-center'>
             <div className='rounded-[20px] lg:rounded-[32px] size-[48px] lg:size-[64px] overflow-hidden flex-shrink-0'>
               <img
-                alt='Kokom Martin'
+                alt='Sarah Chen'
                 className='size-full object-cover'
-                src={imgPhoto}
+                src='/images/linkedin-1.jpg'
               />
             </div>
             <div>
@@ -553,11 +487,11 @@ export default function HomePage() {
       {/* More Features Section */}
       <section className='container mx-auto px-4 sm:px-6 lg:px-[100px] py-12 lg:py-20'>
         <div className='flex flex-col lg:flex-row gap-8 lg:gap-20'>
-          <div className='w-full h-[300px] sm:h-[400px] lg:h-[658px] rounded-br-[100px] lg:rounded-br-[239.5px] lg:w-[553px] overflow-hidden order-2 lg:order-1'>
+          <div className='w-full h-[300px] sm:h-[400px] lg:h-[658px] rounded-br-[100px] lg:rounded-br-[239.5px] lg:w-[553px] overflow-hidden order-2 lg:order-1 bg-gray-50'>
             <img
               alt='More features'
-              className='w-full h-full object-cover pointer-events-none'
-              src={imgPhoto}
+              className='w-full h-full object-contain pointer-events-none'
+              src='/images/ubersuggest-1.png'
             />
           </div>
           <div className='flex flex-col gap-8 lg:gap-[60px] flex-1 order-1 lg:order-2'>
@@ -573,32 +507,35 @@ export default function HomePage() {
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-[50px]'>
               {[
                 {
-                  icon: imgArtboard81,
+                  Icon: FaSearch,
                   title: 'Advanced SEO Tools',
                   desc: 'Rank higher on Google with built-in technical SEO optimization',
+                  color: '#ffc000',
                 },
                 {
-                  icon: imgArtboard141,
+                  Icon: FaChartLine,
                   title: 'Conversion Tracking',
                   desc: 'Know exactly which marketing channels drive your revenue',
+                  color: '#9a9aff',
                 },
                 {
-                  icon: imgArtboard311,
+                  Icon: FaFlask,
                   title: 'A/B Testing Platform',
                   desc: 'Test different versions of your site to maximize conversions',
+                  color: '#b5ea1e',
                 },
                 {
-                  icon: imgArtboard301,
+                  Icon: FaTachometerAlt,
                   title: 'Performance Monitoring',
                   desc: 'Real-time alerts and insights to keep your site running perfectly',
+                  color: '#ff6b6b',
                 },
               ].map((feature, idx) => (
                 <div key={idx} className='flex flex-col gap-2 lg:gap-[12px]'>
-                  <div className='size-[48px] lg:size-[64px]'>
-                    <img
-                      alt={feature.title}
-                      className='w-full h-full object-cover pointer-events-none'
-                      src={feature.icon}
+                  <div className='size-[48px] lg:size-[64px] flex items-center justify-center bg-gray-50 rounded-[12px]'>
+                    <feature.Icon
+                      className='text-[28px] lg:text-[36px]'
+                      style={{ color: feature.color }}
                     />
                   </div>
                   <p className='font-bold leading-[1.6] text-[#1c1c37] text-base lg:text-[18px] tracking-[-0.54px]'>
@@ -629,8 +566,8 @@ export default function HomePage() {
           <div className='w-full sm:w-auto h-[200px] sm:h-[250px] lg:absolute lg:h-[304px] lg:right-[100px] lg:top-[-114px] rounded-[16px] lg:w-[495px] overflow-hidden order-1 lg:order-2'>
             <img
               alt='Get started'
-              className='w-full h-full object-cover pointer-events-none'
-              src={imgPhoto}
+              className='w-full h-full object-contain pointer-events-none'
+              src='/images/ubersuggest-2.png'
             />
           </div>
           <div className='w-full sm:w-auto backdrop-blur-lg backdrop-filter bg-[#ffc000] flex gap-[10px] items-center justify-center lg:absolute lg:right-[140px] lg:bottom-[60px] px-8 lg:px-[64px] py-3 lg:py-[16px] rounded-[32px] cursor-pointer hover:bg-[#ffcc33] transition-colors order-3'>
@@ -641,116 +578,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section className='container mx-auto px-4 sm:px-6 lg:px-[100px] py-12 lg:py-20'>
-        <h2 className='font-medium leading-tight lg:leading-[70px] text-[#1c1c37] text-3xl sm:text-4xl lg:text-[64px] text-center tracking-tight lg:tracking-[-1.92px] mb-3 lg:mb-4'>
-          Get Free Website Growth Tips
-        </h2>
-        <p className='font-normal leading-[1.6] not-italic text-[#5b5a78] text-base lg:text-[18px] tracking-[-0.54px] text-center mb-8 lg:mb-12'>
-          Join our newsletter for proven strategies to increase traffic and
-          conversions. Unsubscribe anytime.
-        </p>
-        <div className='bg-[#f2f2f2] border border-solid border-white h-auto lg:h-[70px] max-w-full lg:max-w-[509px] mx-auto rounded-[32px] lg:rounded-[64px] flex flex-col sm:flex-row items-stretch sm:items-center p-1 gap-2 sm:gap-0'>
-          <input
-            type='email'
-            placeholder='Your email'
-            className='bg-transparent flex-1 font-normal leading-[1.6] not-italic placeholder:opacity-50 text-[#1c1c37] text-base lg:text-[18px] tracking-[-0.54px] px-4 lg:px-[20px] py-3 sm:py-0 outline-none rounded-[24px] sm:rounded-none'
-          />
-          <button className='bg-[#ffc000] flex gap-[10px] items-center justify-center px-6 lg:px-[29px] py-3 lg:py-[20px] rounded-[24px] lg:rounded-[64px] cursor-pointer hover:bg-[#ffcc33] transition-colors'>
-            <p className='font-bold leading-[1.6] not-italic text-base lg:text-[18px] text-white tracking-[-0.54px]'>
-              Subscribe
-            </p>
-          </button>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className='bg-[#f7f7f7] border border-[rgba(0,0,0,0.1)] border-solid mx-4 sm:mx-8 lg:mx-[87px] rounded-tl-[32px] rounded-tr-[32px] lg:rounded-tl-[64px] lg:rounded-tr-[64px] mt-12 lg:mt-20 pb-6 lg:pb-8'>
-        <div className='px-6 sm:px-8 lg:px-[118px] py-8 lg:py-[85px]'>
-          <div className='flex gap-3 lg:gap-4 items-center mb-8 lg:mb-12'>
-            <div className='h-[29px] lg:h-[36.36px] w-[12px] lg:w-[15px]'>
-              <img
-                alt='Logo'
-                className='block max-w-none size-full'
-                src={imgFrame4}
-              />
-            </div>
-            <p className='font-bold leading-[normal] not-italic text-[#1d1e40] text-lg lg:text-[24px] tracking-[-1.2px]'>
-              ConvertLeadsApp
-            </p>
-          </div>
-          <div className='grid grid-cols-2 lg:flex lg:justify-between gap-8 lg:gap-4'>
-            <div className='flex flex-col gap-1.5 lg:gap-2'>
-              <p className='font-bold leading-[1.6] text-[#ffc000] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                Home
-              </p>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                Products
-              </p>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                Services
-              </p>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                Pricing
-              </p>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                Contact Us
-              </p>
-            </div>
-            <div className='flex flex-col gap-1.5 lg:gap-2'>
-              <p className='font-bold leading-[1.6] text-[#1c1c37] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                What we do
-              </p>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                Company
-              </p>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                Privacy Policy
-              </p>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                Terms of Use
-              </p>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                About Us
-              </p>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                Disclaimer
-              </p>
-            </div>
-            <div className='col-span-2 lg:col-span-1'>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px] mb-1 lg:mb-2'>
-                Indonesia.
-              </p>
-              <p className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px]'>
-                Jl. Kemerdekaan no. 4, Jakarta.
-              </p>
-            </div>
-            <div className='flex gap-3 lg:gap-4 col-span-2 lg:col-span-1 justify-center lg:justify-end'>
-              <div className='size-[20px] lg:size-[24px] cursor-pointer hover:opacity-70 transition-opacity'>
-                <img
-                  alt='Twitter'
-                  className='block max-w-none size-full'
-                  src={imgBxBxlTwitter}
-                />
-              </div>
-              <div className='size-[20px] lg:size-[24px] cursor-pointer hover:opacity-70 transition-opacity'>
-                <img
-                  alt='Discord'
-                  className='block max-w-none size-full'
-                  src={imgBxBxlDiscord}
-                />
-              </div>
-              <div className='size-[20px] lg:size-[24px] cursor-pointer hover:opacity-70 transition-opacity'>
-                <img
-                  alt='Instagram'
-                  className='block max-w-none size-full'
-                  src={imgBxBxlInstagram}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

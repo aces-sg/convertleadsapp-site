@@ -79,6 +79,7 @@ export default function RootLayout({
 }) {
   return (
     <html
+      lang='en'
       className={`${robotoCondensed.variable} ${dmSans.variable} ${inknutAntiqua.variable}`}
     >
       <body>{children}</body>
