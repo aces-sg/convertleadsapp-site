@@ -10,8 +10,31 @@ import {
 } from 'react-icons/fa';
 import '@/lib/env';
 
+import {
+  generateAggregateRatingSchema,
+  generateOrganizationSchema,
+  generateReviewSchema,
+  generateWebSiteSchema,
+} from '@/lib/schema';
+
+import { CompactFAQSection } from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import { MultipleSchema } from '@/components/Schema';
+
+import {
+  ADDRESS_SINGAPORE,
+  AGGREGATE_RATING,
+  COMPANY_DESCRIPTION,
+  COMPANY_EMAIL,
+  COMPANY_LOGO,
+  COMPANY_NAME,
+  COMPANY_URL,
+  CONTACT_INFO,
+  HOME_FAQS,
+  REVIEWS,
+  SOCIAL_PROFILES,
+} from '@/constant/schema-data';
 
 /* eslint-disable @next/next/no-img-element */
 
@@ -74,9 +97,47 @@ function TestimonialCard() {
 }
 
 export default function HomePage() {
+  // Generate schema markup for homepage
+  const organizationSchema = generateOrganizationSchema({
+    name: COMPANY_NAME,
+    url: COMPANY_URL,
+    logo: COMPANY_LOGO,
+    description: COMPANY_DESCRIPTION,
+    email: COMPANY_EMAIL,
+    telephone: CONTACT_INFO.phoneSingapore,
+    address: ADDRESS_SINGAPORE,
+    sameAs: SOCIAL_PROFILES,
+  });
+
+  const websiteSchema = generateWebSiteSchema({
+    name: COMPANY_NAME,
+    url: COMPANY_URL,
+    description: COMPANY_DESCRIPTION,
+  });
+
+  const aggregateRatingSchema = generateAggregateRatingSchema(
+    AGGREGATE_RATING,
+    { name: COMPANY_NAME, url: COMPANY_URL }
+  );
+
+  const reviewSchemas = REVIEWS.map((review) =>
+    generateReviewSchema(review, { name: COMPANY_NAME, url: COMPANY_URL })
+  );
+
   return (
     <main className='bg-white relative w-full min-h-screen overflow-x-hidden'>
       <Header />
+
+      {/* Schema Markup for SEO */}
+      <MultipleSchema
+        schemas={[
+          organizationSchema,
+          websiteSchema,
+          aggregateRatingSchema,
+          ...reviewSchemas,
+        ]}
+        id='homepage-schema'
+      />
 
       {/* Hero Section */}
       <div className='relative min-h-[700px] sm:min-h-[800px] lg:h-[985px] overflow-hidden'>
@@ -575,6 +636,18 @@ export default function HomePage() {
               Get started
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className='container mx-auto px-4 sm:px-6 lg:px-[100px] pb-16 lg:pb-24'>
+        <div className='max-w-4xl mx-auto'>
+          <CompactFAQSection
+            faqs={HOME_FAQS}
+            title='Quick Answers'
+            includeSchema={true}
+            schemaId='home-faq-schema'
+          />
         </div>
       </section>
 

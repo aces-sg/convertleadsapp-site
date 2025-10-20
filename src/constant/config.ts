@@ -1,7 +1,7 @@
 export const siteConfig = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'ConvertLeadsApp - Free Custom Websites for Small Businesses',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
+    'Get your free professional website built for SEO, conversions, and performance. Custom-coded websites for small businesses with built-in analytics, version control, and continuous optimization.',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+  url: 'https://convertleadsapp.com',
 };

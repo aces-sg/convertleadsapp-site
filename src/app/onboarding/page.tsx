@@ -16,6 +16,10 @@ export default function OnboardingPage() {
 
   const [uploadedImages, setUploadedImages] = React.useState<File[]>([]);
   const [isSubmitting, setIsSubmitting] = React.useState(false);
+  const [submitStatus, setSubmitStatus] = React.useState<{
+    type: 'success' | 'error' | null;
+    message: string;
+  }>({ type: null, message: '' });
 
   const handleInputChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
@@ -41,20 +45,73 @@ export default function OnboardingPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: '' });
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      const message = `
+NEW WEBSITE REQUEST
 
-    console.log('Form submitted:', {
-      ...formData,
-      images: uploadedImages.map((file) => file.name),
-    });
+Business Name: ${formData.businessName}
+Email: ${formData.email}
+Phone: ${formData.phone}
 
-    // Reset form or redirect
-    setIsSubmitting(false);
-    alert(
-      'Thank you! Your information has been submitted. We will contact you within 24 hours.',
-    );
+Business Description:
+${formData.businessDescription}
+
+Products/Services:
+${formData.productsServices}
+
+Company Background:
+${formData.companyBackground}
+
+${uploadedImages.length > 0 ? `Images uploaded: ${uploadedImages.map((f) => f.name).join(', ')}` : 'No images uploaded'}
+      `.trim();
+
+      const response = await fetch(
+        'https://r6b5s2t6ov3hvzomgv7xtirvty0ofruo.lambda-url.us-east-1.on.aws/notify',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            to: 'ivan@convertleadsapp.com',
+            subject: `New Website Request from ${formData.businessName}`,
+            message: message,
+            from: 'noreply@convertleadsapp.com',
+          }),
+        }
+      );
+
+      if (response.ok) {
+        setSubmitStatus({
+          type: 'success',
+          message:
+            'Thank you! Your information has been submitted. We will contact you within 24 hours.',
+        });
+        // Reset form
+        setFormData({
+          businessName: '',
+          businessDescription: '',
+          productsServices: '',
+          companyBackground: '',
+          email: '',
+          phone: '',
+        });
+        setUploadedImages([]);
+      } else {
+        throw new Error('Failed to submit form');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setSubmitStatus({
+        type: 'error',
+        message:
+          'Sorry, there was an error submitting your information. Please try again.',
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -307,6 +364,19 @@ export default function OnboardingPage() {
                 </div>
               )}
             </div>
+
+            {/* Status Message */}
+            {submitStatus.type && (
+              <div
+                className={`p-4 rounded-[16px] ${
+                  submitStatus.type === 'success'
+                    ? 'bg-green-50 text-green-800'
+                    : 'bg-red-50 text-red-800'
+                }`}
+              >
+                <p className='text-center font-medium'>{submitStatus.message}</p>
+              </div>
+            )}
 
             {/* Submit Button */}
             <div className='pt-6'>

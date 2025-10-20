@@ -6,7 +6,24 @@ import '@/styles/globals.css';
 // !STARTERCONF This is for demo purposes, remove @/styles/colors.css import immediately
 import '@/styles/colors.css';
 
+import {
+  generateOrganizationSchema,
+  generateWebSiteSchema,
+} from '@/lib/schema';
+
+import Schema from '@/components/Schema';
+
 import { siteConfig } from '@/constant/config';
+import {
+  ADDRESS_SINGAPORE,
+  COMPANY_DESCRIPTION,
+  COMPANY_EMAIL,
+  COMPANY_LOGO,
+  COMPANY_NAME,
+  COMPANY_URL,
+  CONTACT_INFO,
+  SOCIAL_PROFILES,
+} from '@/constant/schema-data';
 
 // Configure fonts
 const robotoCondensed = Roboto_Condensed({
@@ -77,11 +94,33 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // Generate global schemas for all pages
+  const organizationSchema = generateOrganizationSchema({
+    name: COMPANY_NAME,
+    url: COMPANY_URL,
+    logo: COMPANY_LOGO,
+    description: COMPANY_DESCRIPTION,
+    email: COMPANY_EMAIL,
+    telephone: CONTACT_INFO.phoneSingapore,
+    address: ADDRESS_SINGAPORE,
+    sameAs: SOCIAL_PROFILES,
+  });
+
+  const websiteSchema = generateWebSiteSchema({
+    name: COMPANY_NAME,
+    url: COMPANY_URL,
+    description: COMPANY_DESCRIPTION,
+  });
+
   return (
     <html
       lang='en'
       className={`${robotoCondensed.variable} ${dmSans.variable} ${inknutAntiqua.variable}`}
     >
+      <head>
+        {/* Global Schema Markup */}
+        <Schema data={[organizationSchema, websiteSchema]} id='global-schema' />
+      </head>
       <body>{children}</body>
     </html>
   );

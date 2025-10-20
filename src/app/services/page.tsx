@@ -2,8 +2,23 @@
 
 import React from 'react';
 
+import {
+  generateAggregateRatingSchema,
+  generateServiceSchema,
+} from '@/lib/schema';
+
+import { CompactFAQSection } from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import { MultipleSchema } from '@/components/Schema';
+
+import {
+  AGGREGATE_RATING,
+  COMPANY_NAME,
+  COMPANY_URL,
+  SERVICES,
+  SERVICES_FAQS,
+} from '@/constant/schema-data';
 
 // Image URLs from Unsplash - Web development & Asian professionals
 const imgHeroPhoto = '/images/webdev-landing.webp';
@@ -13,6 +28,64 @@ const imgConsultantPhoto =
 
 export default function ServicesPage() {
   const [currentTestimonial, setCurrentTestimonial] = React.useState(0);
+  const [email, setEmail] = React.useState('');
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
+  const [submitStatus, setSubmitStatus] = React.useState<{
+    type: 'success' | 'error' | null;
+    message: string;
+  }>({ type: null, message: '' });
+
+  // Generate schema markup for services page
+  const serviceSchemas = SERVICES.map((service) =>
+    generateServiceSchema(service)
+  );
+
+  const aggregateRatingSchema = generateAggregateRatingSchema(
+    AGGREGATE_RATING,
+    { name: COMPANY_NAME, url: COMPANY_URL }
+  );
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: '' });
+
+    try {
+      const response = await fetch(
+        'https://r6b5s2t6ov3hvzomgv7xtirvty0ofruo.lambda-url.us-east-1.on.aws/notify',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            to: 'ivan@convertleadsapp.com',
+            subject: 'New Newsletter Subscription',
+            message: `New subscription request from: ${email}`,
+            from: 'noreply@convertleadsapp.com',
+          }),
+        }
+      );
+
+      if (response.ok) {
+        setSubmitStatus({
+          type: 'success',
+          message: 'Thank you for subscribing!',
+        });
+        setEmail('');
+      } else {
+        throw new Error('Failed to subscribe');
+      }
+    } catch (error) {
+      console.error('Subscription error:', error);
+      setSubmitStatus({
+        type: 'error',
+        message: 'Sorry, there was an error. Please try again.',
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   const services = [
     {
@@ -67,6 +140,12 @@ export default function ServicesPage() {
   return (
     <div className='min-h-screen bg-white'>
       <Header />
+
+      {/* Schema Markup for SEO */}
+      <MultipleSchema
+        schemas={[...serviceSchemas, aggregateRatingSchema]}
+        id='services-schema'
+      />
 
       {/* Hero Section */}
       <section className='pt-[120px] pb-12 lg:pb-0 px-4 sm:px-6 lg:px-[100px] overflow-hidden'>
@@ -283,16 +362,48 @@ export default function ServicesPage() {
           <p className='text-[16px] lg:text-[18px] text-[#5b5a78] leading-[1.6] tracking-[-0.54px] mb-8 lg:mb-12'>
             Important update only, we promise.
           </p>
-          <div className='relative max-w-[509px] mx-auto'>
-            <input
-              type='email'
-              placeholder='Your email'
-              className='w-full h-[60px] lg:h-[70px] px-6 pr-[150px] lg:pr-[160px] rounded-[64px] border border-white bg-[#f2f2f2] text-[16px] lg:text-[18px] text-[#1c1c37] placeholder:text-[#1c1c37] placeholder:opacity-50 focus:outline-none focus:ring-2 focus:ring-[#ffc000]'
-            />
-            <button className='absolute right-1 top-1 bottom-1 bg-[#ffc000] text-white font-bold text-[16px] lg:text-[18px] px-6 lg:px-7 rounded-[64px] hover:bg-[#e6ad00] transition-colors tracking-[-0.54px]'>
-              Subscribe
-            </button>
-          </div>
+          <form onSubmit={handleSubscribe} className='max-w-[509px] mx-auto'>
+            <div className='relative'>
+              <input
+                type='email'
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder='Your email'
+                required
+                className='w-full h-[60px] lg:h-[70px] px-6 pr-[150px] lg:pr-[160px] rounded-[64px] border border-white bg-[#f2f2f2] text-[16px] lg:text-[18px] text-[#1c1c37] placeholder:text-[#1c1c37] placeholder:opacity-50 focus:outline-none focus:ring-2 focus:ring-[#ffc000]'
+              />
+              <button
+                type='submit'
+                disabled={isSubmitting}
+                className='absolute right-1 top-1 bottom-1 bg-[#ffc000] text-white font-bold text-[16px] lg:text-[18px] px-6 lg:px-7 rounded-[64px] hover:bg-[#e6ad00] transition-colors tracking-[-0.54px] disabled:opacity-50 disabled:cursor-not-allowed'
+              >
+                {isSubmitting ? 'Subscribing...' : 'Subscribe'}
+              </button>
+            </div>
+            {submitStatus.type && (
+              <div
+                className={`mt-4 p-4 rounded-[16px] ${
+                  submitStatus.type === 'success'
+                    ? 'bg-green-50 text-green-800'
+                    : 'bg-red-50 text-red-800'
+                }`}
+              >
+                <p className='text-[16px] font-medium'>{submitStatus.message}</p>
+              </div>
+            )}
+          </form>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className='px-4 sm:px-6 lg:px-[100px] pb-16 lg:pb-24'>
+        <div className='max-w-4xl mx-auto'>
+          <CompactFAQSection
+            faqs={SERVICES_FAQS}
+            title='Services FAQs'
+            includeSchema={true}
+            schemaId='services-faq-schema'
+          />
         </div>
       </section>
 

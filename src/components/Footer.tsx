@@ -37,6 +37,12 @@ export default function Footer() {
               Pricing
             </Link>
             <Link
+              href='/faq'
+              className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px] hover:text-[#ffc000] transition-colors'
+            >
+              FAQ
+            </Link>
+            <Link
               href='/contact'
               className='font-normal leading-[1.6] text-[#5b5a78] text-sm lg:text-[14px] tracking-[-0.42px] hover:text-[#ffc000] transition-colors'
             >

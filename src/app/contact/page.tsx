@@ -3,8 +3,22 @@
 import Link from 'next/link';
 import React from 'react';
 
+import {
+  generateLocalBusinessSchema,
+  generatePersonSchema,
+} from '@/lib/schema';
+
+import { CompactFAQSection } from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import { MultipleSchema } from '@/components/Schema';
+
+import {
+  CONTACT_FAQS,
+  OFFICE_SINGAPORE,
+  OFFICE_USA,
+  TEAM_MEMBERS,
+} from '@/constant/schema-data';
 
 export default function ContactPage() {
   const [formData, setFormData] = React.useState({
@@ -12,10 +26,59 @@ export default function ContactPage() {
     email: '',
     message: '',
   });
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
+  const [submitStatus, setSubmitStatus] = React.useState<{
+    type: 'success' | 'error' | null;
+    message: string;
+  }>({ type: null, message: '' });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  // Generate schema markup for contact page
+  const usaOfficeSchema = generateLocalBusinessSchema(OFFICE_USA);
+  const singaporeOfficeSchema = generateLocalBusinessSchema(OFFICE_SINGAPORE);
+  const personSchemas = TEAM_MEMBERS.map((person) =>
+    generatePersonSchema(person)
+  );
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: '' });
+
+    try {
+      const response = await fetch(
+        'https://r6b5s2t6ov3hvzomgv7xtirvty0ofruo.lambda-url.us-east-1.on.aws/notify',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            to: 'ivan@convertleadsapp.com',
+            subject: `Contact Form Submission from ${formData.name}`,
+            message: `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
+            from: 'noreply@convertleadsapp.com',
+          }),
+        }
+      );
+
+      if (response.ok) {
+        setSubmitStatus({
+          type: 'success',
+          message: 'Thank you! Your message has been sent successfully.',
+        });
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        throw new Error('Failed to send message');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setSubmitStatus({
+        type: 'error',
+        message: 'Sorry, there was an error sending your message. Please try again.',
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const offices = [
@@ -32,6 +95,12 @@ export default function ContactPage() {
   return (
     <div className='min-h-screen bg-white'>
       <Header />
+
+      {/* Schema Markup for SEO */}
+      <MultipleSchema
+        schemas={[usaOfficeSchema, singaporeOfficeSchema, ...personSchemas]}
+        id='contact-schema'
+      />
 
       {/* Contact Hero Section */}
       <section className='pt-[120px] pb-12 lg:pb-20 px-4 sm:px-6 lg:px-[165px]'>
@@ -147,12 +216,12 @@ export default function ContactPage() {
                       US hotline
                     </p>
                     <Link
-                      href='https://wa.me/15558917339'
+                      href='https://wa.me/15558415688'
                       target='_blank'
                       rel='noopener noreferrer'
                       className='text-[16px] lg:text-[18px] text-[#5b5a78] leading-[1.6] tracking-[-0.54px] hover:text-[#ffc000] transition-colors'
                     >
-                      +1 (555) 891-7339
+                      +1 (555) 841-5688
                     </Link>
                   </div>
                 </div>
@@ -217,13 +286,29 @@ export default function ContactPage() {
                 </div>
               </div>
 
+              {/* Status Message */}
+              {submitStatus.type && (
+                <div
+                  className={`p-4 rounded-[16px] ${
+                    submitStatus.type === 'success'
+                      ? 'bg-green-50 text-green-800'
+                      : 'bg-red-50 text-red-800'
+                  }`}
+                >
+                  <p className='text-[16px] lg:text-[18px] font-medium'>
+                    {submitStatus.message}
+                  </p>
+                </div>
+              )}
+
               {/* Submit Button */}
               <div className='relative'>
                 <button
                   type='submit'
-                  className='bg-[#ffc000] text-white font-bold text-[16px] lg:text-[18px] px-6 py-4 rounded-[32px] hover:bg-[#e6ad00] transition-colors tracking-[-0.54px]'
+                  disabled={isSubmitting}
+                  className='bg-[#ffc000] text-white font-bold text-[16px] lg:text-[18px] px-6 py-4 rounded-[32px] hover:bg-[#e6ad00] transition-colors tracking-[-0.54px] disabled:opacity-50 disabled:cursor-not-allowed'
                 >
-                  Send Message
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
                 </button>
                 <div className='absolute -bottom-8 left-24 lg:left-32 w-[70px] h-[70px] lg:w-[85px] lg:h-[85px] bg-[#ffc000] rounded-[20px] lg:rounded-[30px] -z-10' />
               </div>
@@ -362,6 +447,18 @@ export default function ContactPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className='px-4 sm:px-6 lg:px-[165px] pb-16 lg:pb-24'>
+        <div className='max-w-4xl mx-auto'>
+          <CompactFAQSection
+            faqs={CONTACT_FAQS}
+            title='Contact FAQs'
+            includeSchema={true}
+            schemaId='contact-faq-schema'
+          />
         </div>
       </section>
 

@@ -25,7 +25,7 @@ export default function Header() {
               href='/'
               className='font-bold leading-[normal] not-italic text-[14px] text-[#1c1c37] tracking-[-0.42px] hover:text-[#ffc000] transition-colors'
             >
-              Products
+              Home
             </Link>
             <Link
               href='/services'
@@ -42,6 +42,12 @@ export default function Header() {
               }`}
             >
               Pricing
+            </Link>
+            <Link
+              href='/faq'
+              className='font-bold leading-[normal] not-italic text-[14px] text-[#1c1c37] tracking-[-0.42px] hover:text-[#ffc000] transition-colors'
+            >
+              FAQ
             </Link>
             <Link
               href='/contact'
@@ -108,7 +114,7 @@ export default function Header() {
                 className='font-bold text-[14px] text-[#1c1c37] tracking-[-0.42px] hover:text-[#ffc000] transition-colors'
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Products
+                Home
               </Link>
               <Link
                 href='/services'
@@ -123,6 +129,13 @@ export default function Header() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Pricing
+              </Link>
+              <Link
+                href='/faq'
+                className='font-bold text-[14px] text-[#1c1c37] tracking-[-0.42px] hover:text-[#ffc000] transition-colors'
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                FAQ
               </Link>
               <Link
                 href='/contact'
