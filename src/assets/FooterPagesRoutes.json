@@ -1,0 +1,39 @@
+{
+  "routes" : [
+      {
+          "name": "About Us",
+          "path": "/about",
+          "layout": "/user"
+      },
+      {
+        "name": "Contact Us",
+        "path": "https://form.jotform.com/240107241234441",
+        "layout": "/user"
+    },
+    {
+        "name": "Privacy Policy",
+        "path": "/privacyPolicy",
+        "layout": "/user"
+    },
+    {
+        "name": "Terms & conditions",
+        "path": "/terms&conditions",
+        "layout": "/user"
+    }
+
+], 
+"faqs": [
+    {
+        "name": "JobSeekers",
+        "path": "/faqs/jobseekers",
+        "layout": "/user"
+    },
+    {
+        "name": "Employers",
+        "path": "/faqs/employers",
+        "layout": "/user"
+    }
+   
+]
+}
+

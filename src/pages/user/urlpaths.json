@@ -1,0 +1,6 @@
+{
+  "confirm": "/user/confirmSignup",
+  "login": "/user/login",
+  "forgotPassword": "/user/forgotPassword",
+  "resetPassword": "/user/resetPassword"
+}

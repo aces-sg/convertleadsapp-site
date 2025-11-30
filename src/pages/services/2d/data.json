@@ -1,0 +1,34 @@
+{
+  "faq": [
+    {
+      "id": "cad-revision",
+      "question": "Will you revise the drawings if there are changes?",
+      "answer": "Yes, we provide timely revisions based on your updated design inputs throughout the project."
+    },
+    {
+      "id": "cad-compliance",
+      "question": "Are your drafters familiar with local submission codes?",
+      "answer": "Yes. We assign drafters experienced with URA, BCA, and SCDF requirements to ensure compliance."
+    },
+    {
+      "id": 3,
+      "question": "Can you follow our CAD standards and templates?",
+      "answer": "Absolutely. Share your templates, title blocks, and layering conventions at project start, and we’ll align accordingly."
+    },
+    {
+      "id": 4,
+      "question": "What types of inputs and software do you support?",
+      "answer": "We work with hand sketches, PDFs, and CAD files using AutoCAD, MicroStation, and other major platforms."
+    },
+    {
+      "id": "unlimited-revisions",
+      "question": "Do you offer fast turnaround and quality assurance?",
+      "answer": "Yes. We accommodate urgent requests where possible and follow a QA/QC process to ensure accuracy and consistency."
+    },
+    {
+      "id": "",
+      "question": "What type of CAD drawings can you create?",
+      "answer": "Whether you are a civil contractor or piping consultant, our team can created detailed CAD drawings for you"
+    }
+  ]
+}

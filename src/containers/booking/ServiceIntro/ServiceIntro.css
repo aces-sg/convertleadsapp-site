@@ -1,0 +1,22 @@
+.booking-service-intro {
+  position: relative;
+  min-height: 125px;
+  background-color: #fff;
+  border-top: 2px solid #f5f4f3;
+  padding: 16px;
+  color: #222;
+}
+
+.booking-service-intro-heading {
+  margin: 12px 0px;
+}
+
+.intro-row {
+  display: flex;
+  margin: 8px;
+}
+.intro-row svg {
+  stroke: #008000;
+  margin-right: 12px;
+  margin-top: 3px;
+}

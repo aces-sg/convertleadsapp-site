@@ -1,0 +1,214 @@
+{
+  "documents": [
+    {
+      "name": "Alumni Retention Form",
+      "url": "https://acegroupwebcdn.blob.core.windows.net/acegroups3cdn/inet/docs/employee/Absence_Notification_Form.pdf"
+    },
+    {
+      "name": "Absence Notification Form",
+      "url": "https://acegroupwebcdn.blob.core.windows.net/acegroups3cdn/inet/docs/employee/Absence_Notification_Form.pdf"
+    },
+    {
+      "name": "Onsite Evaluation Form",
+      "url": "https://acegroupwebcdn.blob.core.windows.net/acegroups3cdn/inet/docs/employee/Onsite_Evaluation_Form.docx"
+    },
+    {
+      "name": "Personal Info Update",
+      "url": "https://acegroupwebcdn.blob.core.windows.net/acegroups3cdn/inet/docs/employee/Personal_Information_Update.doc"
+    },
+    {
+      "name": "Reimbursement Form",
+      "url": "https://acegroupwebcdn.blob.core.windows.net/acegroups3cdn/inet/docs/employee/Reimbursement Form.xlsx"
+    },
+    {
+      "name": "Timesheet Form",
+      "url": "https://acegroupwebcdn.blob.core.windows.net/acegroups3cdn/inet/docs/employee/Timesheet_Form.xls"
+    },
+    {
+      "name": "Overtime Claim Form",
+      "url": "https://acegroupwebcdn.blob.core.windows.net/acegroups3cdn/inet/docs/employee/Overtime_Claim_Form.xlsx"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "1284cbd6-d3d9-4117-8f57-e6306f7dc3b3",
+      "name": "a2",
+      "discipline": "[mep]",
+      "software": "[microstation]",
+      "position": "CAD Drafter",
+      "qualification": null,
+      "contractPrice": 33333,
+      "workArrangement": "5.5 days/week",
+      "clientType": "Sub-con",
+      "location": "South",
+      "projectType": null,
+      "openDate": "2021-12-01",
+      "closeDate": null,
+      "expectedClose": "2021-12-22",
+      "vacancies": 3,
+      "active": true,
+      "createdBy": "ivan tang",
+      "notes": "3",
+      "users": {
+        "nextToken": null
+      },
+      "createdAt": "2021-12-13T06:21:28.451Z",
+      "updatedAt": "2021-12-13T06:21:28.451Z"
+    },
+    {
+      "id": "ceabd525-822d-43f6-83c3-f0890b808e13",
+      "name": "test3",
+      "discipline": "[mep]",
+      "software": "[tes]",
+      "position": "BIM Coordinator",
+      "qualification": null,
+      "contractPrice": 44,
+      "workArrangement": "5.5 days/week",
+      "clientType": "Consultant",
+      "location": "East",
+      "projectType": null,
+      "openDate": "2021-12-02",
+      "closeDate": null,
+      "expectedClose": "2021-12-10",
+      "vacancies": 34,
+      "active": true,
+      "createdBy": "ivan",
+      "notes": "4",
+      "users": {
+        "nextToken": null
+      },
+      "createdAt": "2021-12-21T08:02:03.550Z",
+      "updatedAt": "2021-12-21T08:02:03.550Z"
+    },
+    {
+      "id": "93b98b65-95a9-4cfb-a2a6-a586b992234b",
+      "name": "a1",
+      "discipline": "[structure]",
+      "software": "[revit]",
+      "position": "BIM Coordinator",
+      "qualification": null,
+      "contractPrice": 33333,
+      "workArrangement": "5 days/week",
+      "clientType": "Sub-con",
+      "location": "South",
+      "projectType": null,
+      "openDate": "2021-12-01",
+      "closeDate": null,
+      "expectedClose": "2021-12-15",
+      "vacancies": 3,
+      "active": true,
+      "createdBy": "ivan tang",
+      "notes": "3",
+      "users": {
+        "nextToken": null
+      },
+      "createdAt": "2021-12-13T06:21:10.462Z",
+      "updatedAt": "2021-12-13T06:21:10.462Z"
+    },
+    {
+      "id": "d0ad27a2-0c6f-4bee-9d7a-dbe4275a610e",
+      "name": "test4",
+      "discipline": "[mep]",
+      "software": "[microstation]",
+      "position": "BIM Coordinator",
+      "qualification": null,
+      "contractPrice": 44,
+      "workArrangement": "5.5 days/week",
+      "clientType": "Sub-con",
+      "location": "South",
+      "projectType": null,
+      "openDate": "2021-12-02",
+      "closeDate": null,
+      "expectedClose": "2021-12-08",
+      "vacancies": 3,
+      "active": true,
+      "createdBy": "ivan",
+      "notes": "3",
+      "users": {
+        "nextToken": null
+      },
+      "createdAt": "2021-12-21T08:02:29.477Z",
+      "updatedAt": "2021-12-21T08:02:29.477Z"
+    },
+    {
+      "id": "270de29f-4cef-4e73-a0fe-0e6ae2828417",
+      "name": "Test-1",
+      "discipline": "[structure]",
+      "software": "[revit]",
+      "position": "BIM Coordinator",
+      "qualification": null,
+      "contractPrice": 44,
+      "workArrangement": "Alternate Saturdays",
+      "clientType": "Sub-con",
+      "location": "East",
+      "projectType": null,
+      "openDate": "2021-12-11",
+      "closeDate": null,
+      "expectedClose": "2021-12-07",
+      "vacancies": 4,
+      "active": true,
+      "createdBy": "ivan",
+      "notes": "4",
+      "users": {
+        "nextToken": null
+      },
+      "createdAt": "2021-12-21T07:52:42.155Z",
+      "updatedAt": "2021-12-21T07:52:42.155Z"
+    },
+    {
+      "id": "1284cbd6-d3d9-4117-8f57-e6306f7dc3b3",
+      "name": "a2",
+      "discipline": "[mep]",
+      "software": "[microstation]",
+      "position": "CAD Drafter",
+      "qualification": null,
+      "contractPrice": 33333,
+      "workArrangement": "5.5 days/week",
+      "clientType": "Sub-con",
+      "location": "South",
+      "projectType": null,
+      "openDate": "2021-12-01",
+      "closeDate": null,
+      "expectedClose": "2021-12-22",
+      "vacancies": 3,
+      "active": true,
+      "createdBy": "ivan tang",
+      "notes": "3",
+      "users": {
+        "nextToken": null
+      },
+      "createdAt": "2021-12-13T06:21:28.451Z",
+      "updatedAt": "2021-12-13T06:21:28.451Z"
+    }
+  ],
+  "week": [
+    {
+      "date": "17",
+      "day": "Sun"
+    },
+    {
+      "date": "18",
+      "day": "Mon"
+    },
+    {
+      "date":"19" ,
+      "day": "Tues"
+    },
+    {
+      "date": "20",
+      "day": "Wed"
+    },
+    {
+      "date": "21",
+      "day": "Thurs" 
+    },
+    {
+      "date": "22",
+      "day":  "Fri"
+    },
+    {
+      "date": "23",
+      "day":  "Sat"
+    }
+  ]
+}

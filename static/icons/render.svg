@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 64 80"
+   x="0px"
+   y="0px"
+   version="1.1"
+   id="svg28"
+   sodipodi:docname="noun-3d-render-2343374.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs32" />
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="10.55"
+     inkscape:cx="32.037915"
+     inkscape:cy="60.094787"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28" />
+  <title
+     id="title2">3d-render-architecture-computer-construction</title>
+  <g
+     id="g22">
+    <path
+       d="M54,42V6a2,2,0,0,0-2-2H12a2,2,0,0,0-2,2V44H54ZM20,6h2V8H20ZM12,6h2V8H12Zm4,36H13a1,1,0,0,1-1-1V38h2v2h2Zm0-30H14v2H12V11a1,1,0,0,1,1-1h3Zm0-6h2V8H16ZM47,34a1,1,0,0,1-.553.9l-12,6c-.016.008-.035,0-.051.012A1,1,0,0,1,34,41a1.012,1.012,0,0,1-.316-.057c-.011,0-.024,0-.035-.006l-16-6A1,1,0,0,1,17,34V22a1,1,0,0,1,.553-.895l8-4,12-6a1,1,0,0,1,1.228.27l8,10c.008.011.009.025.017.035a1.014,1.014,0,0,1,.172.354c0,.011,0,.023,0,.034A.972.972,0,0,1,47,22Zm5,7a1,1,0,0,1-1,1H48V40h2V38h2Zm0-27H50V12H48V10h3a1,1,0,0,1,1,1Z"
+       id="path4" />
+    <polygon
+       points="24.042 35.141 26.042 35.891 26.042 30.026 24.042 29.276 24.042 35.141"
+       id="polygon6" />
+    <polygon
+       points="37.724 13.256 27.554 18.341 34.276 26.744 44.446 21.659 37.724 13.256"
+       id="polygon8" />
+    <path
+       d="M19,22.618V33.307l3.042,1.141V27.833a1,1,0,0,1,1.351-.936l4,1.5a1,1,0,0,1,.649.936V36.7L33,38.557V28.351l-7.276-9.095Z"
+       id="path10" />
+    <polygon
+       points="35 38.382 45 33.382 45 23.618 35 28.618 35 38.382"
+       id="polygon12" />
+    <polygon
+       points="36.256 52 27.744 52 25.344 60 22 60 22 62 42 62 42 60 38.656 60 36.256 52"
+       id="polygon14" />
+    <path
+       d="M4,48a2,2,0,0,0,2,2H58a2,2,0,0,0,2-2V46H4Z"
+       id="path16" />
+    <path
+       d="M58,12H56V44h4V14A2,2,0,0,0,58,12Z"
+       id="path18" />
+    <path
+       d="M8,42V12H6a2,2,0,0,0-2,2V44H8Z"
+       id="path20" />
+  </g>
+</svg>

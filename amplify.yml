@@ -1,0 +1,20 @@
+version: 1
+backend:
+  phases:
+    build:
+      commands:
+        - '# No build is run'
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - nvm use $VERSION_NODE_22
+        - yarn install
+    build:
+      commands:
+        - nvm use $VERSION_NODE_22
+        - yarn run build
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'

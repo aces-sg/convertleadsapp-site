@@ -1,0 +1,202 @@
+{
+  "tables": [
+    {
+      "header": ["Included Items", "Per Submission", "Project-based"],
+      "groups": [
+        {
+          "head": [],
+          "body": []
+        },
+        {
+          "head": [
+            {
+              "type": "string",
+              "content": "Software"
+            },
+            {
+              "type": "image",
+              "content": ""
+            },
+            {
+              "type": "image",
+              "content": ""
+            }
+          ],
+          "body": [
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "Design Software"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "Tap on our pool of BIM licences (i.e. Revit, OpenBuildings, Archicad) to create 3D models and 2D drawings"
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "Common Data Environment"
+                },
+                {
+                  "type": "shape",
+                  "content": ""
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "Access BIM Document Management Systems like BIM Collaborate Pro (Autodesk), ProjectWise (Bentley), and Trimble Connect"
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "Analytical Workflows"
+                },
+                {
+                  "type": "shape",
+                  "content": ""
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "Run Clash Detection, 4D Simulation, and 5D Quantity Takeoff reports with us"
+            }
+          ]
+        },
+        {
+          "head": [
+            {
+              "type": "string",
+              "content": "BIM Workflows"
+            },
+            {
+              "type": "image",
+              "content": ""
+            },
+            {
+              "type": "image",
+              "content": ""
+            }
+          ],
+          "body": [
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "BIM Execution Plan"
+                },
+                {
+                  "type": "shape",
+                  "content": ""
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "We develop a custom BIM Execution Plan for your project"
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "BIM Model Submission"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "We develop and maintain a catalog of BIM models for your firm"
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "4D Simulation & Planning"
+                },
+                {
+                  "type": "shape",
+                  "content": ""
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "Combine project schedules with BIM models for comprehensive site planning"
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "5D Cost & Quantity Takeoff"
+                },
+                {
+                  "type": "shape",
+                  "content": ""
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "Integrate cost data into the BIM model for quantity takeoffs and project management"
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "6D BIM Model"
+                },
+                {
+                  "type": "shape",
+                  "content": ""
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "A federated BIM model containing all Architectural, Structural, and MEP elements for project handover & facility management"
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "Scan to BIM"
+                },
+                {
+                  "type": "shape",
+                  "content": ""
+                },
+                {
+                  "type": "string",
+                  "content": "On Request"
+                }
+              ],
+              "subcontent": "Federate existing assets into BIM models with drone photogrammetry & LIDAR - ideal for A&A works"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

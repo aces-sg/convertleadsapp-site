@@ -1,0 +1,509 @@
+#price_estimation .wrapper {
+  text-align: center;
+  display: block !important;
+}
+
+#price_estimation .wrapper .question_header {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 12px;
+}
+
+#price_estimation .wrapper .question_header h2 {
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 48px;
+  color: #000;
+}
+
+#price_estimation .wrapper .question_header h5 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 12.5px;
+  color: #000;
+}
+
+.questionnaire-answers,
+.questionnaire-nav {
+  margin: 0px 0px 24px;
+}
+
+.questionnaire-answers .answers-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+.questionnaire-answers .answers-row .questionnaire-answer-wrapper {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-top: 20px;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.col-5 {
+  width: 20%;
+}
+
+.col-6 {
+  width: 16%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-full {
+  width: 100% !important;
+}
+
+.questionnaire-answers.icon-select .questionnaire-answer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 23px 10.5px;
+  text-align: center;
+  box-shadow: none;
+}
+
+.questionnaire-answers .questionnaire-answer {
+  background: #e3e4e6;
+  border: 2px solid #e3e4e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  outline-color: #f9d905;
+  transition: all 0.125s linear;
+}
+
+.questionnaire-answers.icon-select
+  .questionnaire-answer.multi-select {
+  padding: 12px 10.5px;
+}
+
+.questionnaire-answers .questionnaire-answer.active {
+  background: #fff;
+  border-color: #f9d905;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.13);
+}
+
+.questionnaire-answers
+  .questionnaire-answer
+  .questionnaire-answer-icon {
+  margin-bottom: 10px;
+  max-height: 50px;
+}
+
+.questionnaire-answers.icon-select
+  .questionnaire-answer
+  .questionnaire-answer-text {
+  color: #000;
+  margin-bottom: 0px;
+}
+
+#price_estimation
+  .questionnaire-answers
+  .questionnaire-answer
+  .questionnaire-answer-currency {
+  color: #f9d905;
+  font-size: 24px;
+}
+
+#price_estimation .disclaimer {
+  color: #a3a4a6;
+  font-size: 12px;
+  text-align: center;
+}
+
+#price_estimation .small-text {
+  display: block;
+  margin: 0px;
+  color: #555;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.questionnaire-nav {
+  flex-direction: row !important;
+  justify-content: center;
+}
+
+.btn {
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.42s ease;
+}
+
+.btn-submit {
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.42s ease;
+}
+
+.btn.btn-fill-orange,
+.btn.btn-orange,
+.btn.orange {
+  background-color: #f9d905;
+  border-color: #f9d905;
+  color: #000;
+}
+
+.btn.btn-fill-grey,
+.btn.btn-grey,
+.btn.grey {
+  background-color: #f4f5f6;
+  border-color: #f4f5f6;
+  color: #000;
+}
+
+.btn.btn-fill-grey:hover,
+.btn.btn-grey:hover,
+.btn.grey:hover {
+  background-color: #e3e4e6;
+}
+
+.btn.disabled,
+.btn.disabled:focus,
+.btn.disabled:hover {
+  cursor: default;
+  opacity: 0.3;
+}
+
+#price_estimation .btn {
+  /* margin: 0 auto; */
+  padding: 10px 22px;
+  border-radius: 4px;
+  width: 120px;
+}
+
+#price_estimation .questionnaire-nav .btn:first-child {
+  margin-left: 0px;
+}
+
+#price_estimation .questionnaire-nav .btn:last-child {
+  margin-right: 0px;
+}
+
+#price_estimation .contact_form {
+  flex-direction: column;
+  max-width: 600px;
+  text-align: left;
+  margin: 0px 32px;
+  padding: 32px;
+  border: 1px solid #e3e4e6;
+  border-radius: 4px;
+}
+
+#price_estimation .contact_form .btn {
+  margin: 0;
+  text-align: center;
+}
+
+#price_estimation .field_row {
+  margin-bottom: 24px;
+}
+
+#price_estimation label {
+  color: #232729;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 4px;
+  width: 100% !important;
+}
+
+#price_estimation .msg-error {
+  color: #e61920;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 4px;
+}
+
+#price_estimation input:focus,
+#price_estimation textarea:focus {
+  background: #fff;
+  border-color: #2066df;
+  box-shadow: 0 0 0 2px #e4edfb;
+}
+
+#price_estimation input,
+#price_estimation textarea {
+  background-color: #fff;
+  border: 1px solid #e3e4e6;
+  border-radius: 4px;
+  color: #232729;
+  display: block;
+  font-weight: 400;
+  line-height: 20px;
+  outline: none;
+  padding: 6px 12px 8px;
+  font-size: 14px;
+  /* width: 100% !important; */
+}
+
+#price_estimation input.error {
+  background: #fef6f6;
+  border-color: #f9d905;
+}
+
+#price_estimation textarea.error {
+  background: #fef6f6;
+  border-color: #f9d905;
+}
+
+#price_estimation .checked_container label {
+  color: #555555;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+#price_estimation .prc-container-wide {
+  max-width: 1680px;
+  --prc-gutter-x: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc(var(--prc-gutter-x) / 2);
+  padding-right: calc(var(--prc-gutter-x) / 2);
+  width: 100%;
+}
+
+#price_estimation .card-deck {
+  align-items: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  justify-content: center;
+  width: 100%;
+  text-align: left;
+}
+
+#price_estimation .prc-container-wide .prc-row {
+  --prc-gutter-x: 50px;
+  --prc-gutter-y: 0;
+  display: grid;
+  flex-wrap: wrap;
+  /* margin-left: calc(var(--prc-gutter-x)/-2);
+  margin-right: calc(var(--prc-gutter-x)/-2); */
+  margin-top: calc(var(--prc-gutter-y) * -1);
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+#price_estimation .prc-container-wide .prc-row > div {
+  margin: 0 12px;
+}
+
+#price_estimation .card-deck .card {
+  border-bottom: transparent;
+  color: #000;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 25px;
+  outline: none;
+  position: relative;
+  visibility: visible;
+  width: 100%;
+  z-index: 5;
+  text-decoration: none;
+}
+
+#price_estimation .card-deck .card .hover {
+  border-radius: 4px;
+  height: calc(100% + 52.5px);
+  left: 0;
+  opacity: 0;
+  outline: none;
+  position: absolute;
+  top: 0;
+  transition: all 0.42s ease;
+  visibility: hidden;
+  width: 100%;
+  z-index: 0;
+}
+
+#price_estimation .card-deck .card .head {
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  border-radius: 4px;
+  margin-bottom: 12.5px;
+  padding-top: 56.25%;
+  position: relative;
+  transform-origin: 50% 100%;
+  transition: all 0.42s ease;
+}
+
+#price_estimation .card-deck .card .body {
+  position: relative;
+  transition: all 0.42s ease;
+  z-index: 0;
+}
+
+#price_estimation .card-deck .card .body .headline {
+  align-items: flex-start;
+  display: flex;
+}
+
+#price_estimation .card-deck .card .body .headline h4 {
+  margin-bottom: 12.5px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+#price_estimation .card-deck .card .body .subline {
+  color: #555;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: 12.5px;
+}
+
+#price_estimation .card-deck .card .body p {
+  color: #555;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin: 0 0 12.5px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: all 0.42s ease;
+  width: 100%;
+}
+
+#price_estimation .card-deck .card:focus,
+#price_estimation .card-deck .card:hover {
+  z-index: 6;
+}
+
+#price_estimation .card-deck .card:focus .hover,
+#price_estimation .card-deck .card:hover .hover {
+  background-color: #fff;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.13);
+  height: calc(100% + 6.25px);
+  opacity: 1;
+  outline: none;
+  transform: scaleX(1.1);
+  visibility: visible;
+  z-index: -1;
+}
+
+#price_estimation .card-deck .card:focus .head,
+#price_estimation .card-deck .card:hover .head {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  transform: scale(1.1);
+}
+
+#price_estimation .card-deck .card:focus .body .headline .fal,
+#price_estimation .card-deck .card:hover .body .headline .fal {
+  color: #f9d905;
+}
+
+#price_estimation .card-deck .card:focus .body p,
+#price_estimation .card-deck .card:hover .body p {
+  color: #555;
+  opacity: 1;
+}
+
+#price_estimation .card-deck .card:focus .body p:before,
+#price_estimation .card-deck .card:hover .body p:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 990px) {
+  #price_estimation .prc-container-wide .prc-row {
+    --prc-gutter-x: 30px;
+    grid-template-columns: 46% 46%;
+  }
+
+  #price_estimation .card-deck .card .hover {
+    height: calc(100% + 52.5px);
+  }
+
+  #price_estimation .card-deck .card .body .headline h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #price_estimation .prc-container-wide {
+    width: 100%;
+    --prc-gutter-x: 30px;
+  }
+
+  #price_estimation .prc-container-wide .prc-row {
+    --prc-gutter-x: 30px;
+    grid-template-columns: 100%;
+  }
+
+  #price_estimation .card-deck .card .hover {
+    height: calc(100% + 12.5px);
+  }
+
+  #price_estimation .card-deck .card:focus .body p,
+  #price_estimation .card-deck .card:focus .hover,
+  #price_estimation .card-deck .card:hover .body p,
+  #price_estimation .card-deck .card:hover .hover {
+    display: none;
+  }
+
+  #price_estimation .card-deck .card:focus .head,
+  #price_estimation .card-deck .card:focus .hover,
+  #price_estimation .card-deck .card:hover .head,
+  #price_estimation .card-deck .card:hover .hover {
+    transform: unset;
+  }
+
+  #price_estimation .contact_form {
+    margin: 0px;
+  }
+}

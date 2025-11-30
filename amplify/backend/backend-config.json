@@ -1,0 +1,351 @@
+{
+  "api": {
+    "bim": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "auth": {
+    "bim11d6741b": {
+      "customAuth": false,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Arn",
+            "Name"
+          ],
+          "category": "function",
+          "resourceName": "bim11d6741bPostConfirmation",
+          "triggerProvider": "Cognito"
+        }
+      ],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "bim11d6741bPostConfirmation": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "StreamArn"
+          ],
+          "category": "storage",
+          "resourceName": "Userjfplwny5vvewtpn7f3utjsemp4production"
+        },
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "bim11d6741b"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bimformsubmission": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "hosting": {},
+  "parameters": {
+    "AMPLIFY_function_bim11d6741bPostConfirmation_GROUP": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bim11d6741bPostConfirmation"
+        }
+      ]
+    },
+    "AMPLIFY_function_bim11d6741bPostConfirmation_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bim11d6741bPostConfirmation"
+        }
+      ]
+    },
+    "AMPLIFY_function_bim11d6741bPostConfirmation_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bim11d6741bPostConfirmation"
+        }
+      ]
+    },
+    "AMPLIFY_function_bim11d6741bPostConfirmation_tableUser": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bim11d6741bPostConfirmation"
+        }
+      ]
+    },
+    "AMPLIFY_function_bimformsubmission_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bimformsubmission"
+        }
+      ]
+    },
+    "AMPLIFY_function_bimformsubmission_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bimformsubmission"
+        }
+      ]
+    },
+    "AMPLIFY_function_formsubmission_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "formsubmission"
+        }
+      ]
+    },
+    "AMPLIFY_function_formsubmission_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "formsubmission"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projected6szwo6jfafbhwz7f57mezws4test_arn": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projected6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projected6szwo6jfafbhwz7f57mezws4test_partitionKeyName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projected6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projected6szwo6jfafbhwz7f57mezws4test_partitionKeyType": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projected6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projected6szwo6jfafbhwz7f57mezws4test_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projected6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projected6szwo6jfafbhwz7f57mezws4test_streamArn": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projected6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projected6szwo6jfafbhwz7f57mezws4test_tableName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projected6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projectjfplwny5vvewtpn7f3utjsemp4production_arn": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projectjfplwny5vvewtpn7f3utjsemp4production"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projectjfplwny5vvewtpn7f3utjsemp4production_partitionKeyName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projectjfplwny5vvewtpn7f3utjsemp4production"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projectjfplwny5vvewtpn7f3utjsemp4production_partitionKeyType": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projectjfplwny5vvewtpn7f3utjsemp4production"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projectjfplwny5vvewtpn7f3utjsemp4production_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projectjfplwny5vvewtpn7f3utjsemp4production"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projectjfplwny5vvewtpn7f3utjsemp4production_streamArn": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projectjfplwny5vvewtpn7f3utjsemp4production"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Projectjfplwny5vvewtpn7f3utjsemp4production_tableName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Projectjfplwny5vvewtpn7f3utjsemp4production"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Usered6szwo6jfafbhwz7f57mezws4test_arn": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Usered6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Usered6szwo6jfafbhwz7f57mezws4test_partitionKeyName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Usered6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Usered6szwo6jfafbhwz7f57mezws4test_partitionKeyType": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Usered6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Usered6szwo6jfafbhwz7f57mezws4test_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Usered6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Usered6szwo6jfafbhwz7f57mezws4test_streamArn": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Usered6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_Usered6szwo6jfafbhwz7f57mezws4test_tableName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "Usered6szwo6jfafbhwz7f57mezws4test"
+        }
+      ]
+    },
+    "AMPLIFY_storage_bim1078b949_bucketName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "bim1078b949"
+        }
+      ]
+    },
+    "AMPLIFY_storage_bim1078b949_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "bim1078b949"
+        }
+      ]
+    },
+    "AMPLIFY_storage_bimf1ba7791_bucketName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "bimf1ba7791"
+        }
+      ]
+    },
+    "AMPLIFY_storage_bimf1ba7791_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "bimf1ba7791"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "Userjfplwny5vvewtpn7f3utjsemp4production": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB",
+      "serviceType": "imported"
+    },
+    "bim1078b949": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3",
+      "serviceType": "imported"
+    },
+    "bime2e4ef23": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3",
+      "serviceType": "imported"
+    }
+  }
+}

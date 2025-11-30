@@ -1,0 +1,10 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vaadin:chart-3d" clip-path="url(#clip0_1_3537)">
+<path id="Vector" d="M60 20V10L40 0L20 10V15L0 25V50L60 80L80 70V30L60 20ZM20 54.4L5 46.9V30.4L20 38.05V54.4ZM20 32.45L8.3 26.45L20 20.6V32.45ZM40 64.4L25 56.9V15.35L40 23.05V64.4ZM28.3 11.45L40 5.6L51.7 11.45L40 17.45L28.3 11.45ZM60 74.4L45 66.9V35.35L60 43.05V74.4ZM60 37.45L48.3 31.45L60 25.6L71.7 31.45L60 37.45Z" fill="#D1D5DB"/>
+</g>
+<defs>
+<clipPath id="clip0_1_3537">
+<rect width="80" height="80" fill="white"/>
+</clipPath>
+</defs>
+</svg>

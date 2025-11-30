@@ -1,0 +1,122 @@
+.uploader_container {
+  position: relative;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 0 40px rgb(166 145 113 / 20%);
+  max-width: 552px;
+  margin: 40px auto 24px;
+  font-family: Inter, sans-serif;
+}
+
+.uploader_container .header_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 40px 0 40px;
+  align-items: center;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.uploader_container .subtitle {
+  color: #736c64;
+  font-size: 16px;
+  text-align: center;
+}
+
+.uploader_container .subText {
+  color: #736c64;
+  font-size: 16px;
+  text-align: center;
+}
+
+.uploader_container .content_wrapper {
+  padding: 40px 30px 0px;
+}
+.uploader_container .dropboxWrapper,
+.uploader_container .file_uploader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  border: 1px dashed #a69e9299;
+  padding: 109px 0;
+}
+
+.uploader_container .dropboxWrapper button,
+.uploader_container .content_wrapper button {
+  background: #004dc7;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  padding: 4px 12px;
+  max-width: 180px;
+  width: 100%;
+  border-radius: 0;
+}
+
+/* .uploader_container .content_wrapper button {
+  background: #004dc7;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  padding: 12px;
+} */
+
+.uploader_container .logo_container {
+  width: 100%;
+  text-align: center;
+}
+
+.uploader_container .button {
+  color: "green";
+}
+
+.uploader_container .logo_privacy {
+  color: #736c64;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 24px 40px 20px 40px;
+  margin: auto;
+  max-width: 560px;
+  box-sizing: border-box;
+}
+
+/*  uploader config */
+.lr-wgt-l10n_en-US,
+.lr-wgt-common,
+:host,
+.my-config {
+  --cfg-pubkey: "ba8f9a5a983f2f4cffbc";
+  --ctx-name: "uploader22";
+  --cfg-img-only: 1;
+  --cfg-multiple: 1;
+  --cfg-max-local-file-size-bytes: 524288000;
+  --cfg-use-cloud-image-editor: 1;
+  --cfg-source-list: "local, dropbox";
+  --darkmode: 0;
+  --h-accent: 223;
+  --s-accent: 100%;
+  --l-accent: 61%;
+  --l10n-upload-files: "Add files";
+  --clr-btn-txt-primary: calc(100% - 5% * var(--darkmode));
+  /* --icon-upload: null; */
+}
+.uploadcare--widget {
+  text-align: left;
+}
+.uploadcare--dialog__powered-by {
+  display: none;
+}
+
+.uploaderCfg {
+  --ctx-name: "uploader";
+  --cfg-multiple: 0;
+  /* --cfg-pubkey: var(--uploadcare-pubkey); */
+}
+
+.my-locale-override {
+  display: flex;
+  --ui-size: "50px";
+  --l10n-upload-file: " ";
+}

@@ -1,0 +1,59 @@
+{
+    "search" : [
+        {
+           "heading": "Search by Job Titles", 
+           "sub": [
+                {
+                "name": "React js Developer",
+                "path": "/jobs"
+                },
+                {
+                "name": "Vue js Developer",
+                "path": "/jobs"
+                }
+           ]
+        },
+        {
+            "heading": "Search by Major Cities", 
+            "sub": [
+                 {
+                 "name": "Singapore",
+                 "path": "/jobs"
+                 },
+                 {
+                 "name": "Japan",
+                 "path": "/jobs"
+                 }
+            ]
+        },    
+        {
+            "heading": "Search by Company", 
+            "sub": [
+                 {
+                 "name": "Google",
+                 "path": "/jobs"
+                 },
+                 {
+                 "name": "Amazon",
+                 "path": "/jobs"
+                 }
+            ]
+        } 
+    ], 
+
+    "others": [
+        {
+            "name": "About Us",
+            "path": "/user/about"
+        },
+        {
+            "name": "Contact Us",
+            "path": "/contact"
+        },
+        {
+            "name": "FAQs",
+            "path": "/user/faqs/employer"
+        }  
+    ]
+}
+

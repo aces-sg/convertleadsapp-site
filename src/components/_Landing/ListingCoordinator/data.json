@@ -1,0 +1,29 @@
+{
+  "faq": [
+    {
+      "id": 1,
+      "question": "What CAD and BIM formats do you work with?",
+      "answer": "BIM submissions in Singapore need to adhere to CORENETX BIM e-submission standards. Our BIM Managers ensure that BIM models are created in the IFC-SG format."
+    },
+    {
+      "id": 2,
+      "question": "Do I need to buy ACC/ProjectWise/BIM Collaborate Pro licenses?",
+      "answer": "Our BIM Managers are equipped with the latest BIM CDE software and tools for 3D / 4D / 5D / 6D BIM coordination. We can work with your existing software or provide our own licenses."
+    },
+    {
+      "id": 3,
+      "question": "Is onsite support available?",
+      "answer": "When you engage our BIM Management services, we are available to schedule a visit to your site on short notice."
+    },
+    {
+      "id": 4,
+      "question": "How do I get started?",
+      "answer": "To begin, please provide the base BIM models (if available) from the project consultant or engineer. Additionally, share all relevant 2D and 3D files related to your scope of work."
+    },
+    {
+      "id": 6,
+      "question": "Can we need to sign an NDA?",
+      "answer": "All our BIM/CAD Managers are bound by an NDA. We are happy to sign an additional NDA if required."
+    }
+  ]
+}

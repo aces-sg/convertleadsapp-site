@@ -1,0 +1,121 @@
+{
+  "production": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bim-production-175248-authRole",
+      "UnauthRoleArn": "arn:aws:iam::517820625953:role/amplify-bim-production-175248-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::517820625953:role/amplify-bim-production-175248-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-bim-production-175248-deployment",
+      "UnauthRoleName": "amplify-bim-production-175248-unauthRole",
+      "StackName": "amplify-bim-production-175248",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:517820625953:stack/amplify-bim-production-175248/0b33f240-980b-11ee-a57a-0a7b2992bb2a",
+      "AmplifyAppId": "d2mffgehw535io",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-bim-production-175248-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "storage": {
+        "Userjfplwny5vvewtpn7f3utjsemp4production": {
+          "arn": "arn:aws:dynamodb:ap-southeast-1:517820625953:table/User-jfplwny5vvewtpn7f3utjsemp4-production",
+          "partitionKeyName": "id",
+          "partitionKeyType": "S",
+          "region": "ap-southeast-1",
+          "streamArn": "arn:aws:dynamodb:ap-southeast-1:517820625953:table/User-jfplwny5vvewtpn7f3utjsemp4-production/stream/2023-12-12T14:25:30.959",
+          "tableName": "User-jfplwny5vvewtpn7f3utjsemp4-production"
+        },
+        "bime2e4ef23": {
+          "bucketName": "acegroup-webdam",
+          "region": "us-east-1"
+        }
+      },
+      "auth": {
+        "bim11d6741b": {}
+      },
+      "function": {
+        "bim11d6741bPostConfirmation": {
+          "deploymentBucketName": "amplify-bim-production-175248-deployment",
+          "s3Key": "amplify-builds/bim11d6741bPostConfirmation-7a5a3955614756457a41-build.zip",
+          "tableUser": "User-jfplwny5vvewtpn7f3utjsemp4-production"
+        },
+        "bimb180f9a7": {},
+        "bimformsubmission": {
+          "deploymentBucketName": "amplify-bim-production-175248-deployment",
+          "s3Key": "amplify-builds/bimformsubmission-4e717653764968374536-build.zip"
+        }
+      },
+      "api": {
+        "bim": {}
+      }
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bim-test-82214-authRole",
+      "UnauthRoleArn": "arn:aws:iam::517820625953:role/amplify-bim-test-82214-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::517820625953:role/amplify-bim-test-82214-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-bim-test-82214-deployment",
+      "UnauthRoleName": "amplify-bim-test-82214-unauthRole",
+      "StackName": "amplify-bim-test-82214",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:517820625953:stack/amplify-bim-test-82214/aaa3ff30-994d-11ee-8d73-027564023e7c",
+      "AmplifyAppId": "d2mffgehw535io"
+    },
+    "categories": {
+      "function": {
+        "bim11d6741bPostConfirmation": {
+          "deploymentBucketName": "amplify-bim-test-82214-deployment",
+          "s3Key": "amplify-builds/bim11d6741bPostConfirmation-4d38346d743647367146-build.zip",
+          "tableUser": "User-ed6szwo6jfafbhwz7f57mezws4-test",
+          "GROUP": "read"
+        },
+        "formsubmission": {
+          "deploymentBucketName": "amplify-bim-test-82214-deployment",
+          "s3Key": "amplify-builds/formsubmission-6f385450702b796f4877-build.zip"
+        },
+        "bimformsubmission": {
+          "deploymentBucketName": "amplify-bim-test-82214-deployment",
+          "s3Key": "amplify-builds/bimformsubmission-4e717653764968374536-build.zip"
+        }
+      },
+      "storage": {
+        "Projected6szwo6jfafbhwz7f57mezws4test": {
+          "tableName": "Project-ed6szwo6jfafbhwz7f57mezws4-test",
+          "region": "ap-southeast-1",
+          "arn": "arn:aws:dynamodb:ap-southeast-1:517820625953:table/Project-ed6szwo6jfafbhwz7f57mezws4-test",
+          "streamArn": "arn:aws:dynamodb:ap-southeast-1:517820625953:table/Project-ed6szwo6jfafbhwz7f57mezws4-test/stream/2023-12-20T08:20:37.499",
+          "partitionKeyName": "id",
+          "partitionKeyType": "S"
+        },
+        "Usered6szwo6jfafbhwz7f57mezws4test": {
+          "tableName": "User-ed6szwo6jfafbhwz7f57mezws4-test",
+          "region": "ap-southeast-1",
+          "arn": "arn:aws:dynamodb:ap-southeast-1:517820625953:table/User-ed6szwo6jfafbhwz7f57mezws4-test",
+          "streamArn": "arn:aws:dynamodb:ap-southeast-1:517820625953:table/User-ed6szwo6jfafbhwz7f57mezws4-test/stream/2023-12-20T08:20:38.100",
+          "partitionKeyName": "id",
+          "partitionKeyType": "S"
+        },
+        "Projectjfplwny5vvewtpn7f3utjsemp4production": {
+          "arn": "arn:aws:dynamodb:ap-southeast-1:517820625953:table/Project-jfplwny5vvewtpn7f3utjsemp4-production",
+          "partitionKeyName": "id",
+          "partitionKeyType": "S",
+          "region": "ap-southeast-1",
+          "streamArn": "arn:aws:dynamodb:ap-southeast-1:517820625953:table/Project-jfplwny5vvewtpn7f3utjsemp4-production/stream/2023-12-12T14:25:31.956",
+          "tableName": "Project-jfplwny5vvewtpn7f3utjsemp4-production"
+        },
+        "bimf1ba7791": {
+          "bucketName": "acegroup-webdam",
+          "region": "us-east-1"
+        },
+        "bim1078b949": {
+          "bucketName": "acegroup-webdam",
+          "region": "us-east-1"
+        }
+      },
+      "api": {
+        "bim": {}
+      },
+      "auth": {
+        "bim11d6741b": {}
+      }
+    }
+  }
+}

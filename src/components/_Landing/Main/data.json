@@ -1,0 +1,29 @@
+{
+  "faq": [
+    {
+      "id": 1,
+      "question": "What is BIM?",
+      "answer": "BIM, or Building Information Models, is a 3D representation of an infrastructure asset and serves as the core of a digital twin. The BIM format enables project stakeholders to execute value-added workflows such as clash detection, construction simulation, quantity takeoffs, and embedded carbon calculation."
+    },
+    {
+      "id": 2,
+      "question": "Do you produce CAD files?",
+      "answer": "While BIM models are the primary deliverable, we recognize that many contractors still prefer working with CAD files. We assist project teams in extracting detailed CAD drawings directly from the federated BIM models."
+    },
+    {
+      "id": 3,
+      "question": "What is a Digital Twin?",
+      "answer": "A Digital Twin is a digital replica of a physical asset, enhanced with operational data. BIM models, reality capture data, and CAD drawings contribute to building this digital twin, while sensors capture real-time data."
+    },
+    {
+      "id": 4,
+      "question": "What services do you provide?",
+      "answer": "We are digital delivery partners for the Architecture, Engineering, and Construction sector. We collaborate with project teams to provide BIM professionals, technology infrastructure, and BIM workflows for integrated digital delivery."
+    },
+    {
+      "id": 6,
+      "question": "What are the types of BIM software?",
+      "answer": "BIM software falls into three categories: Design, Collaboration, and Analysis. Design tools like Revit and ArchiCAD create 3D BIM models. Collaboration tools ensure seamless stakeholder communication, and Analysis tools support advanced workflows like digital twins."
+    }
+  ]
+}

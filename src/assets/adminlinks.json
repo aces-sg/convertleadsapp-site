@@ -1,0 +1,10 @@
+[
+  {
+    "label": "Opportunities",
+    "link": "/admin/opportunities"
+  },
+  {
+    "label": "Archive",
+    "link": "/admin/archive"
+  }
+]

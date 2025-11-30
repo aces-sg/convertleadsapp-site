@@ -1,0 +1,386 @@
+# Career Opportunities at Bimeco
+# Job postings with structured metadata
+
+- jobId: bim-coordinator-2025-01
+  title: BIM Coordinator
+  department: digital-delivery
+  location: Singapore
+  type: Full-Time
+  level: Mid-Level
+  salary: $4,500 - $6,500
+  posted: '2025-01-15'
+  expires: '2025-03-31'
+  status: active
+  description: |
+    Join our team as a BIM Coordinator and contribute to major infrastructure and building projects across Singapore. You will be responsible for coordinating multi-discipline BIM models, conducting clash detection, and preparing shop drawings for project submissions. This role offers excellent opportunities to work on diverse projects including rail, road, and building developments.
+  responsibilities:
+    - Coordinate multi-discipline BIM models (Architecture, Structure, MEP) for
+      infrastructure and building projects
+    - Conduct clash detection using Navisworks and prepare detailed clash
+      reports
+    - Prepare shop drawings, tender drawings, and submission packages for
+      authority approval
+    - Attend coordination meetings with consultants, main contractors, and
+      stakeholders
+    - Ensure BIM models comply with project BIM Execution Plans (BEP) and
+      standards
+    - Support BIM Managers with model quality checks and progress reporting
+  requirements:
+    - Minimum 2 years of BIM coordination experience in Singapore construction
+      industry
+    - Proficient in Autodesk Revit (Architecture, Structure, or MEP)
+    - Experience with Navisworks for clash detection and coordination
+    - Strong understanding of AutoCAD for 2D drafting and amendments
+    - Experience with rail, road, or infrastructure projects preferred
+    - Diploma or Degree in Civil Engineering, Architecture, or related field
+    - Good communication skills and ability to work in a team environment
+  skills:
+    - Revit
+    - Navisworks
+    - AutoCAD
+    - Clash Detection
+    - BIM 360
+    - ACC
+  benefits:
+    - Medical and dental insurance
+    - Professional development and training opportunities
+    - Exposure to major infrastructure projects
+    - Performance bonuses
+    - Flexible work arrangements
+  applyUrl: /career/apply?job=bim-coordinator-2025-01
+  featured: true
+  categories:
+    - BIM
+    - Engineering
+    - Infrastructure
+
+- jobId: bim-manager-2025-01
+  title: BIM Manager
+  department: digital-delivery
+  location: Singapore
+  type: Full-Time
+  level: Senior
+  salary: $6,500 - $9,500
+  posted: '2025-01-20'
+  expires: '2025-04-30'
+  status: active
+  description: |
+    We are seeking an experienced BIM Manager to lead BIM implementation and coordination for major projects in Singapore. You will manage BIM teams, oversee model quality, develop BIM Execution Plans, and serve as the primary BIM contact for clients and stakeholders. This is a senior role with significant project responsibility and client interaction.
+  responsibilities:
+    - Lead BIM implementation and coordination for major infrastructure and
+      building projects
+    - Develop and maintain BIM Execution Plans (BEP) in compliance with client
+      requirements
+    - Manage BIM coordinators and modelers, providing technical guidance and
+      quality oversight
+    - Conduct 4D scheduling and 5D quantity take-off using Navisworks and other
+      BIM tools
+    - Chair coordination meetings with consultants, contractors, and project
+      stakeholders
+    - Troubleshoot BIM model coordination issues and manage data exchange
+      workflows
+    - Set up and manage Common Data Environment (CDE) including BIM 360 and
+      ProjectWise
+    - Create status reports, submission lists, and project documentation
+    - Provide BIM training and mentorship to junior team members
+  requirements:
+    - Minimum 5 years of BIM management experience in construction or
+      consultancy
+    - Proven track record managing multi-disciplinary BIM projects (rail, road,
+      buildings)
+    - Expert knowledge of Revit, Navisworks, AutoCAD, and BIM collaboration
+      platforms
+    - Experience with 4D scheduling (Synchro 4D, Navisworks Timeliner)
+    - Strong understanding of IFC, BIM standards, and digital delivery workflows
+    - Excellent stakeholder management and communication skills
+    - Degree in Engineering, Architecture, or related field
+    - Professional certifications (buildingSMART, Autodesk Certified
+      Professional) preferred
+  skills:
+    - Revit
+    - Navisworks
+    - BIM 360
+    - Synchro 4D
+    - ProjectWise
+    - OpenBuildings
+    - Leadership
+    - Project Management
+  benefits:
+    - Competitive salary with performance bonuses
+    - Comprehensive medical insurance
+    - Professional development support (certifications, courses)
+    - Leadership opportunities on major projects
+    - Flexible working hours
+    - Career advancement opportunities
+  applyUrl: /career/apply?job=bim-manager-2025-01
+  featured: true
+  categories:
+    - BIM
+    - Engineering
+    - Management
+
+- jobId: resource-manager-2025-01
+  title: Resource Manager
+  department: sales
+  location: Singapore
+  type: Full-Time
+  level: Senior
+  salary: $6,000 - $9,000
+  posted: '2025-01-10'
+  expires: '2025-03-15'
+  status: active
+  description: |
+    Join our Sales team as a Resource Manager to drive business growth by matching skilled BIM professionals with client projects across Singapore. You will manage resource allocation, develop client relationships, and ensure optimal deployment of our technical talent to meet project demands. This role combines sales acumen with technical understanding of the construction technology sector.
+  responsibilities:
+    - Manage resource planning and allocation for BIM consultancy projects
+    - Develop and maintain relationships with main contractors, consultants, and
+      developers
+    - Identify new business opportunities and prepare project proposals
+    - Match technical talent (BIM coordinators, managers, planners) with client
+      requirements
+    - Conduct client meetings to understand project scope and staffing needs
+    - Negotiate contracts, rates, and terms with clients and subcontractors
+    - Track resource utilization rates and project profitability
+    - Build and maintain a network of skilled BIM professionals and
+      subcontractors
+  requirements:
+    - Minimum 5 years of experience in resource management, recruitment, or
+      sales in construction/consultancy
+    - Strong understanding of BIM roles and construction project workflows
+    - Proven track record in client relationship management and business
+      development
+    - Excellent negotiation and communication skills
+    - Experience with construction or engineering consultancy services
+    - Degree in Business, Engineering, Construction Management, or related field
+    - Strong networking skills and industry connections in Singapore
+      construction sector
+  skills:
+    - Resource Management
+    - Business Development
+    - Client Relations
+    - Contract Negotiation
+    - Sales
+    - Networking
+  benefits:
+    - Competitive salary with commission structure
+    - Medical insurance
+    - Professional development and training
+    - Performance bonuses
+    - Flexible work arrangements
+  applyUrl: /career/apply?job=resource-manager-2025-01
+  featured: false
+  categories:
+    - Sales
+    - Business Development
+    - Management
+
+- jobId: cad-drafter-2025-01
+  title: CAD Drafter
+  department: digital-delivery
+  location: Singapore
+  type: Full-Time
+  level: Entry
+  salary: $3,000 - $4,500
+  posted: '2025-01-25'
+  expires: '2025-04-15'
+  status: active
+  description: |
+    We are looking for an entry-level CAD Drafter to join our team. You will be responsible for producing technical drawings, shop drawings, and as-built documentation for various construction projects. This is an excellent opportunity for fresh graduates or those looking to start a career in BIM and digital construction.
+  responsibilities:
+    - Produce 2D technical drawings and shop drawings using AutoCAD
+    - Update drawings based on feedback from engineers and consultants
+    - Convert legacy drawings to updated formats and standards
+    - Assist BIM Coordinators with model updates and documentation
+    - Prepare drawing submission packages with proper title blocks and
+      annotations
+    - Maintain drawing libraries and project filing systems
+    - Learn and apply company CAD standards and best practices
+  requirements:
+    - Diploma in Drafting, Engineering, Architecture, or related field
+    - Proficient in AutoCAD for 2D drafting
+    - Basic understanding of construction drawings and terminology
+    - Attention to detail and ability to follow instructions
+    - Willingness to learn BIM software (Revit, Microstation)
+    - Fresh graduates are welcome to apply
+    - Prior internship or project experience is an advantage
+  skills:
+    - AutoCAD
+    - 2D Drafting
+    - Technical Drawing
+    - Annotation
+  benefits:
+    - Comprehensive training program
+    - Medical insurance
+    - Career progression to BIM Coordinator
+    - Exposure to diverse project types
+  applyUrl: /career/apply?job=cad-drafter-2025-01
+  featured: false
+  categories:
+    - BIM
+    - Engineering
+    - Entry-Level
+
+- jobId: revit-modeler-2025-01
+  title: Revit Coordinator (MEP)
+  department: digital-delivery
+  location: Singapore
+  type: Contract
+  level: Mid-Level
+  salary: $3,800 - $7,000
+  posted: '2025-01-18'
+  expires: '2025-03-31'
+  status: active
+  description: |
+    We are seeking a skilled Revit Modeler specializing in MEP (Mechanical, Electrical, Plumbing) systems for a 6-month contract on a major rail infrastructure project. You will be responsible for creating detailed MEP models, routing services, and coordinating with other disciplines.
+  responsibilities:
+    - Create detailed Revit MEP models including ACMV, electrical, and plumbing
+      systems
+    - Route conduits, cable trays, ductwork, and piping in compliance with
+      design specifications
+    - Coordinate MEP installations with architectural and structural elements
+    - Create parametric families for custom MEP equipment and fixtures
+    - Conduct internal clash checks and resolve coordination issues
+    - Prepare MEP schedules and documentation for submissions
+    - Attend coordination meetings and implement feedback
+  requirements:
+    - Minimum 2 years of Revit MEP modeling experience
+    - Proficient in Revit MEP (Electrical, Mechanical, or Plumbing)
+    - Experience with rail or infrastructure MEP systems preferred
+    - Understanding of MEP design principles and installation practices
+    - Ability to create custom Revit families
+    - Experience with Navisworks clash detection is an advantage
+    - Available for 6-month contract with possibility of extension
+  skills:
+    - Revit MEP
+    - AutoCAD
+    - MEP Systems
+    - Family Creation
+    - Coordination
+  benefits:
+    - Competitive contract rates
+    - Work on prestigious rail project
+    - Potential for contract extension or permanent role
+  applyUrl: /career/apply?job=revit-modeler-2025-01
+  featured: true
+  categories:
+    - BIM
+    - MEP
+    - Contract
+
+- jobId: backend-developer-2025-01
+  title: BIM Backend Developer
+  department: devops
+  location: Singapore
+  type: Full-Time
+  level: Mid-Level
+  salary: $5,500 - $8,500
+  posted: '2025-01-28'
+  expires: '2025-04-30'
+  status: active
+  description: |
+    Join our DevOps team as a BIM Backend Developer to build integrations and backend systems for construction technology platforms. You will develop C# plugins for Revit and Navisworks, integrate with Autodesk Construction Cloud (ACC) and Forma APIs, work with Bentley's iTwin platform, and build backend services for BIM data processing. This role combines software development expertise with deep knowledge of BIM workflows and construction technology.
+  responsibilities:
+    - Develop Revit plugins and automation tools using C# and Revit API
+    - Integrate with Autodesk Construction Cloud (ACC), BIM 360, and Forma APIs
+    - Build backend services for iTwin.js digital twin applications using
+      Node.js
+    - Process and transform IFC files, BCF workflows, and COBie data
+    - Develop REST APIs for BIM data extraction and project analytics
+    - Implement Navisworks and Civil 3D automation using C# .NET APIs
+    - Work with cloud platforms (AWS/Azure) for BIM data storage and processing
+    - Integrate with ProjectWise and other Bentley infrastructure platforms
+    - Build data pipelines for BIM model versioning and change tracking
+  requirements:
+    - Minimum 3 years of software development experience with BIM/AEC focus
+    - Strong proficiency in C# and .NET Framework for Revit API development
+    - Experience with Autodesk Construction Cloud (ACC) or BIM 360 APIs
+    - Knowledge of Revit API, Navisworks API, or Civil 3D API
+    - Understanding of IFC file formats, BCF workflows, and BIM data standards
+    - Experience with Node.js or Python for backend API development
+    - Familiarity with cloud platforms (AWS, Azure) and databases (PostgreSQL,
+      MongoDB)
+    - Degree in Computer Science, Software Engineering, or related field
+  skills:
+    - C# / .NET
+    - Revit API
+    - Autodesk Construction Cloud (ACC)
+    - Forma APIs
+    - iTwin.js Platform
+    - Node.js
+    - IFC Processing
+    - PostgreSQL
+  benefits:
+    - Competitive salary
+    - Medical and dental insurance
+    - Remote work flexibility
+    - Professional development (Autodesk/Bentley certifications)
+    - Latest development tools and BIM software licenses
+    - Work on cutting-edge construction technology
+  applyUrl: /career/apply?job=backend-developer-2025-01
+  featured: false
+  categories:
+    - DevOps
+    - BIM
+    - Backend
+
+- jobId: frontend-developer-2025-01
+  title: BIM Frontend Developer
+  department: devops
+  location: Singapore
+  type: Full-Time
+  level: Mid-Level
+  salary: $5,000 - $8,000
+  posted: '2025-01-28'
+  expires: '2025-04-30'
+  status: active
+  description: |
+    Join our DevOps team as a BIM Frontend Developer to build web-based BIM visualization and collaboration platforms. You will work with iTwin.js for infrastructure digital twins, integrate Autodesk Forge Viewer and ACC components, and develop desktop plugin interfaces using C# and WPF. This role combines modern web development with BIM domain expertise to create innovative tools for construction professionals.
+  responsibilities:
+    - Build 3D model viewers using iTwin.js and Bentley infrastructure digital
+      twin platform
+    - Integrate Autodesk Forge Viewer and ACC viewer components into web
+      applications
+    - Develop WPF desktop interfaces for Revit and Navisworks plugins using C#
+    - Create React-based dashboards for BIM data visualization and project
+      analytics
+    - Work with Autodesk Forma APIs to build urban design and planning
+      interfaces
+    - Implement responsive web applications using React, TypeScript, and Next.js
+    - Optimize 3D rendering performance for large BIM models in web browsers
+    - Build collaboration features for multi-user BIM coordination workflows
+    - Integrate with ACC/BIM 360 APIs for document management and model
+      federation
+  requirements:
+    - Minimum 3 years of frontend development experience with BIM/AEC focus
+    - Proficiency in React and TypeScript for web application development
+    - Experience with 3D web visualization (iTwin.js, Forge Viewer, Three.js, or
+      WebGL)
+    - Knowledge of C# and WPF for desktop plugin interface development
+    - Understanding of BIM workflows, model coordination, and construction
+      processes
+    - Experience with Autodesk Construction Cloud (ACC) or BIM 360 viewer
+      integration
+    - Familiarity with RESTful API integration and state management
+    - Degree in Computer Science, Software Engineering, or related field
+  skills:
+    - iTwin.js
+    - Autodesk Forge Viewer
+    - React / TypeScript
+    - C# / WPF
+    - Three.js / WebGL
+    - Autodesk Construction Cloud (ACC)
+    - Tailwind CSS
+    - Next.js
+  benefits:
+    - Competitive salary
+    - Medical and dental insurance
+    - Remote work flexibility
+    - Professional development (Autodesk/Bentley certifications)
+    - Latest development tools and BIM software licenses
+    - Work on innovative construction visualization platforms
+  applyUrl: /career/apply?job=frontend-developer-2025-01
+  featured: false
+  categories:
+    - DevOps
+    - BIM
+    - Frontend

@@ -1,0 +1,38 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "bim11d6741b",
+  "functionName": "bim11d6741bPostConfirmation",
+  "resourceName": "bim11d6741bPostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "/snapshot/amplify-cli/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "bim11d6741bPostConfirmation",
+  "skipEdit": true,
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "tableUser",
+      "environmentVariableName": "TABLE_USER"
+    }
+  ],
+  "permissions": {
+    "storage": {
+      "Userjfplwny5vvewtpn7f3utjsemp4production": [
+        "create",
+        "read",
+        "update"
+      ]
+    },
+    "auth": {
+      "bim11d6741b": [
+        "create",
+        "read",
+        "update"
+      ]
+    }
+  }
+}

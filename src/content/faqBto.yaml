@@ -1,0 +1,41 @@
+- id: create-3d-model
+  question: Does HDB provide CAD plans for BTO flats?
+  answer: >-
+    HDB releases the layout plans for BTO flats in PDF format. However, these
+    files are non-editable and not suitable for renovation planning. We can help
+    you convert these PDF plans into editable CAD files at no cost.
+
+- id: create-3d-model
+  question: Can you create a 3D model for me?
+  answer: >-
+    Yes — we can create a 3D model for you at no cost. Just send us your
+    detailed floor plans. The detailed floor plans are usually sent to you after
+    flat selection. These are available via the <a
+    href="https://services2.hdb.gov.sg/webapp/BR12AWRInquiryWeb/"
+    target="_blank" rel="noopener noreferrer">MyHDBPage</a>.
+
+- id: accuracy-2d-plans
+  question: Are your 2D plans dimensionally accurate?
+  answer: >-
+    Our 2D plans typically have a margin of error of 10–20mm. We recommend
+    verifying all critical site measurements independently.
+
+- id: interior-design-service
+  question: Do you offer interior design services?
+  answer: >-
+    We are not interior designers, but you are welcome to share the files with
+    your ID for further development.
+
+- id: cad-usage
+  question: How can the CAD plans be used?
+  answer: >-
+    CAD plans can be used by interior designers or contractors for renovation
+    planning, furniture layout, and detailed measurements. Homeowners can also
+    take the initiative to observe the fit of furniture in their homes.
+
+- id: create-3d-model
+  question: Are 3D models useful for renovation planning?
+  answer: >-
+    Like the CAD plans, the 3D models can give you an even better feel and sense
+    of the space of your home. you can even use the 3D model to observe the look
+    and feel of various walls/tiles/furniture configurations.

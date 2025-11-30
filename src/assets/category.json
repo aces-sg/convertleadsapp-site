@@ -1,0 +1,179 @@
+{
+  "filters": [
+    {
+      "id":1,
+      "name":"A - F",
+      "items": [
+        {
+          "item": "AWS Developer"
+        },
+        {
+          "item": "Backend Developer"
+        },
+        {
+          "item": "Flutter Developer"
+        },
+        {
+          "item": "Frontend Developer"
+        },
+        {
+          "item": "AWS Developer"
+        },
+        {
+          "item": "Backend Developer"
+        },
+        {
+          "item": "Flutter Developer"
+        },
+        {
+          "item": "Frontend Developer"
+        },
+        {
+          "item": "AWS Developer"
+        },
+        {
+          "item": "Backend Developer"
+        },
+        {
+          "item": "Flutter Developer"
+        },
+        {
+          "item": "Frontend Developer"
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name":"G - K",
+      "items": [
+        {
+          "item": "Golang Developer"
+        },
+        {
+          "item": "Graphics Designer"
+        },
+        {
+          "item": "Javascript Developer"
+        },
+        {
+          "item": "Java Developer"
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name":"L - P",
+      "items": [
+        {
+          "item": "MERN Developer"
+        },
+        {
+          "item": "Mobile Developer"
+        },
+        {
+          "item": "Next js Developer"
+        },
+        {
+          "item": "Nuxt Developer"
+        },
+        {
+          "item": "Project Manager"
+        },
+        {
+          "item": "Python Developer"
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name":"Q - U",
+      "items": [
+       
+        {
+          "item": "Ruby Developer"
+        },
+        {
+          "item": "QA Developer"
+        },
+        {
+          "item": "Ruby Developer"
+        },
+        {
+          "item": "QA Developer"
+        },
+        {
+          "item": "Ruby Developer"
+        },
+        {
+          "item": "QA Developer"
+        },
+        {
+          "item": "Ruby Developer"
+        },
+        {
+          "item": "QA Developer"
+        },
+        {
+          "item": "Ruby Developer"
+        },
+        {
+          "item": "QA Developer"
+        }
+      ]
+    },
+    {
+      "id":5,
+      "name":"V - Z",
+      "items": [
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },  
+        {
+          "item": "Vue js Developer"
+        },  
+        {
+          "item": "Vue js Developer"
+        },
+        {
+          "item": "Vue js Developer"
+        },  {
+          "item": "Vue js Developer"
+        }
+      ]
+    }
+    
+  ]
+}

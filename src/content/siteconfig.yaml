@@ -1,0 +1,89 @@
+# Site Configuration - Single Source of Truth
+# This file contains all site-wide configuration including contact details, metadata, and social links
+
+- region: sg
+  site:
+    title: "Bimeco"
+    titleTemplate: "%s | Integrated Digital Delivery Services"
+    description: "BIM & CAD consultancy services for architects, engineers, and contractors. We provide BIM modeling, CAD drafting, and digital delivery solutions for construction projects."
+    siteUrl: "https://www.bim.com.sg"
+    url: "https://www.bim.com.sg"
+    image: "/bimeco-square-small.png"
+    favicon: "/favicon.ico"
+    twitterUsername: "@bimecosg"
+    regionName: "Singapore"
+    currency: "SGD"
+    locale: "en-SG"
+
+  contact:
+    company: "Bimeco Pte Ltd"
+    officeLabel: "Singapore (Main Office)"
+    phone: "+65 80834020"
+    phoneFormatted: "+65 8083 4020"
+    whatsapp: "6580834020"
+    email: "enquiry@bim.com.sg"
+    supportEmail: "support@bim.com.sg"
+    address:
+      street: "159 Sin Ming Road Amtech Building Lobby 1"
+      unit: "#05-03"
+      city: "Singapore"
+      postal: "575625"
+      country: "Singapore"
+      full: "159 Sin Ming Road Amtech Building Lobby 1, #05-03, Singapore 575625"
+    hours: "Mon-Fri 9am - 6pm SGT (Excludes public holidays)"
+    hoursShort: "Mon-Fri 9am - 6pm SGT"
+
+  social:
+    linkedIn: "https://www.linkedin.com/company/bim-engineering-construction-sg/"
+    twitter: "https://twitter.com/bimecosg"
+    facebook: ""
+    instagram: ""
+
+  business:
+    registrationType: "UEN"
+    registrationNumber: "201234567A"
+    taxId: "201234567A"
+
+- region: us
+  site:
+    title: "Bimeco"
+    titleTemplate: "%s | Integrated Digital Delivery Services"
+    description: "BIM & CAD consultancy services for architects, engineers, and contractors. We provide BIM modeling, CAD drafting, and digital delivery solutions for construction projects."
+    siteUrl: "https://www.bimeco.io"
+    url: "https://www.bimeco.io"
+    image: "/bimeco-square-small.png"
+    favicon: "/favicon.ico"
+    twitterUsername: "@bimecoio"
+    regionName: "United States"
+    currency: "USD"
+    locale: "en-US"
+
+  contact:
+    company: "Bimeco Inc"
+    officeLabel: "United States Office"
+    phone: "+1 (555) 123-4567"
+    phoneFormatted: "+1 (555) 123-4567"
+    whatsapp: "15551234567"
+    email: "us@bimeco.io"
+    supportEmail: "support.us@bimeco.io"
+    address:
+      street: "123 Main Street"
+      unit: "Suite 400"
+      city: "San Francisco"
+      state: "CA"
+      postal: "94105"
+      country: "United States"
+      full: "123 Main Street, Suite 400, San Francisco, CA 94105, United States"
+    hours: "Mon-Fri 9am - 6pm PST (Excludes public holidays)"
+    hoursShort: "Mon-Fri 9am - 6pm PST"
+
+  social:
+    linkedIn: "https://www.linkedin.com/company/bimeco/"
+    twitter: "https://twitter.com/bimecoio"
+    facebook: ""
+    instagram: ""
+
+  business:
+    registrationType: "EIN"
+    registrationNumber: "12-3456789"
+    taxId: "12-3456789"

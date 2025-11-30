@@ -1,0 +1,20 @@
+{
+  "routes" : [
+      {
+          "name": "My Profile",
+          "path": "/profile/viewProfile",
+          "layout": "/user"
+      },
+      {
+        "name": "Saved Jobs",
+        "path": "/profile/savedJobs",
+        "layout": "/user"
+    },
+    {
+        "name": "Jobs Alerts",
+        "path": "/profile/jobsAlert",
+        "layout": "/user"
+    }
+]
+}
+

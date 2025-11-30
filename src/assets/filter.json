@@ -1,0 +1,70 @@
+{
+  "filters": [
+    {
+      "id":2,
+      "name":"Skills",
+      "items": [
+        {
+          "id": 1,
+          "label": "Remote"
+        },
+        {
+          "id": 2,
+          "label": "On-site"
+        },
+        {
+          "id": 3,
+          "label": "Hybrid (Remote & On-site)"
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name":"Position",
+      "items": [
+        {
+          "id": 1,
+          "label": "Internship"
+        },
+        {
+          "id": 2,
+          "label": "Entry Roles"
+        },
+        {
+          "id": 3,
+          "label": "Mid - Senior Level"
+        },
+        {
+          "id": 4,
+          "label": "Director"
+        },
+        {
+          "id": 5,
+          "label": "Executive (CTO, CIO, CEO)"
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name":"Date",
+      "items": [
+        {
+          "id": 1,
+          "label": "Past 24 hours"
+        },
+        {
+          "id": 2,
+          "label": "This week"
+        },
+        {
+          "id": 3,
+          "label": "This month"
+        },
+        {
+          "id": 4,
+          "label": "All Time"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+- id: tg
+  name: Tampines GreenOpal
+  shortcode: tg
+- id: svbb
+  name: Sky Vista @ Bukit Batok
+  shortcode: svbb
+- id: urw
+  name: Urban Rise @ Woodlands
+  shortcode: urw
+- id: fss
+  name: Fernvale Sails @ Sengkang
+  shortcode: fss
+- id: ap
+  name: Alexandra Peaks
+  shortcode: ap
+- id: ch
+  name: Crawford Heights
+  shortcode: ch
+- id: hv
+  name: Holland Vista
+  shortcode: hv
+- id: kv
+  name: Kallang View
+  shortcode: kv
+- id: sh
+  name: Stirling Horizon
+  shortcode: sh
+- id: thc
+  name: Tanglin Halt Courtyard
+  shortcode: thc
+- id: trr
+  name: Tanjong Rhu Riverfront I & II
+  shortcode: trr
+- id: trp
+  name: Tanjong Rhu Parc Front
+  shortcode: trp
+- id: tb
+  name: Towner Breeze
+  shortcode: tb
+- id: bsp
+  name: Bayshore Palms
+  shortcode: bsp
+- id: bsv
+  name: Bayshore Vista
+  shortcode: bsv
+- id: bns
+  name: Bedok North Springs
+  shortcode: bns
+- id: bsb
+  name: Bedok South Bloom
+  shortcode: bsb
+- id: ccg
+  name: Chai Chee Green
+  shortcode: ccg
+- id: kw
+  name: Kembangan Wave
+  shortcode: kw
+- id: cg
+  name: Chencharu Green
+  shortcode: cg
+- id: chi
+  name: Chencharu Hills
+  shortcode: chi
+- id: cv
+  name: Chencharu Vines
+  shortcode: cv
+- id: mpi
+  name: Marsiling Peak I & II
+  shortcode: mpi
+- id: mr
+  name: Marsiling Ridge
+  shortcode: mr
+- id: we
+  name: Woodgrove Edge
+  shortcode: we
+- id: wnv
+  name: Woodlands North Verge
+  shortcode: wnv
+- id: cta
+  name: Central Trio @ AMK
+  shortcode: cta
+- id: fo
+  name: Fernvale Oasis
+  shortcode: fo
+- id: mrv
+  name: Matilda Riverside
+  shortcode: mrv
+- id: smr
+  name: Sin Ming Residences
+  shortcode: smr
+- id: ttrh
+  name: Tanjong Tree Residences @ Hougang
+  shortcode: ttrh
+- id: ja
+  name: Jurong Arcadia
+  shortcode: ja
+- id: ppe
+  name: Petir Park Edge
+  shortcode: ppe
+- id: rgc
+  name: Rail Garden @ CCK
+  shortcode: rgc
+- id: tjs
+  name: Taman Jurong Skyline
+  shortcode: tjs
+- id: tbz
+  name: Teban Breeze
+  shortcode: tbz
+- id: upv
+  name: Ulu Pandan Vista
+  shortcode: upv
+- id: wbb
+  name: West Brickville @ Bukit Batok
+  shortcode: wbb
+- id: cri
+  name: Costa Riviera I & II
+  shortcode: cri
+- id: ma
+  name: Merpati Alcove
+  shortcode: ma

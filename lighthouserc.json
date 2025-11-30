@@ -1,0 +1,16 @@
+{
+  "ci": {
+    "collect": {
+      "startServerCommand": "yarn serve --port 9000",
+      "startServerReadyPattern": "http://localhost:9000",
+      "startServerReadyTimeout": 120000,
+      "url": [
+        "http://localhost:9000/",
+        "http://localhost:9000/pricing",
+        "http://localhost:9000/blog"
+      ],
+      "numberOfRuns": 1
+    },
+    "upload": { "target": "temporary-public-storage" }
+  }
+}

@@ -1,0 +1,138 @@
+price_includs:
+  - Advanced Structural Analysis
+  - Develop Analytical Model from 3D
+  - Steel Drawings Production
+  - 30-Day Payment Terms
+
+benefits:
+  - title: Multi-Material Structural Design
+    text:
+      Design steel, concrete, timber, aluminum, and cold-formed steel structures
+      anywhere in the world using included international design codes,
+      regardless of which STAAD option you choose. Plus you can produce
+      automated steel drawings directly from STAAD mode.
+    icon: '/icons/optimization.svg'
+    image: '/software/staad-pro-analytics.png'
+    id: 'bnf-analysis'
+
+  - title: Advanced Structural Analytics
+    text:
+      STAAD undergoes the most demanding quality and testing program. Our
+      procedures follow the requirements of 10CFR Part 50 Appendix B, 10CFR Part
+      21 and ASME NQA-1, which means STAAD has been approved for use on the
+      design of nuclear power installations. STAAD offers many types of analysis
+      ranging from finite element analysis to more complex seismic analysis.
+    icon: '/icons/materials.svg'
+    image: '/software/staad-pro-fea.png'
+
+  - title: Multi-discipline Collaboration
+    text:
+      Streamline multi-discipline team collaboration through broad
+      interoperability with Bentley desktop and cloud and mobile applications
+      like OpenBuildings Designer, AutoPIPE, Revit, and Tekla. Optimize concrete
+      and steel BIM workflows with the full integration of physical members and
+      surfaces. View and edit models from mobile devices.
+    icon: '/icons/interoperability.svg'
+    image: '/software/staad-pro-synchronize.png'
+
+features:
+  - title: RAM Connection
+    icon: /icons/load-analysis.svg
+    text:
+      Joints defined in the model with the forces calculated from the analysis
+      can be passed into the leading connection design application
+  - title: Bentley AutoPIPE
+    icon: /icons/design-codes.svg
+    text:
+      Pass the STAAD.Pro structural steel frame into AutoPIPE to correctly
+      account for the pipe support stiffnesses and import the pipe engineers
+      support reactions back into the model
+  - title: ProStructures and OpenBuildings Designer
+    icon: /icons/materials.svg
+    text:
+      Two-way link to support creating models with design and construction
+      documents
+  - title: CAD & DXF
+    icon: /icons/optimization.svg
+    text: Use CAD models as the base wire frame
+  - title: Parametric Modelling
+    icon: /icons/parametric.svg
+    text:
+      Create parametric 3D models to explore various design alternatives and
+      scenarios.
+  - title: Interoperability with BIM Tools
+    icon: /icons/bim-tools.svg
+    text:
+      Import and export designs between STAAD.Pro and leading BIM tools for
+      seamless collaboration.
+
+included_software:
+  - title: Structural Analysis
+    description:
+      Perform precise structural analysis and optimization for a variety of
+      projects.
+    items:
+      - Name: STAAD.Pro
+        Detail: 'Structural Analysis'
+        Avatar: /software/Avatar-staad1.png
+      - Name: STAAD Foundation Advanced
+        Detail: 'Foundation Design'
+        Avatar: /software/Avatar-staad2.png
+      - Name: RAM Structural System
+        Detail: 'Building Design'
+        Avatar: /software/Avatar-staad3.png
+      - Name: OpenBridge Designer
+        Detail: 'Bridge Analysis'
+        Avatar: /software/Avatar-staad4.png
+
+  - title: Detailing and Drafting
+    description:
+      Ensure precise detailing and documentation for manufacturing and
+      construction.
+    items:
+      - Name: ProSteel
+        Detail: 'Steel Detailing'
+        Avatar: /software/Avatar-prosteel.png
+      - Name: ProConcrete
+        Detail: 'Concrete Detailing'
+        Avatar: /software/Avatar-proconcrete.png
+
+  - title: Visualization and Reporting
+    description:
+      Enhance project presentations with 3D visualizations and generate detailed
+      reports.
+    items:
+      - Name: Bentley LumenRT
+        Detail: 'Visualization'
+        Avatar: /software/Avatar-lumenrt.png
+      - Name: Bentley Report Designer
+        Detail: 'Report Generation'
+        Avatar: /software/Avatar-report.png
+
+requirments:
+  - device: Processor
+    req: Intel® or AMD® processor 1.0 GHz or greater
+  - device: Memory
+    req: 16 GB minimum, 32 GB recommended
+  - device: Hard Disk
+    req: 24 GB free disk space
+  - device: Graphics
+    req: A dedicated graphics card with 1 GB VRAM or higher
+  - device: Screen Resolution
+    req: 1920 x 1080 or higher recommended
+
+footer:
+  software:
+    - label: STAAD.Pro
+      link: '#bnf-analysis'
+    - label: Structural Engineering Software
+      link: '#features'
+    - label: BIM Integration Tools
+      link: '#software'
+  company:
+    - label: About Us
+      link: '/about'
+    - label: Blog
+      link: 'www.bim.com.sg/blog'
+    - label: Contact Us
+      link: '/contact'

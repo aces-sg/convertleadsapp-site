@@ -1,0 +1,223 @@
+{
+  "tables": [
+    {
+      "title": "",
+      "header": ["", "Small", "Medium", "Large"],
+      "groups": [
+        {
+          "head": [
+            {
+              "type": "string",
+              "content": "Specifications"
+            },
+            {
+              "type": "string",
+              "content": ""
+            },
+            {
+              "type": "image",
+              "content": ""
+            },
+            {
+              "type": "image",
+              "content": ""
+            }
+          ],
+          "body": [
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "Gross Floor Area"
+                },
+                {
+                  "type": "number",
+                  "content": "< 4,000 m²"
+                },
+                {
+                  "type": "number",
+                  "content": "4,000 - 10,000 m²"
+                },
+                {
+                  "type": "number",
+                  "content": ">10,000 m²"
+                }
+              ],
+              "subcontent": "The total floor area covered under your project scope."
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "Dedicated BIM Manager"
+                },
+                {
+                  "type": "shape",
+                  "content": null
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "A dedicated BIM Manager oversees the project to maintain quality, coordination, and consistency."
+            }
+          ]
+        },
+        {
+          "head": [
+            {
+              "type": "string",
+              "content": "Software"
+            },
+            {
+              "type": "image",
+              "content": ""
+            },
+            {
+              "type": "image",
+              "content": ""
+            },
+            {
+              "type": "image",
+              "content": ""
+            }
+          ],
+          "body": [
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "Design Software"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "Access our full suite of BIM software licenses—including Revit, OpenBuildings, and Archicad—for generating 3D models and 2D documentation."
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "Common Data Environment"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "Collaborate and manage documents through industry-standard CDE platforms such as BIM Collaborate Pro (Autodesk), ProjectWise (Bentley), or Trimble Connect."
+            }
+          ]
+        },
+        {
+          "head": [
+            {
+              "type": "string",
+              "content": "BIM Workflows"
+            },
+            {
+              "type": "image",
+              "content": ""
+            },
+            {
+              "type": "image",
+              "content": ""
+            },
+            {
+              "type": "image",
+              "content": ""
+            }
+          ],
+          "body": [
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "BIM Model Submission"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "We develop and maintain BIM models for your project, including 3D models and updates to plans, sheets, and drawings."
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "BIM Execution Plan"
+                },
+                {
+                  "type": "shape",
+                  "content": ""
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "We develop a customized BIM Execution Plan tailored to your project's requirements."
+            },
+            {
+              "head": [
+                {
+                  "type": "string",
+                  "content": "4D / 5D / 6D BIM Workflows"
+                },
+                {
+                  "type": "shape",
+                  "content": null
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                },
+                {
+                  "type": "shape",
+                  "content": "full"
+                }
+              ],
+              "subcontent": "Integrate schedules, cost parameters, and asset data with your BIM model to enable 4D construction simulation, 5D quantity takeoffs, and 6D digital twins."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

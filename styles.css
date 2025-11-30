@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+  body {
+    margin: 0;
+  }
+  a {
+    @apply no-underline;
+  }
+  button {
+    @apply bg-transparent border-none cursor-pointer;
+  }
+  ul {
+    @apply p-0 m-0;
+  }
+  img,
+  video {
+    @apply h-auto max-w-full;
+  }
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
+}
+
+@layer components {
+  /* container */
+  .tw-container {
+    @apply container box-border mt-0 max-w-7xl;
+  }
+
+  .tw-container p {
+    @apply text-base text-gray-500;
+  }
+  /* Nav Link */
+  .nav-link {
+    @apply flex items-center gap-2 text-base font-medium text-gray-500 transition-all duration-300 ease-in-out hover:text-black;
+  }
+}
+
+@layer utilities {
+  /* CTA Mobile Responsiveness */
+  .cta-mobile-fix {
+    @apply w-full overflow-x-hidden;
+  }
+}
+
+/* Ensure CTA components are fully responsive on mobile */
+@media (max-width: 768px) {
+  section[class*="bg-main-primary"] {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 0 !important;
+    overflow-x: hidden;
+  }
+
+  section[class*="bg-main-primary"] .tw-container {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    max-width: 100% !important;
+  }
+
+  /* Ensure buttons in CTA are full width on mobile */
+  section[class*="bg-main-primary"] button {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 1rem !important;
+  }
+
+  /* Ensure text content doesn't overflow */
+  section[class*="bg-main-primary"] h2 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    word-wrap: break-word;
+  }
+
+  section[class*="bg-main-primary"] p {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+    word-wrap: break-word;
+  }
+}
+
+.swiper {
+  overflow: visible !important;
+}
+.swiper-pagination {
+  display: flex;
+  gap: 10px;
+  margin-top: 35px;
+}
+span.swiper-pagination-bullet {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 50px;
+  height: 5px;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+span.swiper-pagination-bullet .pagination-inner {
+  display: block;
+  width: 0;
+  height: 100%;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active
+  .pagination-inner {
+  background-color: #000;
+  animation-name: progress;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+.scroll-anchor {
+  scroll-margin-top: 10em; /* Adjust this to match your header height */
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .swiper-pagination {
+    margin-top: 20px;
+  }
+}

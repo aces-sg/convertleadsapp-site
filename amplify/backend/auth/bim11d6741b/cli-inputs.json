@@ -1,0 +1,64 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "bim11d6741b_identitypool_11d6741b",
+    "allowUnauthenticatedIdentities": true,
+    "resourceNameTruncated": "bim11d6741b",
+    "userPoolName": "bim11d6741b_userpool_11d6741b",
+    "autoVerifiedAttributes": ["email"],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": ["SMS Text Message"],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": ["email"],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": ["email"],
+    "userpoolClientReadAttributes": ["email"],
+    "userpoolClientLambdaRole": "bim11d11d6741b_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "11d6741b",
+    "resourceName": "bim11d6741b",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "manual",
+    "usernameAttributes": ["email"],
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true,
+    "authRoleArn": {
+      "Fn::GetAtt": ["AuthRole", "Arn"]
+    },
+    "unauthRoleArn": {
+      "Fn::GetAtt": ["UnauthRole", "Arn"]
+    },
+    "breakCircularDependency": true,
+    "dependsOn": [
+      {
+        "category": "function",
+        "resourceName": "bim11d6741bPostConfirmation",
+        "triggerProvider": "Cognito",
+        "attributes": ["Arn", "Name"]
+      }
+    ],
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "triggers": {
+      "PostConfirmation": ["custom"]
+    },
+    "hostedUI": false,
+    "parentStack": {
+      "Ref": "AWS::StackId"
+    },
+    "permissions": [],
+    "authTriggerConnections": "[\n  {\n    \"triggerType\": \"PostConfirmation\",\n    \"lambdaFunctionName\": \"bim11d6741bPostConfirmation\"\n  }\n]",
+    "authProviders": [],
+    "thirdPartyAuth": false
+  }
+}

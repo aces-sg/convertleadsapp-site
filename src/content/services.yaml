@@ -1,0 +1,1908 @@
+- id: bim-modeling
+  slug: bim
+  name: BIM Services
+  title: BIM Services - Enhance Design & Compliance with BIM
+  image: bim-plant-landing.png
+  video: null
+  price: 8900.00
+  currency: SGD
+  description: >
+    From Design to Construction to Handover, work with experienced BIM
+    Coordinators to deliver ISO 19650 compliant models for seamless coordination
+    across all project phases.
+  whyChooseUs:
+    title: Why Choose Us?
+    description: Here's why AEC firms trust us with their BIM requirements
+    logos: []
+    benefits:
+      - icon: FaBriefcase
+        title: Certified Professionals
+        description: >
+          All coordinators are certified professionals with 3+ years' experience
+          coordinating Architecture, Structural, and MEP models.
+      - icon: Compliance
+        title: ISO 19650 Compliant
+        description: >
+          Ensure 3D models comply with international ISO 19650 standards for
+          information management throughout the project lifecycle.
+      - icon: MdOutlineSupportAgent
+        title: Live Support
+        description: >
+          Set weekly calls or meetings at the project site to coordinate trades
+          and resolve issues early
+  bimApproach:
+    title: Our BIM Approach
+    description: Proud Adopters of OpenBIM
+    sections:
+      - id: cad-to-bim
+        title: From CAD to BIM
+        content: >
+          Our team works with architects, engineers, and contractors to
+          transform sketches, CAD files, and PDFs into accurate 3D models.
+          Collaborate with our BIM Coordinators to generate plans, elevations,
+          and section drawings directly from the 3D model.
+        bgColor: bg-white
+        src: bimcollab-clash.png
+        linkText: The 3D Advantage
+        linkUrl: /blog/idd-ice-meetings
+
+      - id: model-review
+        title: Model Quality & Review
+        content: >
+          Monitor our 3D BIM modeling progress in real-time. Mark up problematic
+          areas directly on the 3D model to help our BIM Coordinators quickly
+          locate and resolve issues. Stay on top of all outstanding tasks with a
+          centralized project dashboard.
+        bgColor: bg-white
+        src: services/constructionSiteFlatline.png
+        linkText: Live Collaboration with BIMCollab
+        linkUrl: /blog/idd-ice-meetings
+
+      - id: any-software
+        title: Any BIM Software
+        content: >
+          Each BIM software has its own unique advantages and workflows. With a
+          network of over 150 BIM engineers, we can match you with specialists
+          across all major platforms, including
+          [Revit](/services/revit-services), ArchiCAD, Tekla, OpenBuildings, and
+          OpenBIM.
+        bgColor: bg-white
+        src: services/modal3D.png
+        linkText: null
+        linkUrl: null
+  howItWorksProcess:
+    title: How It Works
+    description: Here's our approach to quality BIM delivery
+    steps:
+      - number: '01'
+        title: Project Scoping
+        description: >
+          Define project requirements, deliverables, and milestones with your
+          dedicated BIM Coordinator. We establish clear expectations, technical
+          specifications, and delivery schedules tailored to your project needs.
+      - number: '02'
+        title: File Exchange
+        description: >
+          Access our secure Bimeco File Exchange platform to seamlessly share
+          design files, reference documents, and receive completed deliverables.
+          All project data is centralized for easy collaboration and version
+          control.
+      - number: '03'
+        title: Model Development
+        description: >
+          Our certified BIM specialists develop coordinated 3D models and
+          construction drawings following your project specification and
+          industry standards. Quality checks ensure accuracy at every stage.
+      - number: '04'
+        title: Review & Refine
+        description: >
+          Collaborate with our team in real-time to review deliverables, mark up
+          revisions, and track changes directly within our BIM environment. We
+          iterate until you're completely satisfied.
+  toolsTechnologies:
+    title: Any BIM Software
+    description: >
+      BIM Software like Revit, ArchiCAD, Tekla, and
+      [OpenBuildings](/software/bim) have workflows unique to its software
+      ecosystem. We find the BIM professionals trained in your software of
+      choice.
+    logos: []
+  portfolio:
+    title: Our BIM Projects
+    description: >
+      We have successfully delivered BIM models for various building types and
+      complexities across multiple regions.
+    projects: []
+
+  faq:
+    - question: >
+        I need support for the entire duration of my project. Can you do this?
+      answer: >
+        A dedicated BIM Manager will be assigned to your project to handle
+        coordination requirements. Bimeco will develop BIM models in an ISO
+        19650-compliant BIM environment.
+
+    - question: How do you ensure compliance with local building codes?
+      answer: >
+        Our BIM Coordinators are experienced in working with various
+        international building codes and local standards such as [CORENET
+        X](/services/corenetx-bim/). We collaborate closely with your project
+        team to ensure all models meet your specific regional requirements.
+
+    - question: What BIM formats do you support?
+      answer: >
+        Yes, we deliver BIM models in both native formats (e.g.,
+        [Revit](/services/revit-services), Archicad, Tekla) and open formats
+        such as IFC, based on your project needs.
+
+    - question: What happens if my design changes midway through a project?
+      answer: >
+        Our coordinators work with you to update your model throughout our
+        Service Period.
+
+    - question: Are you able to conduct the BIM coordination sessions in person?
+      answer: >
+        On-site meetings must be agreed in advance with a minimum of three
+        working days' notice.
+
+- id: bim-architecture
+  slug: bim-architecture
+  name: BIM for Architecture
+  title: BIM for Architecture | Architectural BIM Modeling Services
+  image: bim-archi-2.png
+  video: null
+  price: 8900.00
+  currency: SGD
+  description: >
+    Develop architectural BIM models for design coordination, permit
+    submissions, and construction documentation. Generate accurate plans and
+    sections.
+  whyChooseUs:
+    title: Why Choose Us?
+    description: >
+      Here's why architects and design firms trust us with their BIM
+      requirements
+    logos: []
+    benefits:
+      - icon: MdAutorenew
+        title: Multiple Revisions
+        description: >
+          Our BIM teams work with you to update all plans, sections, and
+          schedules alongside the 3D model.
+      - icon: MdVerified
+        title: ISO 19650-Compliant Models
+        description: >
+          Work with our team to convert CAD plans & models to BIM. We
+          quality-control each model to ensure proper tagging and
+          classification.
+      - icon: MdSpeed
+        title: 24-Hour Response Time
+        description: >
+          Need to make urgent updates to the BIM model? Our team is on standby
+          to process critical changes within one business day.
+  bimApproach:
+    title: Architectural BIM Workflow
+    description: >
+      Our approach to delivering quality architectural BIM models
+    sections:
+      - id: conceptual-modeling
+        title: Design-Ready BIM Models
+        content: >
+          Develop BIM models at the right level of detail for each project
+          phase—from LOD 300 conceptual massing to LOD 400 construction-ready
+          documentation. Accelerate design iterations while maintaining
+          coordination accuracy.
+        bgColor: bg-white
+        src: bim-archi-1.png
+        linkText: Understanding BIM LOD
+        linkUrl: /blog/bim-lod
+
+      - id: drawing-extraction
+        title: Automated Documentation
+        content: >
+          Extract coordinated 2D drawings directly from the BIM model—floor
+          plans, elevations, sections, and details. Design changes update
+          automatically across all sheets, eliminating manual coordination
+          errors.
+        bgColor: bg-white
+        src: bim-archi-3.png
+        linkText: null
+        linkUrl: null
+
+      - id: design-coordination
+        title: Clash-Free Coordination
+        content: >
+          Identify and resolve conflicts between architectural, structural, and
+          MEP systems before construction. Deliver properly tagged, ISO
+          19650-compliant models ready for tender issuance.
+        bgColor: bg-white
+        src: services/constructionSiteFlatline.png
+        linkText: Virtual Coordination Reviews
+        linkUrl: /blog/idd-ice-meetings
+  howItWorksProcess:
+    title: How It Works
+    description: Our architectural BIM delivery process
+    steps:
+      - number: '01'
+        title: Design Review
+        description: >
+          Share your design drawings, CAD files, or sketches. Our team reviews
+          the scope and provides a detailed timeline within 2 working days.
+      - number: '02'
+        title: Architectural Modeling
+        description: >
+          Our certified BIM specialists develop the architectural model to the
+          agreed LOD specification, incorporating walls, doors, windows,
+          ceilings, stairs, and finishes.
+      - number: '03'
+        title: Coordination & Review
+        description: >
+          Review the model through our collaboration platform. Mark up any
+          issues directly on the 3D model and we'll implement revisions within
+          1-2 working days.
+      - number: '04'
+        title: Drawing Delivery
+        description: >
+          Receive coordinated 2D drawings and the native BIM model. All
+          deliverables are checked for accuracy before handover.
+  toolsTechnologies: null
+  portfolio: null
+  faq:
+    - question: What Level of Detail (LOD) do you model to?
+      answer: >
+        We typically model architectural elements to LOD 300 for design
+        coordination and LOD 350-400 for construction documentation. The
+        appropriate LOD depends on your project stage and requirements.
+
+    - question: Can you work with our existing Revit template?
+      answer: >
+        Yes, we can adopt your office standards including Revit templates,
+        families, view templates, and annotation styles to ensure consistency
+        with your existing deliverables.
+
+    - question: How do you coordinate with other disciplines?
+      answer: >
+        We use federated models and clash detection tools like BIMCollab,
+        Navisworks, or Solibri to coordinate architectural models with
+        structural and MEP disciplines, resolving conflicts before construction.
+
+    - question: What file formats do you deliver?
+      answer: >
+        We deliver in native formats (Revit, ArchiCAD) and open formats (IFC)
+        based on your project requirements. 2D drawings are provided in DWG and
+        PDF formats.
+
+    - question: Is the BIM submissions compatible with CORENET X?
+      answer: >
+        Each BIM model is quality-controlled through the Bimeco Validator, which
+        ensures CORENET X compliance and includes all required IFC+SG
+        parameters.
+
+- id: bim-structure
+  slug: bim-structure
+  name: BIM for Structure
+  title: BIM for Structure | Structural BIM Modeling Services
+  image: bim-structure-3.png
+  video: null
+  price: 8900.00
+  currency: SGD
+  description: >
+    Develop structural BIM models for design analysis and coordination. From
+    concrete frames to steel connections, deliver clash-free fabrication models.
+  whyChooseUs:
+    title: Why Choose Us?
+    description: >
+      Here's why structural engineers trust us with their BIM requirements
+    logos: []
+    benefits:
+      - icon: MdSync
+        title: BIM Compliance
+        description: >
+          Maintain bi-directional synchronization between analytical and BIM
+          models. Iterate BIM models in tandem with design iterations.
+
+      - icon: MdConstruction
+        title: Fabrication-Ready Rebar
+        description: >
+          Model reinforcement to LOD 400 with bar bending schedules, lap
+          lengths, and cover requirements for direct fabrication.
+      - icon: MdPrecisionManufacturing
+        title: Shop-Ready Steel Details
+        description: >
+          Detail steel connections, plates, and bolting patterns with
+          fabrication specifications and shop drawing coordination.
+  bimApproach:
+    title: Structural BIM Workflow
+    description: >
+      Our approach to delivering quality structural BIM models
+    sections:
+      - id: steel-modeling
+        title: Fabrication-Ready Steel Detailing
+        content: >
+          Model steel frames, trusses, and connections with complete fabrication
+          details. Generate shop drawings with bolt patterns, weld symbols, and
+          assembly marks for direct fabrication.
+        bgColor: bg-white
+        src: bim-structure-1.png
+        linkText: null
+
+      - id: concrete-modeling
+        title: Concrete Models for Construction
+        content: >
+          Model concrete elements with embedded reinforcement detailed to
+          fabrication standards—accurate bar marks, bending schedules, and lap
+          splice locations ready for site execution.
+        bgColor: bg-white
+        src: bim-structure-4.png
+        linkText: Understanding BIM LOD
+        linkUrl: /blog/bim-lod
+
+      - id: analytical-bim-integration
+        title: Integrated Structural Modelling
+        content: >
+          Maintain seamless integration between structural analysis models
+          (ETABS, SAP2000, STAAD.Pro) and BIM documentation. Design changes in
+          analytical models automatically sync to construction models, ensuring
+          consistency.
+        bgColor: bg-white
+        src: bim-structure-2.png
+        linkText: Virtual Coordination Reviews
+        linkUrl: /blog/idd-ice-meetings
+  howItWorksProcess:
+    title: How It Works
+    description: Our structural BIM delivery process
+    steps:
+      - number: '01'
+        title: Upload Files
+        description: >
+          Share your structural drawings, analysis outputs, or design briefs.
+          Our team reviews the scope and provides a detailed timeline within 2
+          working days.
+      - number: '02'
+        title: Structural Modeling
+        description: >
+          Our structural BIM specialists model the frame, foundations, and
+          reinforcement to the agreed LOD specification, ensuring accuracy
+          against design intent.
+      - number: '03'
+        title: Model Review
+        description: >
+          Receive BIM models synchronized with your structural analysis,
+          complete with coordinated schedules and construction drawings ready
+          for fabrication.
+  toolsTechnologies: null
+  portfolio: null
+  faq:
+    - question: What structural analysis software do you integrate with?
+      answer: >
+        We can import analytical models from ETABS, SAP2000, STAAD.Pro, and
+        other structural analysis software. The BIM model can be linked to
+        maintain design-to-documentation coordination.
+
+    - question: Do you model rebar to fabrication standards?
+      answer: >
+        Yes, we model reinforcement to LOD 400 including bar marks, bending
+        schedules, lap lengths, and cover requirements suitable for rebar
+        fabrication and site installation.
+
+    - question: Can you detail steel connections?
+      answer: >
+        Yes, we detail steel connections including bolted and welded
+        connections, base plates, stiffeners, and splice details with full shop
+        drawing documentation.
+
+    - question: How do you handle rebar congestion?
+      answer: >
+        We use 3D visualization and clash detection to identify rebar congestion
+        issues early, working with the design team to resolve conflicts before
+        construction.
+
+- id: bim-mep
+  slug: bim-mep
+  name: BIM for MEP
+  title: BIM for MEP | MEP BIM Modeling & Coordination Services
+  image: bim-plant-landing.png
+  video: null
+  price: 8900.00
+  currency: SGD
+  description: >
+    Develop coordinated MEP BIM models for Mechanical, Electrical, Plumbing, and
+    Fire Protection systems ensuring clash-free buildable designs.
+  whyChooseUs:
+    title: Why Choose Us?
+    description: >
+      Here's why M&E consultants and contractors trust us with their MEP BIM
+    logos: []
+    benefits:
+      - icon: MdDashboard
+        title: Optimize Your Space
+        description: >
+          Coordinate HVAC, electrical, plumbing, and fire protection systems
+          within tight ceiling spaces for buildable designs with adequate
+          maintenance access.
+      - icon: MdCheckCircle
+        title: Clash-Free Design
+        description: >
+          Identify and resolve conflicts against architectural and structural
+          models before installation begins.
+      - icon: MdCalculate
+        title: Accurate Quantities
+        description: >
+          Extract precise material quantities for HVAC ductwork, piping, cable
+          trays, and conduits directly from the BIM model for cost estimation
+          and procurement.
+  bimApproach:
+    title: MEP BIM Workflow
+    description: >
+      Our approach to delivering coordinated MEP BIM models
+    sections:
+      - id: hvac-modeling
+        title: Precise Quantity Takeoffs
+        content: >
+          Model air handling units, ductwork, VAV boxes, FCUs, and associated
+          equipment with accurate sizes and clearances. Avoid clashes with
+          Architectural and Structural elements for a clash-free design.
+        bgColor: bg-white
+        src: bimcollab-clash.png
+        linkText: MEP Coordination Best Practices
+        linkUrl: /blog/idd-ice-meetings
+
+      - id: electrical-modeling
+        title: Precise Quantity Takeoffs
+        content: >
+          Extract cost and material schedules from piping, ducting, and other
+          MEP elements with custom-built BIM libraries tailored to your product
+          specifications.
+        bgColor: bg-white
+        src: bim-mep-2.png
+        linkText: null
+        linkUrl: null
+
+      - id: plumbing-fp-modeling
+        title: Construction-ready Detail Drawings
+        content: >
+          Extract general arrangement drawings from architectural, structural,
+          mechanical, electrical, and piping elements as part of your
+          construction deliverables. Automatically update 2D drawings from 3D
+          context.
+        bgColor: bg-white
+        src: shop-drawings.png
+
+  howItWorksProcess:
+    title: How It Works
+    description: Our MEP BIM delivery process
+    steps:
+      - number: '01'
+        title: File Upload
+        description: >
+          Share your MEP design drawings, equipment schedules, and
+          specifications. Our team reviews the scope and provides a detailed
+          timeline within 2 working days.
+      - number: '02'
+        title: MEP Modeling & Coordination
+        description: >
+          Our MEP BIM specialists model mechanical, electrical, plumbing, and
+          fire protection systems to the agreed LOD specification. Run clash
+          detection against architectural, structural, and other MEP trades.
+      - number: '03'
+        title: Model Review
+        description: >
+          Receive clash-free MEP models with coordinated layouts, section
+          drawings, and spool drawings ready for fabrication and installation.
+  toolsTechnologies: null
+  portfolio: null
+  faq:
+    - question: What MEP systems do you model?
+      answer: >
+        We model all MEP disciplines including HVAC/ACMV, electrical
+        distribution, plumbing (sanitary and water supply), fire protection
+        (sprinklers and hydrants), and specialty systems like medical gas or
+        industrial piping.
+
+    - question: Can you work with PDF or 2D drawings?
+      answer: >
+        We prefer 3D models in native BIM formats (Revit, ArchiCAD, Tekla) or
+        IFC. We can help obtain these from your consultant, or work with 2D
+        drawings if 3D models are unavailable.
+
+    - question: Do you have BIM 360 or BIM Collaborate Pro?
+      answer: >
+        Our BIM coordinators have access to all necessary BIM authoring and
+        collaboration software—no additional licenses required when you engage
+        us.
+
+    - question: What happens if there are changes in the design?
+      answer: >
+        Design changes are common as structural layouts evolve. We'll update MEP
+        systems to maintain clash-free coordination throughout the project.
+
+- id: revit-services
+  slug: revit-services
+  name: Revit Services
+  title: BIM Services | Revit Services in Singapore
+  image: bim-plant-landing-2.png
+  video: null
+  price: 8900.00
+  currency: SGD
+  description: >
+    Work with our BIM Coordinators to develop Revit models and Autocad files for
+    submissions to Autodesk Construction Cloud (ACC).
+  whyChooseUs:
+    title: Why Choose Us?
+    description: Here's why AEC firms trust us with their BIM requirements
+    logos: []
+    benefits:
+      - icon: FaBriefcase
+        title: Certified Professionals
+        description: >
+          All coordinators are certified professionals with 3+ years' experience
+          coordinating Architecture, Structural, and MEP models.
+      - icon: Compliance
+        title: ISO 19650 Compliant
+        description: >
+          Ensure 3D models comply with international ISO 19650 standards for
+          information management throughout the project lifecycle.
+      - icon: MdOutlineSupportAgent
+        title: Live Support
+        description: >
+          Set weekly calls or meetings at the project site to coordinate trades
+          and resolve issues early
+  bimApproach:
+    title: Revit Collaboration Workflow
+    description: How we leverage Revit and ACC to deliver coordinated projects
+    sections:
+      - id: gtm-bim
+        title: Cloud-Based Model Coordination
+        content: >
+          All Revit models are synchronized to Autodesk Construction Cloud,
+          enabling real-time collaboration across Architecture, Structure, and
+          MEP disciplines. Team members access the latest models instantly,
+          eliminating version control issues and ensuring everyone works from
+          current data.
+        bgColor: bg-white
+        src: bim-collaborate-pro.png
+        linkText: What is BIM Collaborate Pro?
+        linkUrl: /blog/bim-collaborate-vs-pro
+
+      - id: gtm-review
+        title: Virtual Design Reviews
+        content: >
+          Conduct efficient coordination meetings directly within ACC. Our team
+          identifies and resolves clashes, marks up issues in 3D, and tracks
+          resolution status—eliminating time-consuming site meetings and
+          accelerating decision-making.
+        bgColor: bg-white
+        src: bim-collaborate-clash.png
+        linkText: Benefits of Virtual Reviews
+        linkUrl: /blog/idd-ice-meetings
+
+      - id: gtm-iso
+        title: Construction-Ready Documentation
+        content: >
+          Extract accurate 2D shop drawings directly from coordinated Revit
+          models. Clash-free designs ensure construction teams receive
+          buildable, specification-compliant documentation that reduces RFIs and
+          site rework.
+        bgColor: bg-white
+        src: shop-drawings.png
+        linkText: null
+        linkUrl: null
+  howItWorksProcess:
+    title: Our Approach
+    description: >
+      Streamlined Revit modeling and ACC collaboration workflow
+    steps:
+      - number: '1'
+        title: Project Setup
+        description: >
+          Share your design files and ACC project credentials. We configure
+          access and review your project requirements within 2 working days.
+        icon: ShareIcon
+      - number: '2'
+        title: Revit Modeling
+        description: >
+          Our Revit specialists develop coordinated 3D models for Architecture,
+          Structure, and MEP. All models sync to ACC for real-time collaboration
+          and version control.
+        icon: ModelIcon
+      - number: '3'
+        title: Coordination & Review
+        description: >
+          We conduct clash detection in ACC, resolve design conflicts, and
+          facilitate virtual design reviews with your project team to ensure
+          clash-free deliverables.
+        icon: ReviewIcon
+  toolsTechnologies: null
+  portfolio: null
+
+  faq:
+    - question: >
+        What is the difference between BIM 360 and Autodesk Construction Cloud?
+      answer: >
+        BIM 360 is Autodesk's legacy data management platform, whereas Autodesk
+        Construction Cloud is the modern solution. It includes advanced modules
+        like Build, BIM Collaborate, and Quantity Takeoff.
+
+    - question:
+        What is the difference between Autodesk Docs and BIM Collaborate?
+      answer: >
+        Autodesk Docs serves as a document management platform for BIM and CAD
+        files. BIM Collaborate, on the other hand, extends capabilities with
+        cloud-based workflows such as clash detection and model reviews.
+
+    - question: How much does BIM Collaborate cost?
+      answer: >
+        BIM Collaborate is priced at $945 per year, making it a cost-effective
+        choice compared to BIM Collaborate Pro at $1,284 per year. Customers of
+        our BIM service packages receive complimentary access to BIM Collaborate
+        Pro.
+
+    - question: Is Revit the same as BIM?
+      answer: >
+        No, Revit is not the same as BIM. BIM (Building Information Modeling) is
+        a methodology for creating and managing digital representations of
+        buildings. Revit is Autodesk's BIM authoring software—one of many tools
+        used to create BIM models. Other popular BIM platforms include ArchiCAD,
+        Tekla, and Vectorworks. While project teams often standardize on a
+        single software, models can be exchanged using open formats like IFC for
+        interoperability.
+
+- id: corenetx-bim
+  slug: corenetx-bim
+  name: CORENET X Submissions
+  title: CORENET X Submissions | BIM Services in Singapore
+  image: ../assets/images/corenet.webp
+  price: 5900.00
+  currency: SGD
+  description: >
+    Ensure your BIM deliverables meet Singapore’s CORENET X submission
+    requirements. Generate accurate 2D plans from clash-free, IFC+SG compliant
+    BIM models.
+  whyChooseUs:
+    title: Be CORENET X Ready
+    description: >
+      Why we're Singapore's trusted choice for CORENET X BIM submissions.
+    logos: []
+    benefits:
+      - icon: FaBriefcase
+        title: Code of Practice Integration
+        description: >
+          Develop clash-free BIM models aligned with CORENET X, URA, BCA, SCDF,
+          and LTA requirements.
+      - icon: Compliance
+        title: DDM-Certified Professionals
+        description: >
+          Work with experienced BIM Coordinators with more than 3 years of
+          industry expertise across architectural, structural, electrical,
+          plumbing, and civil domains.
+      - icon: MdOutlineSupportAgent
+        title: On-site Support
+        description: >
+          Schedule virtual or on-site meeting with our BIM Coordinators to
+          manage site works.
+  bimApproach:
+    title: Our Approach
+    description: >
+      Drive Stakeholder Collaboration with OpenBIM
+    sections:
+      - id: corenetx-compliance
+        title: Regulatory Compliance
+        content: >
+          BIM is developed and coordinated for CORENET X submission. We run
+          automated compliance checks to validate the existence of key design
+          parameters in the BIM model.
+        bgColor: bg-white
+        src: ../assets/images/validator-check-values.webp
+        linkText: CORENET X Requirements
+        linkUrl: /blog/corenetx-vs-corenet2
+
+      - id: bim-federation
+        title: Stakeholder Engagement
+        content: >
+          All project files are centralized in an ISO 19650 Common Data
+          Environment. Architecture, Structural, and MEP models are coordinated
+          in one platform. Identify and resolve problematic clashes to mitigate
+          project risks on-site.
+        bgColor: bg-white
+        src: ../assets/images/bimcollab-clash.png
+        linkText: Virtual Collaboration Reviews
+        linkUrl: /blog/idd-ice-meetings
+
+      - id: shop-drawings
+        title: Issued for Construction
+        content: >
+          We deliver construction-ready drawings extracted directly from the
+          coordinated BIM model. This ensures design intent translates
+          accurately to the field, reducing costly rework and maintaining tight
+          coordination between your design team and construction crews.
+        bgColor: bg-white
+        src: ../assets/images/schematic.webp
+        linkText: 2D–3D coordination workflow
+        linkUrl: /services/bim
+  howItWorksProcess: null
+  toolsTechnologies: null
+  portfolio: null
+  ctaSection: null
+  faq:
+    - question: Why is IFC+SG compliance required?
+      answer: >
+        IFC+SG ensures that BIM data follows a consistent, open standard
+        mandated by Singapore authorities. By using IFC+SG, submissions can be
+        validated automatically, reducing manual checks and accelerating the
+        approval timeline.
+
+    - question: What types of BIM deliverables are required?
+      answer: >
+        Typically, submissions include federated BIM models from disciplines
+        such as architecture, structural, and MEP. These models must be
+        coordinated and clash-free. Specific agencies may also require
+        accompanying 2D deliverables.
+
+    - question: What happens if a submission is not compliant?
+      answer: >
+        Non-compliant submissions may result in Written Directions for
+        correction, leading to project delays. Ensuring IFC+SG compliance
+        smooths the approval process.
+
+    - question: Do I need to submit via CORENET X?
+      answer: >
+        Yes. From October 2025, all new projects above 30,000 sqm must submit
+        BIM deliverables through the CORENET X platform. For details on the
+        transition from CORENET 2.0 to CORENET X, see <a
+        href="/blog/corenetx-vs-corenet2">CORENET X vs CORENET 2.0</a>.
+
+    - question: Can your BIM Coordinators perform a submission for me?
+      answer: >
+        Only Qualified Persons are allowed to access the CORENET X portal for
+        submission. While our BIM Coordinators can assist with model
+        development, ultimate responsibility lies with the Qualified Person.
+
+- id: what-is-idd
+  slug: idd
+  name: What is Integrated Digital Delivery? IDD Services in Singapore
+  image: ../assets/images/idd-illustration.webp
+  price: 5900.00
+  currency: SGD
+  description: >
+    Integrated Digital Delivery uses BIM, point clouds, robotics, LiDAR, and QR
+    codes to streamline site logistics and boost productivity.
+  whyChooseUs:
+    title: Benefits of IDD
+    description: >
+      How IDD helps contractors deliver faster, safer, and smarter projects.
+    logos: []
+    benefits:
+      - icon: FaBriefcase
+        title: Improved Site Coordination
+        description: >
+          Deliver LOD 400 models with fabrication details, assembly methods, and
+          coordinated shop drawings to guide site execution.
+      - icon: Compliance
+        title: Reduce Project Risk
+        description: >
+          Use 4D/5D BIM to avoid clashes, visualize complex site sequences, and
+          perform automated quantity takeoffs for cost management.
+      - icon: MdOutlineSupportAgent
+        title: Progress Tracking & Quality Control
+        description: >
+          Track project progress and support payment claims with point cloud
+          scans, while detecting quality issues by comparing as-built conditions
+          against the original design model.
+  bimApproach:
+    title: How IDD Works
+    description: >
+      Our IDD approach integrates BIM and digital workflows across design,
+      construction, and site delivery.
+    sections:
+      - id: bim-for-construction
+        title: BIM for Construction
+        content: >
+          Develop BIM models up to LOD 400, including fabrication details,
+          assembly methods, and joining specifications. Produce coordinated shop
+          drawings to be issued to site teams before construction begins.
+        bgColor: bg-white
+        src: bim-lod-300.webp
+        linkText: Learn about BIM LOD
+        linkUrl: /blog/bim-lod
+
+      - id: vdc
+        title: Virtual Design & Planning
+        content: >
+          4D BIM simulates construction sequences, helping teams visualize
+          scheduling clashes and optimize site activities. Implement automated
+          quantity takeoffs with 5D BIM for accurate cost tracking and payment
+          claims.
+        bgColor: bg-white
+        src: ../assets/images/syncro-4d-civil-sequence.webp
+        linkText: Learn about 4D BIM
+        linkUrl: /blog/what-is-4d-bim
+
+      - id: defects-tracking
+        title: Progress & Defects Tracking
+        content: >
+          Use point cloud scans to validate as-built conditions against the
+          design intent. Leverage Scan-to-BIM workflows to track progress and
+          support payment claims.
+        bgColor: bg-white
+        src: ../assets/images/cupix/cupix-measure-site.webp
+        linkText: Reality capture workflows
+        linkUrl: /blog/bim-deviation-reports
+  howItWorksProcess: null
+  toolsTechnologies: null
+  portfolio: null
+  ctaSection: null
+  faq:
+    - question: What is the difference between BIM and IDD?
+      answer: >
+        BIM refers to the creation of 3D models for design, construction, and
+        operations. IDD is a broader approach that uses digital technologies to
+        improve construction productivity. This may include BIM, point clouds,
+        LiDAR scanners, or robotics.
+
+    - question: What are the main elements of IDD?
+      answer: >
+        IDD includes BIM workflows like 4D/5D/6D modeling, automated quantity
+        takeoffs, and digital twin development. It also covers non-BIM tools
+        such as point clouds for progress checks and as-built verification.
+
+    - question: Is Scan-to-BIM included in your scope of work?
+      answer: >
+        Our BIM services cover 4D/5D/6D workflows. For Scan-to-BIM, we
+        collaborate with licensed surveyors to ensure accuracy and compliance.
+
+    - question: Is IDD mandatory in Singapore projects?
+      answer: >
+        BCA actively promotes IDD as part of industry transformation. While BIM
+        submissions via <a href="/blog/corenetx-vs-corenet2">CORENET X</a> are
+        required, IDD itself is not yet mandatory.
+
+    - question: How is IDD related to ISO 19650?
+      answer: >
+        ISO 19650 sets the global standard for information management. IDD
+        complements it by integrating BIM and non-BIM workflows in a structured,
+        collaborative way.
+- id: 4d-bim
+  slug: 4d-bim
+  name: Enhanced Construction Planning with 4D BIM
+  title: 4D BIM Services - Construction Sequencing & Planning
+  image: projectwise-model-review.png
+  video:
+    bucketName: 'd14s2iums0fe7u.cloudfront.net'
+    videoKey: 'videos/civil-walkthrough.mp4'
+    poster: 'https://d14s2iums0fe7u.cloudfront.net/images/synchro/projectwise-model-review.png'
+  price: 7500.00
+  currency: SGD
+  description: >
+    Combine project schedules with federated BIM models to create a compelling
+    4D sequence for tender presentations and project planning.
+  whyChooseUs:
+    title: What's Included
+    description: >
+      Here’s what we deliver when you engage us for 4D BIM sequencing.
+    benefits:
+      - icon: MdTimeline
+        title: Visual Construction Planning
+        description: >
+          Link schedule milestones to BIM elements for visual validation of
+          build sequences, identifying conflicts and optimizing site logistics
+          before mobilization.
+      - icon: MdVideoLibrary
+        title: Client-Ready Presentations
+        description: >
+          Generate high-quality 4D animations with multiple camera angles.
+          Communicate complex construction plans clearly to stakeholders and
+          clients.
+      - icon: MdVerified
+        title: Pre-Construction Validation
+        description: >
+          Test build sequences virtually to identify access issues, crane
+          positioning, and temporary works needs. Validate constructability
+          before committing resources.
+  howItWorksProcess:
+    title: Our 4D Construction Workflow
+    description: >
+      Our streamlined approach ensures quality 4D BIM delivery.
+    steps:
+      - number: '1'
+        title: Upload Files
+        description: >
+          Share your CAD plans, 3D models, or schedules on the Bimeco Platform.
+          Our team reviews the files within 2 working days.
+        icon: ShareIcon
+      - number: '2'
+        title: Build the 4D
+        description: >
+          We use industry-leading tools like Synchro 4D to link your schedule
+          with the BIM model, creating a realistic construction sequence.
+        icon: ModelIcon
+      - number: '3'
+        title: Video Review
+        description: >
+          We prepare up to 3 recommended viewpoints and refine the sequence
+          based on your feedback. Final videos are shared via the Bimeco
+          Platform.
+        icon: ReviewIcon
+  toolsTechnologies:
+    title: Best 4D Software
+    description: >
+      We integrate BIM models from leading platforms with enterprise scheduling
+      software (Primavera P6, MS Project) for comprehensive 4D sequencing and
+      visual timeline simulations.
+    topRowTools:
+      - name: Oracle P6
+        image: oracle-p6-logo.png
+      - name: Revit
+        image: company/revit.png
+      - name: syncro-4d-software
+        image: syncro-4d-logo.png
+    bottomRowTools:
+      - name: OpenBuildings
+        image: company/openbuildings.png
+      - name: Microsoft Projects
+        image: microsoft-projects-logo.png
+  bimApproach:
+    title: 4D BIM Workflows
+    description: >
+      Why leading consultants and contractors incorporate 4D BIM.
+    sections:
+      - id: deliver-schedule
+        title: Deliver Ahead of Schedule
+        content: >
+          Using Critical Path Analysis, contractors can sequence complex,
+          concurrent site activities to find the fastest route to completion.
+          Studies report up to 20% reductions in overall project lead times.
+        bgColor: bg-white
+        src: syncro-critical-path.png
+        linkText: Digital Delivery Guide for Contractors
+        linkUrl: /blog/bim-for-contractors
+
+      - id: win-more-bids
+        title: Win More Bids
+        content: >
+          4D BIM showcases your ability to execute complex site works. Including
+          4D simulations in tender submissions often improves win rates, with
+          measurable improvements in contractor selection outcomes.
+        bgColor: bg-white
+        src: syncro-tender-presentation.png
+        linkText: 4D BIM Examples
+        linkUrl: /blog/what-is-4d-bim
+
+      - id: reduce-project-risks
+        title: Reduce Project Risks
+        content: >
+          Complex schedules in MS Project or Primavera P6 can be difficult for
+          site teams to interpret. A 4D BIM sequence turns them into an
+          intuitive, time-linked animation that helps crews coordinate work and
+          reduce overruns.
+        bgColor: bg-white
+        src: projectwise-model-review.png
+  portfolio:
+    title: Our 4D Projects
+    description: >
+      We have delivered countless 4D BIM projects. Here are some highlights.
+    projects:
+      - title: Civil Walkthrough for Airport
+        description: >
+          Integrated the tender BIM model with the construction schedule in
+          Synchro 4D to showcase how the airport’s tunnels connect, providing
+          stakeholders with a clear, phased walkthrough of the substructure.
+        image: syncro-tender-presentation.png
+        alt: Airport Civil Walkthrough
+      - title: Safety Demo for Industrial Plant
+        description: >
+          Produced a facility walkthrough using the as-built BIM model,
+          providing an engaging tool for safety training, presentations, and
+          marketing campaigns.
+        image: 2.png
+        alt: Industrial Plant Walkthrough
+      - title: DE 107 Rail Project
+        description: >
+          Combined a BIM model with an Oracle Primavera P6 schedule to visualize
+          the construction sequence of an underground station.
+        image: 3.png
+        alt: DE 107 Rail Project
+  faq:
+    - question: What exactly will you deliver if we engage you for 4D BIM?
+      answer: >
+        We deliver a 4D BIM model that links construction activities to your
+        schedule, allowing stakeholders to visualize the build sequence over
+        time. Deliverables can range from tender-level simulations to fully
+        detailed LOD 500 models.
+
+    - question: Do we need a BIM model ready before engaging you?
+      answer: >
+        Not necessarily. If you already have a BIM model, we can integrate it
+        directly with your schedule. If not, our BIM team can help develop one
+        based on your drawings and project requirements.
+
+    - question: How accurate is the 4D sequence?
+      answer: >
+        Accuracy depends on the detail of your schedule and model. With a
+        well-defined programme and coordinated BIM model, our 4D simulations
+        closely reflect site progress and potential risks.
+
+    - question: How long does it take to prepare a 4D BIM sequence?
+      answer: >
+        Setup typically takes 2–4 weeks depending on project size and model
+        quality. We also update the sequence as your schedule evolves to keep it
+        aligned with project milestones.
+
+    - question: What software do you use?
+      answer: >
+        We primarily use Synchro 4D and Navisworks, but can adapt to
+        client-specified platforms. Models can be delivered in native formats
+        (e.g., Revit, Archicad, Tekla) and open standards such as IFC.
+  ctaSection:
+    title: Expert BIM Consultants
+    description: >
+      With a network of more than 400 BIM Coordinators, we work with consultants
+      and contractors to implement virtual project delivery.
+    whatsIncludedLabel: WHAT'S INCLUDED
+    features:
+      - P6 / MS Project / Excel Integration
+      - 1080p Video
+      - 4D Planning Software
+      - BIM Consultants
+    rightPanel:
+      subtitle: Ready to get started?
+      title: Let's Talk
+      buttonText: Get in Touch
+      buttonUrl: /contact
+
+- id: 5d-bim
+  slug: 5d-bim
+  name: 5D BIM - Cost Planning & Quantity Takeoffs
+  title: 5D BIM Services | Cost Estimation & Quantity Takeoff
+  image: syncro-hero.png
+  video: null
+  price: 7500.00
+  currency: SGD
+  description: >
+    Link BIM models to cost data for automated quantity takeoffs and budget
+    tracking. Generate accurate material schedules and cost estimates in
+    real-time.
+  whyChooseUs:
+    title: What's Included
+    description: >
+      Here’s what we deliver when you engage us for 5D BIM planning.
+    benefits:
+      - icon: MdCalculate
+        title: Automated Quantity Takeoffs
+        description: >
+          Extract material quantities directly from BIM models with built-in
+          cost rates for instant budget estimates and procurement planning.
+      - icon: MdTrendingUp
+        title: Real-Time Budget Tracking
+        description: >
+          Track project costs against design changes in real-time. Update
+          budgets automatically as BIM models evolve through design iterations.
+      - icon: MdCompareArrows
+        title: Cost-Driven Design Decisions
+        description: >
+          Compare cost implications of design alternatives instantly. Make
+          informed decisions with live cost feedback during the design phase.
+  howItWorksProcess:
+    title: Our 5D Planning Workflow
+    description: >
+      Our process ensures accurate and transparent 5D BIM deliverables.
+    steps:
+      - number: '1'
+        title: Upload Files
+        description: >
+          Share your BIM models, schedules, and cost data on the Bimeco
+          Platform. We review all inputs within 2 working days.
+        icon: ShareIcon
+      - number: '2'
+        title: Build the 5D
+        description: >
+          We connect your BIM models to schedules and costs using 5D software,
+          creating a time-and-cost-linked simulation.
+        icon: ModelIcon
+      - number: '3'
+        title: Model Delivery
+        description: >
+          We provide cost-loaded simulations and update them based on your
+          feedback, ensuring alignment with project objectives.
+        icon: ReviewIcon
+  toolsTechnologies:
+    title: Best 5D Software
+    description: >
+      We integrate BIM models from industry-standard platforms with cost
+      management and scheduling software (i.e. Oracle P6, MS Projects) for
+      comprehensive 5D analysis and reporting.
+    topRowTools:
+      - name: Oracle P6
+        image: oracle-p6-logo.png
+      - name: Revit
+        image: company/revit.png
+      - name: syncro-4d-software
+        image: syncro-4d-logo.png
+    bottomRowTools:
+      - name: OpenBuildings
+        image: company/openbuildings.png
+      - name: Microsoft Projects
+        image: microsoft-projects-logo.png
+  bimApproach:
+    title: 5D BIM Workflows
+    description: >
+      Why leading contractors adopt 5D BIM for cost and schedule certainty.
+    sections:
+      - id: control-costs
+        title: Accurate, Competitive Bids
+        content: >
+          Generate quantity-backed cost estimates directly from BIM models.
+          Align every cost item to 3D elements for visual verification,
+          producing defensible bids that win client confidence.
+        bgColor: bg-white
+        src: syncro-cost-attributes.png
+        linkText: Digital Delivery Guide for Contractors
+        linkUrl: /blog/bim-for-contractors
+
+      - id: plan-cashflow
+        title: Forecast Cash Flow & Payments
+        content: >
+          Link construction schedules to cost data for month-by-month
+          expenditure forecasts. Plan procurement timing and financing needs
+          while generating progress claims backed by completed model elements.
+        bgColor: bg-white
+        src: syncro-earned-value-tracking.png
+
+      - id: mitigate-risks
+        title: Visual Cost Reporting
+        content: >
+          Present construction progress and costs through visual 4D/5D
+          simulations. Help clients understand project status, validate payment
+          claims, and manage budget expectations with model-based reports.
+        bgColor: bg-white
+        src: syncro-civil-quantities.png
+  portfolio:
+    title: Our 5D Projects
+    description: >
+      We have delivered numerous 5D BIM projects for contractors and
+      consultants.
+    projects:
+      - title: Waste Treatment Facility
+        description: >
+          Modeled complex M&E systems and integrated them with cost breakdowns
+          to streamline progress tracking and financial reporting.
+        image: 2.png
+        alt: Waste Treatment Facility
+      - title: DE 107 Rail Project
+        description: >
+          Combined BIM models with a construction schedule and cost plan to
+          create a virtual 5D construction sequence for site planning.
+        image: 3.png
+        alt: DE 107 Rail Project
+      - title: Tuas Water Reclamation Plant
+        description: >
+          Generated accurate cost-loaded construction drawings and simulations,
+          ensuring design-build alignment before execution.
+        image: 4.png
+        alt: Tuas Water Reclamation Plant
+      - title: Heritage Building - Scan to BIM
+        description: >
+          Recreated a heritage building from point cloud data, developing a BIM
+          model in both native and IFC formats with integrated cost attributes.
+        image: warehouse.webp
+        alt: Heritage Building
+  faq:
+    - question: What exactly will you deliver if we engage you for 5D BIM?
+      answer: >
+        We deliver a 5D BIM model that links cost and schedule data to your BIM
+        model, enabling accurate estimates, cash flow planning, and risk
+        analysis.
+
+    - question: Do we need a BIM model ready before engaging you?
+      answer: >
+        A BIM model is recommended, but if not available, our team can assist in
+        developing one from your design drawings and project data.
+
+    - question: How accurate is the 5D output?
+      answer: >
+        Accuracy depends on the quality of your schedule and cost data. With
+        reliable inputs, our 5D models provide highly dependable financial and
+        progress simulations.
+
+    - question: How long does it take to prepare a 5D BIM sequence?
+      answer: >
+        Typical setup takes 3–5 weeks depending on project scale and data
+        quality. Updates can be provided as your project progresses.
+
+    - question: What software do you use?
+      answer: >
+        We primarily use Synchro, Navisworks, and Revit, Oracle P6, and
+        Microsoft Projects. Deliverables are provided in both native and open
+        formats (e.g., IFC).
+  ctaSection:
+    title: Expert BIM Consultants
+    description: >
+      With a network of more than 400 BIM Coordinators, we work with consultants
+      and contractors to implement virtual project delivery.
+    whatsIncludedLabel: WHAT'S INCLUDED
+    features:
+      - Schedule + Cost Integration
+      - Cash Flow Forecasting
+      - 5D Planning Software
+      - BIM Consultants
+    rightPanel:
+      subtitle: Ready to get started?
+      title: Let's Talk
+      buttonText: Get in Touch
+      buttonUrl: /contact
+
+- id: 6d-bim
+  slug: 6d-bim
+  name: 360 Asset Insights - The 6D BIM Advantage
+  title: 6D BIM Services | 360 Asset Insights with BIM
+  image: bic-model-view.png
+  video: null
+  price: 7500.00
+  currency: SGD
+  description: >
+    Integrate facilities management and sustainability data into BIM models for
+    lifecycle asset management, energy analysis, and operational cost tracking.
+  whyChooseUs:
+    title: What's Included
+    description: >
+      Here's what we deliver when you engage us for 6D BIM integration.
+    benefits:
+      - icon: MdDashboard
+        title: Intelligent Asset Data
+        description: >
+          Embed maintenance schedules, warranty information, and operational
+          specifications directly into BIM elements for seamless facility
+          handover.
+      - icon: MdEco
+        title: Sustainability Analysis
+        description: >
+          Track energy consumption, carbon footprint, and environmental
+          performance metrics throughout the building lifecycle.
+      - icon: MdTimeline
+        title: Lifecycle Cost Planning
+        description: >
+          Forecast long-term operational expenses, replacement cycles, and
+          maintenance budgets for informed asset management decisions.
+  bimApproach:
+    title: 6D BIM Workflows
+    description: >
+      How we integrate operational intelligence into your BIM models.
+    sections:
+      - id: asset-data-integration
+        title: Smart Asset Documentation
+        content: >
+          Embed COBie-compliant data into BIM elements including equipment
+          specifications, maintenance requirements, and warranty details.
+          Generate facility handover packages with complete operational
+          intelligence.
+        bgColor: bg-white
+        src: bic-components-management.png
+        linkText: Digital Asset Management Guide
+        linkUrl: /blog/bim-for-contractors
+
+      - id: sustainability-tracking
+        title: Energy & Sustainability Metrics
+        content: >
+          Integrate energy analysis data, carbon calculations, and environmental
+          certifications (Green Mark, LEED) into the BIM model for comprehensive
+          sustainability reporting and compliance.
+        bgColor: bg-white
+        src: bic-project-dashboard-2.png
+
+      - id: lifecycle-management
+        title: Multi-site Facility Management
+        content: >
+          Manage facilities across multiple sites through integrated BIM and
+          geospatial platforms. Track maintenance events by location, identify
+          problematic assets across portfolios, and access real-time operational
+          data for faster response and resolution.
+        bgColor: bg-white
+        src: bic-issue-management.png
+  howItWorksProcess:
+    title: Our 6D BIM Process
+    description: >
+      How we integrate facilities management data into your BIM models.
+    steps:
+      - number: '1'
+        title: Data Collection
+        description: >
+          We gather equipment specifications, O&M manuals, BIM models, CAD
+          documents from your facility team and consultants. Where 3D
+          information is missing, we can use Scan to BIM to capture existing
+          conditions.
+        icon: ShareIcon
+      - number: '2'
+        title: BIM Data Integration
+        description: >
+          Our specialists embed asset data, sustainability metrics, and
+          maintenance schedules into the BIM model using COBie standards and
+          FM-ready formats.
+        icon: ModelIcon
+      - number: '3'
+        title: FM Platform Handover
+        description: >
+          We deliver the 6D BIM model with integrated facility data, ready for
+          import into CAFM/CMMS platforms for ongoing asset management.
+        icon: ReviewIcon
+  toolsTechnologies:
+    title: 6D Asset Management Software
+    description: >
+      We integrate BIM models with facilities management and sustainability
+      software for comprehensive asset lifecycle management.
+    topRowTools:
+      - name: Autodesk
+        image: company/autodesk.png
+      - name: Revit
+        image: company/revit.png
+      - name: Navisworks
+        image: company/navisworks.png
+    bottomRowTools:
+      - name: Bentley Infrastructure Cloud
+        image: projectwise/projectwise-logo.png
+      - name: COBie
+        image: buildingsmart-logo.png
+  faq:
+    - question: What is 6D BIM and how is it different from 5D BIM?
+      answer: >
+        5D BIM focuses on construction cost and schedule. 6D BIM extends this to
+        facilities management, adding operational data like maintenance
+        schedules, energy performance, and asset lifecycle information.
+
+    - question: Do you follow COBie standards for facility data?
+      answer: >
+        Yes, we structure facility data using COBie (Construction Operations
+        Building Information Exchange) standards to ensure compatibility with
+        CAFM/CMMS platforms.
+
+    - question: Can you integrate sustainability certifications like Green Mark?
+      answer: >
+        We can embed sustainability metrics, energy analysis data, and
+        certification requirements (Green Mark, LEED, BREEAM) into the 6D BIM
+        model for compliance tracking and reporting.
+
+    - question: What software platforms can receive the 6D BIM data?
+      answer: >
+        Our 6D BIM models can export to common CAFM/CMMS platforms including
+        Archibus, IBM Maximo, and FM:Systems. We also provide data in COBie
+        Excel format for platform-agnostic handover.
+  ctaSection:
+    title: Expert BIM Consultants
+    description: >
+      With a network of more than 400 BIM Coordinators, we integrate facilities
+      management intelligence into your digital asset delivery.
+    whatsIncludedLabel: WHAT'S INCLUDED
+    features:
+      - Asset Data Integration
+      - Sustainability Metrics
+      - COBie Standards
+      - BIM Consultants
+    rightPanel:
+      subtitle: Ready to get started?
+      title: Let's Talk
+      buttonText: Get in Touch
+      buttonUrl: /contact
+
+- id: scan-to-bim
+  slug: scan-to-bim
+  name: Scan to BIM Services
+  title: Scan to BIM Service | Convert Point Cloud, e57, and 360 captures to BIM
+  image: scan-to-bim-2.png
+  video: null
+  price: 4800.00
+  currency: SGD
+  description: >
+    Capture facility measurements with sub-4 mm accuracy. Develop BIM models
+    from 360 cameras and terrestrial scans for as-built BIM documentation.
+  whyChooseUs:
+    title: Why Choose Us?
+    description: >
+      Here's why leading AEC firms trust Bimeco for scan-to-BIM services
+    benefits:
+      - icon: MdSettings
+        title: Multi-Format Support
+        description: >
+          We process point clouds from LiDAR scanners, 360° cameras, drones, and
+          photogrammetry to deliver accurate BIM models in Revit, ArchiCAD, or
+          IFC formats.
+      - icon: MdSchedule
+        title: Fast Turnaround
+        description: >
+          Receive detailed as-built BIM models within 2-3 weeks, complete with
+          architectural, structural, and MEP elements modeled to your required
+          LOD specification.
+      - icon: MdCheckCircle
+        title: Certified Professionals
+        description: >
+          Our scan-to-BIM specialists are DDM-certified with extensive
+          experience converting complex point cloud data into construction-ready
+          BIM models.
+  bimApproach:
+    title: Scan to BIM workflows.
+    description: >
+      Digitize your assets to unlock enhanced facility management workflows.
+    sections:
+      - id: concept-model
+        title: As-Built BIM Documentation
+        content: >
+          Transform point cloud scans into detailed, construction-ready BIM
+          models. Our team accurately models architectural elements, structural
+          components, MEP systems, and interior finishes to LOD 300-400
+          specifications. Generate coordinated 2D floor plans, elevations, and
+          sections directly from the 3D model for permit submissions and
+          renovation planning.
+        bgColor: bg-white
+        src: services/scan-to-bim-3.png
+        linkText: null
+        linkUrl: null
+
+      - id: photoreal-rendering
+        title: Project Quality Control
+        content: >
+          Validate construction accuracy by overlaying design BIM models with
+          as-built point cloud data. Identify deviations, detect spatial
+          conflicts, and generate detailed deviation reports with color-coded
+          heat maps showing variations down to ±4mm accuracy. Catch issues
+          before they become costly rework, ensuring projects stay on schedule
+          and within budget.
+        bgColor: bg-white
+        src: cupix/cupix-measure-site.webp
+        linkText: null
+        linkUrl: null
+
+      - id: interactive-tours
+        title: Progress Monitoring & Documentation
+        content: >
+          Capture periodic laser scans throughout construction to create
+          time-stamped as-built records. Compare design intent against actual
+          progress, validate contractor payment claims, and maintain verifiable
+          documentation for handover. Ideal for complex MEP installations,
+          structural work verification, and facilities management asset
+          tracking.
+        bgColor: bg-white
+        src: cupix/cupix-progress-report.png
+        linkText: null
+        linkUrl: null
+  portfolio:
+    title: Our Scan-to-BIM Projects
+    description: >
+      We have delivered precise scan-to-BIM models for heritage buildings,
+      commercial spaces, and industrial facilities.
+    projects:
+      - title: Heritage Building Documentation
+        description: >
+          Scanned a 1920s colonial bungalow to produce as-built documentation
+          for conservation approval and restoration works.
+        image: services/scan-to-bim-1.png
+        alt: Heritage Building Scan
+      - title: Good Class Bungalow
+        description: >
+          Produced accurate floor plans and 3D models for a 15,000 sqft GCB to
+          support A&A works and interior renovation.
+        image: services/scan-to-bim-2.png
+        alt: Good Class Bungalow Scan
+      - title: Industrial Facility
+        description: >
+          Mapped MEP routing and structural elements across a 3-storey factory
+          to support system upgrades and regulatory compliance.
+        image: services/scan-to-bim-3.png
+        alt: Industrial Facility Scan
+      - title: Educational Facility
+        description: >
+          Delivered as-built BIM models for a school campus undergoing ERSS
+          planning and classroom reconfiguration.
+        image: services/scan-to-bim-4.png
+        alt: Educational Facility Scan
+  faq:
+    - question: How long does the process take?
+      answer: >
+        A typical LiDAR scanning and interior modeling project takes 2–4 weeks
+        from scan to BIM. However, larger project sites will naturally take a
+        longer time.
+    - question: Can these models be used in AR/VR presentations?
+      answer: >
+        Yes, BIM models can be exported to web-compatible formats like .gltf.
+        This can be useful when preparing immersive presentations for your
+        project teams.
+    - question: What accuracy can I expect from LiDAR scans?
+      answer: >
+        LiDAR scans typically achieve 4–10mm accuracy, depending on the
+        equipment and site conditions.
+    - question: How much does it cost to scan my project site?
+      answer: >
+        The cost depends on the size and complexity of the site. Please provide
+        an estimated Gross Floor Area (GFA) for a quote.
+    - question: What is the Level of Detail of the deliverable?
+      answer: >
+        LOD 300 is the most-requested level of detail because it accurately
+        captures the geometric dimensions of the as-built asset.
+    - question: What is the file format of the final BIM deliverable?
+      answer: >
+        The default format is .ifc, but we can also provide models in native
+        formats such as .rvt, .dgn, or .pln upon request.
+    - question: Can you capture above-ceiling MEP systems?
+      answer: >
+        Yes, but this typically increases the cost due to the additional labor
+        required to remove ceiling boards. Providing existing CAD or BIM plans
+        can help reduce time and cost for above-ceiling scans.
+    - question: What are the use cases for point cloud scanning?
+      answer: >
+        Point cloud scans are used for renovation planning, defect detection,
+        as-built BIM documentation, and project visualization.
+
+- id: cad-services
+  slug: cad-services
+  name: CAD Drafting Services
+  title: CAD Drafting Singapore | Quality Shop Drawings & Documentation
+  image: schematic.webp
+  video: null
+  price: null
+  currency: SGD
+  description: >
+    Create, update, and maintain 2D CAD plans, drawings, and sheets with
+    experienced AEC drafters.
+  whyChooseUs:
+    title: Why Choose Our CAD Services?
+    description: >
+      Here's why AEC firms trust us to manage their CAD files.
+    benefits:
+      - icon: FaPeopleGroup
+        title: CAD Experts
+        description: >
+          Work with experienced CAD drafters specializing in Architecture,
+          Structural, Electrical, and Piping drafting.
+      - icon: Compliance
+        title: CORENET Compliance
+        description: >
+          Meet 2D submission requirements with teams familiar with local
+          regulatory submissions requirements and Employer Information
+          Requirements.
+      - icon: FaBuilding
+        title: BIM-Ready
+        description: >
+          Extract shop drawings from clash-free, and federated BIM models.
+  bimApproach:
+    title: Benefits of CAD
+    description: >
+      A streamlined CAD workflow that enhances coordination, compliance, and
+      presentation quality across your projects.
+    sections:
+      - id: intake-scoping
+        title: From CAD to BIM
+        content: >
+          Transform your 2D CAD drawings into 3D BIM models for coordination and
+          visualization. Model only to the level of detail necessary for
+          integration with other building systems, ensuring efficiency and
+          accuracy.
+        bgColor: bg-white
+        src: bimcollab-clash.png
+
+      - id: drafting-templates
+        title: Standardized Templates
+        content: >
+          Work with our CAD specialists to standardize your drawing templates,
+          layers, and annotation styles. Strengthen your firm’s professional
+          image while improving consistency and quality across project
+          deliverables.
+        bgColor: bg-white
+        src: ../assets/images/schematic.webp
+
+      - id: code-compliance
+        title: Employers Information Requirements
+        content: >
+          Ensure your CAD deliverables meet Employer’s Information Requirements
+          (EIR) and project-specific data standards. We help you comply with
+          submission protocols set by owners and agencies under the CORENET X
+          framework.
+        bgColor: bg-white
+        src: constructionSiteFlatline.png
+
+  howItWorksProcess:
+    title: Our CAD Drafting Workflow
+    description: >
+      Our approach to quality CAD submissions
+    steps:
+      - number: '1'
+        title: Upload Files
+        description: >
+          Share BIM models, tender drawings, and sketches on the Bimeco
+          Platform.
+        icon: ShareIcon
+      - number: '2'
+        title: BIM & CAD Development
+        description: >
+          We'll work with your team to develop BIM models. Once clashes between
+          the models are resolved, we will work with you to develop 2D shop
+          drawings from BIM.
+        icon: ModelIcon
+      - number: '3'
+        title: Review & Deliver
+        description: >
+          Mark up any issues on the drawings directly. Our CAD drafters make the
+          necessary changes within the day.
+        icon: ReviewIcon
+  portfolio:
+    title: CAD Portfolio
+    description: >
+      Selected CAD projects demonstrating multi-discipline drafting and
+      documentation.
+    projects: []
+
+  faq:
+    - question: What formats do you accept and deliver?
+      answer: >
+        We accept DWG, DXF, and PDF markups; delivery is typically DWG + PDF
+        sheets. DGN/IFC references can be coordinated on request.
+    - question: Can you use our existing CAD standards?
+      answer: >
+        Yes. We can adopt your title blocks, layers, plot styles, and blocks, or
+        provide standardized templates if you prefer.
+    - question: How fast are revisions?
+      answer: >
+        Minor edits are usually turned around within 1–2 working days; larger
+        changes depend on scope and volume.
+    - question: What CAD formats do you support
+      answer: >
+        We can develop CAD files in a range of formats such as: .dwg, .dgn, and
+        .dxf
+
+- id: cad-to-3d
+  slug: cad-to-3d
+  name: Convert CAD to 3D
+  title: CAD to 3D Modeling Services - Fast Delivery, BIM Compliance
+  image: 2dto3d.webp
+  video: null
+  price: 6900.00
+  currency: SGD
+  description: >
+    Convert PDF files, brochures, product catalogs into 3D formats like: Revit,
+    IFC, GLTF, and other web formats.
+  whyChooseUs:
+    title: Why Choose Us?
+    description: >
+      Here's why product manufacturers work with us.
+    logos: []
+    benefits:
+      - icon: FaBriefcase
+        title: Quality 3D Models
+        description: >
+          With hundreds of companies building and hosting their object libraries
+          with us, we are able to quickly generate 3D models according to your
+          needs.
+      - icon: Compliance
+        title: BIM Compliance
+        description: >
+          With more than 20 years of experience in BIM, we help you get your
+          product specified in building projects.
+      - icon: MdOutlineSupportAgent
+        title: On-going support
+        description: >
+          Products evolve and change over time. We ensure that you receive
+          ongoing support for your project after the initial modelling.
+  bimApproach:
+    title: Get Specified, Anywhere
+    description: >
+      Investing in 3D content to accelerate sales cycles and improve customer
+      experience
+    sections:
+      - id: product-discovery
+        title: Enhanced Product Discovery
+        content: >
+          Embed complete product specifications—dimensions, performance data,
+          sustainability certifications, and technical documentation—directly
+          into 3D models. Host 3D models directly on your website.
+        bgColor: bg-white
+        src: clashdetection.webp
+        linkText: null
+        linkUrl: null
+
+      - id: virtual-collaboration
+        title: Expand Distribution Channels
+        content: >
+          Architects, Engineers, and Contractors need 3D models in BIM formats
+          such as Revit or IFC. Create BIM models at an appropriate level of
+          detail, capturing essential dimensions, material specifications, and
+          connecting details.
+        bgColor: bg-white
+        src: shop-drawings.png
+        linkText: null
+        linkUrl: null
+
+      - id: asset-lifecycle
+        title: Design for Fabrication & Assembly
+        content: >
+          3D models allow for rapid iteration of models according to customers'
+          requirements. Rapidly change designs, extract 2D drawings, and issue
+          them to the shop floor for production.
+        bgColor: bg-white
+        src: cde.webp
+        linkText: null
+        linkUrl: null
+  howItWorksProcess:
+    title: How It Works
+    description: >
+      Our proven process for converting 2D CAD drawings into 3D models
+    steps:
+      - number: '01'
+        title: File Upload
+        description: >
+          Upload your 2D CAD drawings (DWG, DXF, DGN, PDF) to our secure
+          platform. Our team reviews the files within 2 working days, identifies
+          any missing information, and provides a detailed scope and timeline.
+      - number: '02'
+        title: 3D Modelling
+        description: >
+          Our modeling specialists create accurate 3D representations based on
+          your drawings, building to the agreed Level of Detail. We maintain
+          regular communication and provide progress updates throughout the
+          modeling phase.
+      - number: '03'
+        title: Model Review
+        description: >
+          Review the 3D model through our web-based collaboration platform. Mark
+          up any issues or required changes directly on the model, and our team
+          implements revisions within 1-2 working days per iteration.
+  toolsTechnologies:
+    title: Our Favourite Tools
+    description: >
+      Distribute your 3D models and product catalogs across a range of channels,
+      from web dashboards to product catalogs.
+    topRowTools:
+      - name: Revit
+        image: company/autodesk.png
+      - name: MicroStation 3D
+        image: company/sketchup.png
+      - name: AutoCAD 3D
+        image: company/archicad.png
+    bottomRowTools:
+      - name: GLTF
+        image: company/openbuildings.png
+      - name: Three.js
+        image: company/rhino.png
+  portfolio:
+    title: CAD to 3D Projects
+    description: >
+      Selected projects demonstrating our expertise in converting legacy 2D
+      drawings into coordinated 3D models.
+    projects: []
+
+  faq:
+    - question: What is the typical turnaround time for CAD to 3D conversion?
+      answer: >
+        A typical drawing takes between 2-3 days to develop. However, once our
+        3D modellers have an understanding of your designs, production speed
+        generally accelerates.
+    - question: What CAD formats can you convert from?
+      answer: >
+        We accept DWG, DXF, DGN, and high-quality PDF drawings. Best results
+        come from native CAD files with proper layering and dimensioning. We can
+        also work from scanned drawings, though this may require additional
+        cleanup time.
+    - question: What Level of Detail (LOD) do you model to?
+      answer: >
+        The appropriate LOD is dependent on the nature of the project. For
+        website showcases, a high level of detail is better for impressing
+        potential customers. For Architecture, Engineering, and Construction
+        (AEC) workflows, the required LOD may vary based on the project stage,
+        with LOD 300 for Conceptual Design, to LOD 400 for Fabrication &
+        Assembly.
+    - question: What happens if I need to make updates to the 3D model?
+      answer: >
+        We will make any changes to the 3D model free of charge as long as it is
+        within the project period. We maintain a copy of the 3D models in the
+        event you need us to make further updates in future.
+
+- id: drone-survey
+  slug: drone-survey
+  name: Drone Survey - Aerial Site Data Capture
+  title: Drone Survey Services – Accurate Aerial Data for Your Project
+  image: drone-survey.png
+  video: null
+  price: 5000.00
+  currency: SGD
+  description: >
+    Capture high-resolution aerial imagery and generate 2D/3D maps, point
+    clouds, and digital terrain models. Fast, accurate, and cost-effective site
+    data collection for construction and surveying.
+  whyChooseUs:
+    title: Why Choose Us
+    description: >
+      Here's why contractors, consultants, and developers rely on us for drone
+      survey services.
+    benefits:
+      - icon: MdVerified
+        title: De-Risk Design Decisions
+        description: >
+          Capture topographic data with 2–5 cm precision using ground control
+          points. Validate design assumptions against real-world site conditions
+          before construction.
+      - icon: MdSecurity
+        title: Hassle-Free Compliance
+        description: >
+          We handle all CAAS permit applications (UA Operator Permit, AP1, UAPL)
+          and conduct flights with certified pilots. Fully compliant UAV
+          operations from start to finish.
+      - icon: MdIntegrationInstructions
+        title: Seamless BIM Integration
+        description: >
+          Deliverables in CAD/BIM/GIS-ready formats (DWG, LAS, E57, GeoTIFF).
+          Point clouds and terrain models integrate directly into Revit, Civil
+          3D, and ArcGIS workflows.
+  bimApproach:
+    title: Why Use Drone Surveys
+    description: >
+      Practical applications of drone technology in construction and operations
+      management workflows.
+    sections:
+      - id: digital-terrain
+        title: Digital Terrain Models for Planning
+        src: drone-terrain.png
+        content: >
+          Generate accurate overviews of existing site conditions to support
+          construction and master planning. Overlay BIM models onto
+          drone-captured terrain data to assess design suitability against
+          real-world conditions— reducing the need to send teams of engineers on
+          site.
+        bgColor: bg-white
+
+      - id: progress-tracking
+        title: Construction Progress Tracking
+        src: drone-construction-site.png
+        content: >
+          Document project milestones with overhead drone flights at predefined
+          intervals. Capture visual records of site progress that can be
+          submitted as supporting evidence for payment claims and stakeholder
+          reporting.
+        bgColor: bg-white
+
+  howItWorksProcess:
+    title: Our Drone Survey Workflow
+    description: >
+      From site planning to data delivery, we ensure quality aerial survey
+      results.
+    steps:
+      - number: '1'
+        title: Site Planning & Permits
+        description: >
+          We assess flight zones, prepare ground control points (GCPs), and
+          submit all required permits to CAAS. Flight plans are coordinated
+          around site constraints and airspace restrictions.
+        icon: ShareIcon
+      - number: '2'
+        title: Data Capture
+        description: >
+          Our certified pilots conduct UAV flights capturing high-resolution
+          imagery using drone photogrammetry. Multiple overlapping images ensure
+          complete site coverage.
+        icon: ModelIcon
+      - number: '3'
+        title: Processing & Delivery
+        description: >
+          Raw imagery is processed into orthophotos, point clouds, 3D meshes,
+          and digital terrain models. Deliverables are provided in your
+          preferred BIM/CAD/GIS formats.
+        icon: ReviewIcon
+  faq:
+    - question: Can you conduct drone surveys in Singapore?
+      answer: >
+        Yes. For commercial drone surveys in Singapore, a UA Operator Permit
+        (OP), a Class 1 Activity Permit (AP1) for each flight, and an Unmanned
+        Aircraft Pilot Licence (UAPL) (or Basic Training Certificate, if
+        eligible) are required. Our certified operators manage all permit
+        applications on your behalf.
+
+    - question: What types of surveys can drones perform?
+      answer: >
+        Drones are suitable for topographic mapping, construction progress
+        monitoring, volumetric stockpile analysis, and environmental or site
+        condition surveys.
+
+    - question: What outputs will I receive?
+      answer: >
+        Deliverables commonly include high-resolution orthophotos, point clouds
+        (LAS/PLY/E57), 3D meshes, and BIM/CAD/GIS-compatible formats such as
+        DWG, DXF, and GeoTIFF.
+
+    - question: Can the drone survey data be linked to my BIM model?
+      answer: >
+        Yes. Point clouds, digital terrain models, and other drone-derived data
+        can be federated seamlessly into your BIM environment for coordination
+        and analysis.

@@ -1,0 +1,139 @@
+{
+  "heading": "Plans to suit your business",
+  "description": "Pricing plans to help you control project information",
+  "currentPlan": "Standard",
+  "slides": [
+    {
+      "id": "1",
+      "type": "Starter",
+      "price": "35",
+      "copy": "Good for sole traders, new businesses, and the self-employed.",
+      "items": [
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        }
+      ],
+      "optional": []
+    },
+    {
+      "id": "1",
+      "type": "Starter",
+      "price": "35",
+      "copy": "Good for sole traders, new businesses, and the self-employed.",
+      "items": [
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        }
+      ],
+      "optional": []
+    },
+    {
+      "id": "1",
+      "type": "Starter",
+      "price": "35",
+      "copy": "Good for sole traders, new businesses, and the self-employed.",
+      "items": [
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        },
+        {
+          "id": "1",
+          "checked": true,
+          "label": "Send quotes and 20 invoices†"
+        }
+      ],
+      "optional": []
+    }
+  ]
+}

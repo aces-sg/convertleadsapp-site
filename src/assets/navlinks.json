@@ -1,0 +1,41 @@
+{
+  "header": [
+    {
+      "id": 1,
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "id": 2,
+      "label": "About",
+      "href": "https://www.www.bim.com.sg/blog/"
+    },
+    {
+      "id": 2,
+      "label": "Services",
+      "href": "/#bim_services"
+    },
+    {
+      "id": 3,
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "id": 1,
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "id": 2,
+      "label": "Services",
+      "href": "/#bim_services"
+    },
+    {
+      "id": 3,
+      "label": "Contact",
+      "href": "https://form.jotform.com/240107241234441"
+    }
+  ]
+}

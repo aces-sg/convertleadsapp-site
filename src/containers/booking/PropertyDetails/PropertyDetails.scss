@@ -1,0 +1,27 @@
+.size-row {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+
+  .size-input {
+    width: 70%;
+  }
+}
+
+.p-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin: 20px 0;
+}
+
+.space-container {
+  margin-bottom: 30px;
+}
+
+.property-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

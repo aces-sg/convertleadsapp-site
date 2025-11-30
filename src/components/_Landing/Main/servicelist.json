@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gtm-bim",
+    "img": "./3d-bim-black.svg",
+    "title": "3D BIM",
+    "description": "Create federated 3D BIM models from CAD drawings and BIM models from multiple trades."
+  },
+  {
+    "id": "gtm-time",
+    "img": "./4d-bim-black.svg",
+    "title": "4D BIM",
+    "description": "Integrate project schedules from planning software such as P6 and Microsoft Project with the BIM model for enhanced construction planning."
+  },
+  {
+    "id": "gtm-cost",
+    "img": "./5d-bim-black.svg",
+    "title": "5D BIM",
+    "description": "Perform model-based quantity takeoffs directly from the BIM model to accurately track project costs and progress payments."
+  },
+  {
+    "id": "gtm-clash",
+    "img": "./clash-detection-black.png",
+    "title": "Clash Detection",
+    "description": "Virtually check for interferences between different subsystems to avoid delays and rework on site."
+  },
+  {
+    "id": "gtm-verify",
+    "img": "./as-built-verification-black.svg",
+    "title": "As-Built Verification",
+    "description": "Cross-reference as-built conditions with the BIM model to ensure that the project is built as per the design intent"
+  },
+  {
+    "id": "gtm-scan",
+    "img": "./scan-bim-black.svg",
+    "title": "Scan to BIM",
+    "description": "Recreate a digital twin of existing assets using LIDAR or drone photogrammetry and convert them into BIM models."
+  }
+]

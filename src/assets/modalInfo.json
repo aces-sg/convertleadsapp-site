@@ -1,0 +1,98 @@
+{
+  "softwares": [
+    { "value": "autocad", "label": "Autocad" },
+    { "value": "revit", "label": "Revit" },
+    { "value": "microstation", "label": "MicroStation" },
+    { "value": "openBuilding", "label": "OpenBuilding" },
+    { "value": "openRail", "label": "OpenRail" },
+    { "value": "openPlant", "label": "OpenPlant" },
+    { "value": "archicad", "label": "ArchiCAD" },
+    { "value": "tekla", "label": "Tekla" },
+    { "value": "primavera", "label": "Primavera" }
+  ],
+  "disciplines": [
+    { "value": "architecture", "label": "Architecture" },
+    { "value": "structure", "label": "Structure" },
+    { "value": "mep", "label": "MEP" },
+    { "value": "interior", "label": "Interior" },
+    { "value": "csd-sem", "label": "CSD / SEM" },
+    { "value": "landscape", "label": "Landscape" },
+    { "value": "electrical", "label": "Electrical" },
+    { "value": "plumbing & sanitary", "label": "Plumbing & Sanitary" },
+    { "value": "fire protection", "label": "Fire Protection" }
+  ],
+  "workArrangement": [
+    { "value": "5 days/week", "label": "5 days / week" },
+    { "value": "5.5 days/week", "label": "5.5 days / week" },
+    {
+      "value": "Alternate Saturdays",
+      "label": "5.5 days / week (alternate Saturdays)"
+    }
+  ],
+  "clientType": [
+    { "value": "Main-con", "label": "Main-con" },
+    { "value": "Sub-con", "label": "Sub-con" },
+    { "value": "Consultant", "label": "Consultant" },
+    { "value": "Owner", "label": "Owner" },
+    { "value": "Others", "label": "Others" }
+  ],
+  "location": [
+    { "value": "North", "label": "North" },
+    { "value": "South", "label": "South" },
+    { "value": "East", "label": "East" },
+    { "value": "West", "label": "West" },
+    { "value": "Central", "label": "Central" },
+    { "value": "**", "label": "Any" }
+
+  ],
+  "projectType": [
+    { "value": "Water", "label": "Water" },
+    { "value": "Rail", "label": "Rail" },
+    { "value": "Roads", "label": "Roads" },
+    { "value": "Hospital", "label": "Hospital" },
+    { "value": "Office", "label": "Office" },
+    { "value": "Residential", "label": "Residential" }
+  ],
+  "position": [
+    { "value": "BIM Modeller", "label": "BIM Modeller" },
+    { "value": "CAD Drafter", "label": "CAD Drafter" },
+    { "value": "BIM Coordinator", "label": "BIM Coordinator" },
+    { "value": "BIM Mananger", "label": "BIM Mananger" },
+    { "value": "Project Manger", "label": "Project Manger" },
+    { "value": "Site Engineer", "label": "Site Engineer" },
+    { "value": "Document Controller", "label": "Document Controller" },
+    {
+      "value": "Residential Technical Officer",
+      "label": "Residential Technical Officer"
+    }
+  ],
+  "rm": [
+    { "value": "Inna", "label": "Inna" },
+    { "value": "Hestia", "label": "Hestia" },
+    { "value": "Trisha", "label": "Trisha" },
+    { "value": "Miracle", "label": "Miracle" },
+    { "value": "Kai Shin", "label": "Kai Shin" },
+    { "value": "**", "label": "Any" }
+  ],
+  "defaultOptions": {
+    "nationality": ["Singaporean", "Singapore PR", "Malaysian", "Others"],
+    "ns": ["Completed", "Enlisting", "Exempted", "N.A."],
+    "position": ["BIM Engineer", "HR Executive", "Finance Executive", "Systems Administrator"],
+    "institution": [ 
+      "Singapore Polytechnic (SP)",
+      "Ngee Ann Polytechnic (NP)",
+      "Nanyang Polytechnic (NYP)",
+      "Temasek Polytechnic (TP)",
+      "Republic Polytechnic (RP)",
+      "ITE College Central",
+      "ITE College East",
+      "ITE College West",
+      "National University of Singapore",
+      "Nanyang Technological University",
+      "Singapore Management University",
+      "Singapore University of Technology and Design",
+      "Singapore Institute of Technology",
+      " Singapore University of Social Sciences",
+      " Others"]
+  }
+}

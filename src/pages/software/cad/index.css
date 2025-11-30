@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply no-underline;
+  }
+
+  button {
+    @apply bg-transparent border-none cursor-pointer font-inter;
+  }
+
+  ul {
+    @apply p-0 m-0;
+  }
+
+  img,
+  video {
+    @apply h-auto max-w-full;
+  }
+}
+
+@layer components {
+  /* container */
+  .tw-container {
+    @apply container box-border mt-0 max-w-7xl pt-4;
+  }
+
+  /* Nav Link */
+  .nav-link {
+    @apply flex items-center gap-2 text-base font-medium text-gray-500 transition-all duration-300 ease-in-out hover:text-black;
+  }
+}
+
+@layer utilities {
+}
+* {
+  box-sizing: border-box;
+}
+
+.swiper {
+  overflow: visible !important;
+}
+
+.swiper-pagination {
+  display: flex;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+span.swiper-pagination-bullet {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 50px;
+  height: 5px;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+span.swiper-pagination-bullet .pagination-inner {
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active
+  .pagination-inner {
+  background-color: #000;
+  animation-name: progress;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .swiper-pagination {
+    margin-top: 20px;
+  }
+}
+
+.price_card {
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.price_card .duration {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.price_card.active .duration,
+.price_card.active .price {
+  color: #003591;
+}
+
+.price_card.active {
+  border: 2px solid #4338ca;
+}
+
+.price_cell {
+  display: flex;
+  gap: 16px;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: -0.025em;
+  color: #000;
+}
+
+.price_section {
+  background: linear-gradient(
+    180deg,
+    rgba(251, 218, 5, 1) 0%,
+    rgba(251, 218, 5, 1) 55%,
+    rgba(255, 255, 255, 1) 55%
+  );
+}
+
+.choose_tab div {
+  border-bottom: none;
+}
+
+.choose_tab div span {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+button.choose_tab[aria-selected="true"] div {
+  color: #003591;
+  border-bottom: 6px solid #003591;
+}
+
+.singleItem {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 20px;
+}
+
+.singleItem p {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .footer_grid {
+    grid-template-columns: 36% 44% 20%;
+  }
+}
+
+@media (min-width: 900px) {
+  .price_box {
+    grid-template-columns: 73% 27%;
+  }
+
+  @media (min-width: 1440px) {
+    .includes_grid_header {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+
+  .footer_grid {
+    grid-template-columns: 36% 44% 20%;
+  }
+}
+
+.footer_soft_grid {
+  grid-template-columns: max-content 1fr;
+  gap: 16px 34px;
+}
+
+.accordion_box_header span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.additional_features_accordion h4 {
+  font-size: 24px;
+  font-weight: 600;
+  max-width: none;
+  color: #000;
+}
+
+.additional_features_accordion h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.additional_features_accordion p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.additional_features_accordion button svg {
+  fill: #9ca3af;
+  stroke: #9ca3af;
+}
+
+.additional_features_accordion button[aria-expanded="true"] h4 {
+  color: #003591;
+}
+
+.additional_features_accordion button[aria-expanded="true"] svg {
+  fill: #003591;
+  stroke: #003591;
+}

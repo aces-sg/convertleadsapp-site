@@ -1,0 +1,49 @@
+- id: bim-calculator
+  slug: bim-calculator
+  title: What is the Cost of BIM? Bimeco BIM Calculator
+  image: corenet.webp
+  description: >
+    The cost of BIM implementation can be broken down into: BIM software, a BIM
+    modelling services, and coordination services.
+  whyChooseUs:
+    title: Why Choose Us
+    description: >
+      Here's why contractors and consultants choose us for BIM implementation
+      services.
+    benefits:
+      - icon: Compliance
+        title: Code Compliance
+        description: >
+          Comply with BIM submission standards & regulatory codes that are
+          specific to your project.
+      - icon: FaBriefcase
+        title: Qualified Professionals
+        description: >
+          Work with experienced BIM Coordinators with 3+ years of project-based
+          expertise to avoid any project delays.
+      - icon: MdOutlineSupportAgent
+        title: BIM Software Included
+        description: >
+          We support the use of all BIM formats including: Revit, ArchiCAD,
+          Tekla, OpenBuildings, and IFC.
+  faq:
+    - question: Do you provide BIM modelling services?
+      answer: >
+        Yes. Our BIM packages include modelling & coordination for your
+        specified scope (e.g., Architectural, Structural, Electrical, Plumbing,
+        Landscape Design, Fire Protection System).
+
+    - question: Does the model need to be in IFC+SG format?
+      answer: >
+        For new projects from Oct 2025 above 30,000 sqm, BIM models must be
+        delivered in IFC+SG format.
+
+    - question: My project needs progress and defects tracking—is this included?
+      answer: >
+        It depends on the required accuracy. A licensed surveyor may be needed
+        to capture site data, which may result in additional costs.
+
+    - question: Will you provide BIM software?
+      answer: >
+        Yes. Common BIM tools—Revit, AutoCAD, and BIM Collaborate Pro—are
+        included. There are no additional software charges.

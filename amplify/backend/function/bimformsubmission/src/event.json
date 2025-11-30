@@ -1,0 +1,9 @@
+{
+  "arguments": {
+    "input": {
+      "id": "1234",
+      "name": "John Doe",
+      "email": "tang@gmail.com"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.contact-type-radio {
+  display: flex;
+  gap: 12px;
+  flex-direction: row !important;
+  margin-top: 24px;
+}
+
+.contact-type-radio label {
+  width: 50%;
+  /* border: #0000005c 1px solid; */
+  padding: 8px 8px;
+}
+
+.field-row {
+  margin: 12px 0;
+}
+
+.contact-will-be-onsite {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-will-be-onsite-radio {
+  display: flex;
+  gap: 12px;
+  flex-direction: row !important;
+  margin-top: 12px;
+}

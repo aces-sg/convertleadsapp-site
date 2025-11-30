@@ -1,0 +1,8 @@
+# Ignore these:
+
+.cache
+.github
+node_modules
+public
+static
+src/assets

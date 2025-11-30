@@ -1,0 +1,24 @@
+{
+  "faq": [
+    {
+      "id": 1,
+      "question": "What is the difference between BIM 360 and Autodesk Construction Cloud?",
+      "answer": "BIM 360 is Autodesk's legacy data management platform, whereas Autodesk Construction Cloud is the modern solution. It includes advanced modules like Build, BIM Collaborate, and Quantity Takeoff."
+    },
+    {
+      "id": 2,
+      "question": "What is the difference between Autodesk Docs and BIM Collaborate?",
+      "answer": "Autodesk Docs serves as a document management platform for BIM and CAD files. BIM Collaborate, on the other hand, extends capabilities with cloud-based workflows such as clash detection and model reviews."
+    },
+    {
+      "id": 3,
+      "question": "How much does BIM Collaborate cost?",
+      "answer": "BIM Collaborate is priced at $945 per year, making it a cost-effective choice compared to BIM Collaborate Pro at $1,284 per year. Customers of our BIM service packages receive complimentary access to BIM Collaborate Pro."
+    },
+    {
+      "id": 4,
+      "question": "How do I start outsourcing my BIM services?",
+      "answer": "To get started, please share all existing BIM and CAD files related to your project."
+    }
+  ]
+}
