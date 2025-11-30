@@ -196,14 +196,12 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-remote-images`,
+      resolve: `gatsby-plugin-sass`,
       options: {
-        nodeType: "MyNodes",
-        imagePath: "path.to.image",
+        sassOptions: {
+          silenceDeprecations: ['legacy-js-api'],
+        },
       },
-    },
-    {
-      resolve: `gatsby-plugin-sass`
     },
     {
       resolve: "gatsby-plugin-root-import",

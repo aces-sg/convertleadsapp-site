@@ -81,6 +81,7 @@
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/parser": "^5.0.1",
     "autoprefixer": "^10.4.19",
+    "baseline-browser-mapping": "^2.8.32",
     "cypress": "9.3.1",
     "cypress-localstorage-commands": "^1.7.0",
     "eslint": "^8.7.0",

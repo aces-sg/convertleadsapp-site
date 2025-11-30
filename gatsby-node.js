@@ -139,26 +139,11 @@ exports.createResolvers = ({ createResolvers }) => {
     };
   });
 
-  // Add custom resolver for PortfolioYamlProjects description field
-  // This handles both string and array formats
-  resolvers.PortfolioYamlProjects = {
-    description: {
-      type: 'JSON',
-      resolve: (source) => {
-        // Return description as-is, whether it's a string or array
-        return source.description;
-      },
-    },
-  };
-
   createResolvers(resolvers);
 };
 
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    node: {
-      fs: "empty",
-    },
+exports.onCreateWebpackConfig = ({ actions, stage, plugins }) => {
+  const config = {
     experiments: {
       syncWebAssembly: true,
     },
@@ -166,6 +151,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       fallback: {
         querystring: require.resolve("querystring-es3"),
         path: false,
+        fs: false,
       },
       alias: {
         "@components": path.resolve(__dirname, "./src/components"),
@@ -175,7 +161,16 @@ exports.onCreateWebpackConfig = ({ actions }) => {
         "~root": path.resolve(__dirname, "./"),
       },
     },
-  });
+  };
+
+  // Suppress CSS ordering warnings in production builds
+  if (stage === 'build-javascript' || stage === 'develop') {
+    config.ignoreWarnings = [
+      /mini-css-extract-plugin[^]*Conflicting order/,
+    ];
+  }
+
+  actions.setWebpackConfig(config);
 };
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -220,13 +215,6 @@ exports.createPages = async ({ graphql, actions }) => {
   createRedirect({
     fromPath: '/services/3d/scan-to-bim',
     toPath: '/services/scan-to-bim',
-    isPermanent: true,
-    redirectInBrowser: true,
-  });
-
-  createRedirect({
-    fromPath: '/services/bim/',
-    toPath: '/services/bim',
     isPermanent: true,
     redirectInBrowser: true,
   });
