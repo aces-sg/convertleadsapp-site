@@ -2,69 +2,55 @@
   "services": [
     {
       "label": "CAD Drafting",
-      "link": "/services/cad-services"
+      "link": "/services/cad-services/"
     },
     {
       "label": "BIM Services",
-      "link": "/services/bim"
+      "link": "/services/bim/"
     },
     {
       "label": "CORENET X",
-      "link": "/services/corenetx-bim"
+      "link": "/services/corenetx-bim/"
     },
     {
       "label": "Scan to BIM",
-      "link": "/services/scan-to-bim"
+      "link": "/services/scan-to-bim/"
     }
   ],
   "solutions": [
     {
       "label": "Integrated Digital Delivery",
-      "link": "/software/projectwise"
+      "link": "/services/idd/"
     },
     {
       "label": "4D BIM",
-      "link": "/software/synchro-4d"
+      "link": "/services/4d-bim/"
     },
     {
-      "label": "IFC Viewer",
-      "link": "/software/ifc-viewer"
+      "label": "5D BIM",
+      "link": "/services/5d-bim/"
     }
   ],
   "company": [
     {
-      "label": "About",
-      "link": "/about"
+      "label": "Home",
+      "link": "/"
     },
     {
-      "label": "Blog",
-      "link": "/blog/"
+      "label": "About",
+      "link": "/about/"
+    },
+    {
+      "label": "Services",
+      "link": "/services/"
+    },
+    {
+      "label": "Career",
+      "link": "/career/"
     },
     {
       "label": "Contact",
-      "link": "/contact"
-    },
-    {
-      "label": "Our Projects",
-      "link": "/portfolio#timeline"
-    }
-  ],
-  "account": [
-    {
-      "label": "Login",
-      "link": "/user/login"
-    },
-    {
-      "label": "Projects",
-      "link": "https://viewer.bim.com.sg/projects"
-    },
-    {
-      "label": "Packages",
-      "link": "/pricing"
-    },
-    {
-      "label": "BIM Calculator",
-      "link": "/projectCosting"
+      "link": "/contact/"
     }
   ]
 }

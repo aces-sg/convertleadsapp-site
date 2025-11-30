@@ -1,7 +1,7 @@
 import React from "react";
 import { navigate } from "gatsby";
 import footerLink from "./footer.json";
-import { FaInbox, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import Bimeco from "assets/svgs/bemico.svg";
 import { useSiteMetadata } from "hooks/use-site-metadata";
@@ -11,21 +11,13 @@ import FooterImage1 from "assets/images/footer/1.png";
 import FooterImage2 from "assets/images/footer/2.png";
 import FooterImage3 from "assets/images/footer/3.png";
 
-let viewerUrl = process.env.GATSBY_VIEWER_URL;
-
-footerLink.account.forEach((service) => {
-  if (service.label === "Free IFC Viewer") {
-    service.link = viewerUrl;
-  }
-});
-
 const FooterCard = () => {
   const year = new Date().getFullYear();
   const { contact, social, business } = useSiteMetadata();
 
   // Build URLs from config data
   const waUrl = `https://wa.me/${contact.whatsapp}`;
-  const emailUrl = `mailto:${contact.email}?Subject=BIM%20Service%20Enquiry`;
+  const emailUrl = `mailto:${contact.email}?Subject=Enquiry`;
 
   return (
     <footer className="py-10 bg-white md:py-16">
@@ -51,6 +43,7 @@ const FooterCard = () => {
               <a
                 href={emailUrl}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-black transition-all duration-300 ease-in-out hover:cursor-pointer hover:opacity-80"
               >
                 <IoIosMail size={20} />
@@ -58,6 +51,7 @@ const FooterCard = () => {
               <a
                 href={waUrl}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-black transition-all duration-300 ease-in-out hover:cursor-pointer hover:opacity-80"
               >
                 <FaWhatsapp size={20} />
@@ -118,23 +112,6 @@ const FooterCard = () => {
                 ))}
               </ul>
             </div>
-            <div>
-              <p className="text-gray-400 text-sm font-semibold tracking-[0.7px] uppercase mb-3 md:mb-4">
-                Quick Links
-              </p>
-              <ul className="flex flex-col gap-1 list-none md:gap-2 lg:gap-2">
-                {footerLink.account.map((item, index) => (
-                  <li key={index}>
-                    <a
-                      href={item.link}
-                      className="text-sm text-gray-700 transition-all duration-300 ease-in-out md:text-base hover:cursor-pointer"
-                    >
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
             <div className="footer-images-row">
               <div className="left-column">
                 <img
@@ -171,6 +148,5 @@ const FooterCard = () => {
 export default FooterCard;
 
 // Backward compatibility exports (deprecated - use useSiteMetadata hook instead)
-// These are now set from the site-config.yaml file
 export const waUrl = `https://wa.me/6580834020`;  // Default SG number
 export const geoPhoneNumber = "+65 80834020";  // Default SG number

@@ -1,0 +1,39 @@
+{
+  "mainNav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about/" },
+    { "label": "Services", "href": "/services/", "hasMegaMenu": true },
+    { "label": "Career", "href": "/career/" }
+  ],
+  "services": [
+    {
+      "category": "Digital Modelling",
+      "items": [
+        { "name": "CAD Drawings", "href": "/services/cad-services/" },
+        { "name": "CAD to 3D", "href": "/services/cad-to-3d/" },
+        { "name": "BIM for Architecture", "href": "/services/bim-architecture/" },
+        { "name": "BIM for Structure", "href": "/services/bim-structure/" },
+        { "name": "BIM for MEP", "href": "/services/bim-mep/" },
+        { "name": "BIM Coordination", "href": "/services/bim/" },
+        { "name": "4D BIM", "href": "/services/4d-bim/" },
+        { "name": "5D BIM", "href": "/services/5d-bim/" },
+        { "name": "6D BIM", "href": "/services/6d-bim/" },
+        { "name": "Revit Services", "href": "/services/revit-services/" }
+      ]
+    },
+    {
+      "category": "Geospatial Solutions",
+      "items": [
+        { "name": "Drone Survey", "href": "/services/drone-survey/" },
+        { "name": "Scan to BIM", "href": "/services/scan-to-bim/" }
+      ]
+    },
+    {
+      "category": "Digital Consultancy",
+      "items": [
+        { "name": "Integrated Digital Delivery", "href": "/services/idd/" },
+        { "name": "CORENET X", "href": "/services/corenetx-bim/" }
+      ]
+    }
+  ]
+}
